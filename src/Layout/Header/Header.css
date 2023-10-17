@@ -6,7 +6,7 @@
 .header{
    width: 100%;
     
-    background-color: rgb(61, 60, 60);
+    background-color: rgb(29, 28, 28);
 }
 .headerSub{
     width: 90%;
@@ -17,11 +17,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    margin-top: 10px;
+    height: 90px;
+    /* margin-top: 10px; */
+}
+.logoPart a{
+    text-decoration: none;
 }
 .logoPart img{
-    width: 50px;
+    width: 60px;
     height: 50px;
 }
 .navLinks ul{
@@ -37,6 +40,9 @@
     color: #fff;
     font-family: sans-serif;
     font-weight: 500;
+}
+.navLinks ul li .active{
+    color: rgb(240, 6, 240);
 }
 .underline{
     width: 30px;

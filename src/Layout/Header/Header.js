@@ -10,7 +10,7 @@ const Header = () => {
 
                 <div className="header-main">
                     <div className="logoPart">
-                        <img src={logo2} alt="not available" />
+                        <a href="#"><img src={logo2} alt="not available" /></a>
                     </div>
                     <div className="navLinks">
                         <ul>
