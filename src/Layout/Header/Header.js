@@ -12,7 +12,8 @@ const Header = () => {
                 </div>
                 <div className="navLinks">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a><hr className='underline'/>
+                        </li>
                         <li><a href="/about">About Me</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/portfolio">Portfolio</a></li>
@@ -23,8 +24,7 @@ const Header = () => {
                 </div>
                 <div className="menuLink">
                     <div className="menuBar">
-                        <AiOutlineMenu /> 
-                    
+                        <AiOutlineMenu  color='white' size={25}/> 
                     </div>
                 </div>
             </div>
