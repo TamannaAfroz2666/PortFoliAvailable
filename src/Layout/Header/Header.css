@@ -77,7 +77,7 @@
 
 
   .nav_links .drop_menu{
-    background: #e1e1e1;
+    background: #0a0a0a;
     min-width: 150px;
     top: 90px;
     position: absolute;
@@ -91,22 +91,30 @@
     max-height: 50px;
     display: block;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     padding: 0 0 0 0px;
     border-radius: 0;
-    color: rgb(27, 27, 27);
+    color: #fff;
     line-height: 50px;
     
   
 }
 .drop_menu .menu1 a{
-    color: #111;
+    width: 100%;
+    max-height: 50px;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 0 0 0px;
+    border-radius: 0;
+    color: #fff;
+    line-height: 50px;
 }
 .nav_links li:hover .drop_menu{
     transition: all .5s ease;
     opacity: 1;
     visibility: visible;
     top: 90px;
-    padding-left: 20px;
+    padding-left: 10px;
   
 }

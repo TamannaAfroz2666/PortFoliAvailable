@@ -21,10 +21,10 @@ const Header = () => {
 
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/first">Home Page 1</a>
+                                        <a href="/first">Home Page 01</a>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./manage">Home Page 2 </a>
+                                        <a href="./manage">Home Page 02 </a>
                                     </li>
                                 </ul>
 
