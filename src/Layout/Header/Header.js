@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import logo from '../../assets/Images/Logo/logo.jpg';
 import { AiOutlineMenu } from "react-icons/ai";
 import logo2 from '../../assets/Images/Logo/logo2.jpg'
 

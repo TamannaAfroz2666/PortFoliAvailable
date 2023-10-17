@@ -6,6 +6,11 @@
 .header{
     width: 90%;
     margin: auto;
+    /* background-color: rgb(61, 60, 60); */
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
 }
 .logoPart img{
     width: 100px;
