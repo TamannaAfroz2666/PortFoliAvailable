@@ -2,13 +2,14 @@ import React from 'react';
 import './Header.css';
 import logo from '../../assets/Images/Logo/logo.jpg';
 import { AiOutlineMenu } from "react-icons/ai";
+import logo2 from '../../assets/Images/Logo/logo2.jpg'
 
 const Header = () => {
     return (
         <div className='header'>
             <div className="header-main">
                 <div className="logoPart">
-                    <img src={logo} alt="not available" />
+                    <img src={logo2} alt="not available" />
                 </div>
                 <div className="navLinks">
                     <ul>
