@@ -1,10 +1,12 @@
 
 import './App.css';
+import Header from './Layout/Header/Header';
 
 function App() {
   return (
     <div >
-      <h1>helo</h1>
+      <Header></Header>
+      
 
      
     </div>
