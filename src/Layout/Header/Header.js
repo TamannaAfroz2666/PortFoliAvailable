@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../assets/Images/Logo/logo.jpg';
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
     return (
@@ -19,6 +20,12 @@ const Header = () => {
                         <li><a href="/contact">Contact</a></li>
 
                     </ul>
+                </div>
+                <div className="menuLink">
+                    <div className="menuBar">
+                        <AiOutlineMenu /> 
+                    
+                    </div>
                 </div>
             </div>
         </div>
