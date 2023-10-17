@@ -35,10 +35,10 @@ const Header = () => {
                                 <a href="/services">Services</a>
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/first">Home Page 01</a>
+                                        <a href="/services">Services</a>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./manage">Home Page 02 </a>
+                                        <a href="./servicesDetails">Services Details </a>
                                     </li>
                                 </ul>
                             </li>
@@ -46,10 +46,10 @@ const Header = () => {
                                 <a href="/portfolio">Portfolio</a>
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/first">Home Page 01</a>
+                                        <a href="/portfolio">Portfolio</a>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./manage">Home Page 02 </a>
+                                        <a href="./portfolioDetails">Portfolio Details </a>
                                     </li>
                                 </ul>
                             </li>
@@ -57,10 +57,10 @@ const Header = () => {
                                 <a href="/blogs">Blogs</a>
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/first">Home Page 01</a>
+                                        <a href="/blogs">Blogs</a>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./manage">Home Page 02 </a>
+                                        <a href="./blogsDetails">Blogs Details </a>
                                     </li>
                                 </ul>
                             </li>

@@ -24,7 +24,7 @@
     text-decoration: none;
 }
 .logoPart img{
-    width: 60px;
+    width: 100px;
     height: 50px;
 }
 .nav_links{
@@ -69,20 +69,20 @@
     padding: 0 0 0 0px;
     border-radius: 0;
     color: #fff;
-    line-height: 50px;
+    line-height: 40px;
     
   
 }
 .drop_menu .menu1 a{
     width: 100%;
-    max-height: 50px;
+    max-height: 40px;
     display: block;
     font-weight: 400;
     font-size: 14px;
     padding: 0 0 0 0px;
     border-radius: 0;
     color: #fff;
-    line-height: 50px;
+    line-height: 40px;
 }
 .nav_links li:hover .drop_menu{
     transition: all .5s ease;
