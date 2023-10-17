@@ -13,9 +13,24 @@ const Header = () => {
                         <a href="#"><img src={logo2} alt="not available" /></a>
                     </div>
                     <div className="navLinks">
-                        <ul>
-                            <li><a href="#" className='active'>Home</a><hr className='underline' color='yellow'/>
+                        <ul className='nav_links'>
+
+                            <li>
+                                <a href="#" className='active'>Home</a>
+                                <hr className='underline' color='yellow' />
+
+                                <ul class="drop_menu">
+                                    <li className='menu'>
+                                        <a href="/first">Home Page 1</a>
+                                    </li>
+                                    <li className='menu1'>
+                                        <a href="./manage">Home Page 2 </a>
+                                    </li>
+                                </ul>
+
                             </li>
+
+
                             <li><a href="/about">About Me</a></li>
                             <li><a href="/services">Services</a></li>
                             <li><a href="/portfolio">Portfolio</a></li>
