@@ -23,6 +23,7 @@ const Header = () => {
                                 <ul class="drop_menu">
                                     <li className='menu'>
                                         <a href="/first">Home Page 01</a>
+
                                     </li>
                                     <li className='menu1'>
                                         <a href="./manage">Home Page 02 </a>
@@ -30,9 +31,12 @@ const Header = () => {
                                 </ul>
 
                             </li>
-                            <li><a href="/about">About Me</a></li>
+                            <li><a href="/about">About Me</a>
+                            <hr className='underline1' color='yellow' />
+                            </li>
                             <li>
                                 <a href="/services">Services</a>
+                                <hr className='underline1' color='yellow' />
                                 <ul class="drop_menu">
                                     <li className='menu'>
                                         <a href="/services">Services</a>
@@ -44,6 +48,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <a href="/portfolio">Portfolio</a>
+                                <hr className='underline1' color='yellow'  />
                                 <ul class="drop_menu">
                                     <li className='menu'>
                                         <a href="/portfolio">Portfolio</a>
@@ -55,6 +60,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <a href="/blogs">Blogs</a>
+                                <hr className='underline1' color='yellow' />
                                 <ul class="drop_menu">
                                     <li className='menu'>
                                         <a href="/blogs">Blogs</a>
@@ -64,7 +70,10 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/contact">Contact</a>
+                            <hr className='underline1' color='yellow' />
+                            </li>
+                           
 
                         </ul>
                     </div>

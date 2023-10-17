@@ -50,6 +50,13 @@
     width: 30px;
     margin-top: 5px;
 }
+.underline1{
+    width: 20px;
+    size: 1;
+    margin-left: 10px;
+    margin-top: 5px;
+    visibility: hidden;
+}
   .nav_links .drop_menu{
     background: #0a0a0a;
     min-width: 150px;
@@ -84,6 +91,13 @@
     color: #fff;
     line-height: 40px;
 }
+
+/*--------------- hover area --------------- */
+
+.nav_links li:hover .underline1{
+    visibility: visible;
+}
+
 .nav_links li:hover .drop_menu{
     transition: all .5s ease;
     opacity: 1;
