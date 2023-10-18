@@ -28,16 +28,13 @@ const About = () => {
                             </div>
                             <div className="workList">
                                 <div className="works">
-                                    {/* <a href="/works">My Works     <MdKeyboardArrowRight color='red' className='arrowRight' /></a> */}
+                                   
                                     <a href="/works">
                                         <Button className='btnWorks'>
                                         My Works <span >
-                                        <MdKeyboardArrowRight  className='arrowRight1'/>
+                                        <MdKeyboardArrowRight   className='arrowRight1'/>
                                         </span>
-
                                         </Button>
-
-                                        {/* <button>My Works <span> <MdKeyboardArrowRight /> </span> </button> */}
                                     </a>
                                 </div>
 

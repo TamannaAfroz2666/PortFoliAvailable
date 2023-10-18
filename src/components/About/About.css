@@ -74,6 +74,24 @@
     font-weight: 600;
     transform: scale(1);
 }
+.works a{
+    text-decoration: none;
+    
+}
+.works .btnWorks{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.works .btnWorks .arrowRight1{
+    margin-left: 78px;
+    width: 30px;
+    color: #0000009c;
+
+}
+
+
 
 .arrowRight{
     /* font-size: 30px; */
