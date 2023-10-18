@@ -143,8 +143,15 @@
   border: 1px solid black;
   border-radius: 10px;
 }
-.mailIcon{
+.btnInfo  .mailIcon{
+  width: 30px;
+  color: #fff;
+}
+.btnInfo  .arrowIcon{
   width: 10px;
+  color: #fff;
+  left: 1rem;
+  position: relative;
 }
 /* for star animation part  */
 #frameDiv {

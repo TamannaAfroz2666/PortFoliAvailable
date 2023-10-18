@@ -2,13 +2,19 @@ import React from 'react';
 import './WelcomePage.css';
 // import fish1 from '../../assets/Images/Logo/3d-basketball-essentials.jpg';
 import { CgMail } from "react-icons/cg";
+import { BsArrowRightCircle } from "react-icons/bs";
+
+import Button from '@mui/material/Button';
+// import DeleteIcon from '@mui/icons-material/Delete';
+// import SendIcon from '@mui/icons-material/Send';
+// import Stack from '@mui/material/Stack';
 
 
 const WelcomePage = () => {
 
-    const messagePart = () => {
-        console.log('hello world');
-    }
+    // const messagePart = () => {
+    //     console.log('hello world');
+    // }
     return (
         <div className='welcome'>
             <div className="pageHead">
@@ -47,9 +53,10 @@ const WelcomePage = () => {
                     <div className="contactInfo">
                         <div className="backgroundPart">
                             <div className="btnInfo">
-                                <button onClick={messagePart}> 
-                                <CgMail className='mailIcon'  />  Message
-                                </button>
+                              
+                                <Button variant="outlined" startIcon={<CgMail className='mailIcon'  />}>
+                                    Delete <BsArrowRightCircle className='arrowIcon' size={10}/>
+                                </Button>
 
                             </div>
 
