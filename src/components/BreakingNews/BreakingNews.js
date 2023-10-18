@@ -1,11 +1,13 @@
 import React from 'react';
 import './BreakingNews.css';
+import $ from 'jquery';
 
 const BreakingNews = () => {
+
+   
     return (
         <div>
-            <h1>hot nes</h1>
-            
+            <marquee  behavior="scroll" direction="left"> HTML scrolling text...  2500+ project </marquee>
         </div>
     );
 };
