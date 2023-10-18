@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Header from '../../Layout/Header/Header';
 import WelcomePage from '../WelcomePage/WelcomePage';
-import Products from '../Products/Products';
+// import Products from '../Products/Products';
 
 
 
@@ -13,7 +13,7 @@ const Home = () => {
         <div>
             <Header></Header> 
            
-            <Products></Products>
+            {/* <Products></Products> */}
             <WelcomePage></WelcomePage>
            
           
