@@ -6,5 +6,9 @@
 .welcome{
     height: 80vh;
     background-color: #111;
-    
+
+}
+.pageHead{
+    width: 90%;
+    margin: auto;
 }
