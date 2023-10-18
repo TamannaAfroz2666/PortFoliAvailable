@@ -117,7 +117,7 @@ const Header = () => {
                         <div className="wrapper">
                             <div className="menuBar">
                                 <Button onClick={handleClick}>
-                                    <AiOutlineMenu  color='white' size={35}/>
+                                    <AiOutlineMenu  className='menuIcon' />
                                 </Button>
                                 <Snackbar
                                     open={open}
@@ -126,7 +126,7 @@ const Header = () => {
                                     message="Note archived"
                                     action={action}
                                 />
-                                {/* <AiOutlineMenu id='btnMenu' className='menu_btn' color='white' size={35} /> */}
+                                
                             </div>
 
 

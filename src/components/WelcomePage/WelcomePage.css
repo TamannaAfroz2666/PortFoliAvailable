@@ -100,7 +100,7 @@
   .scroller > span {
     position: absolute;
     top: 0;
-    animation: slide 5s infinite;
+    animation: slide 8s infinite;
     font-weight: bold;
     
     

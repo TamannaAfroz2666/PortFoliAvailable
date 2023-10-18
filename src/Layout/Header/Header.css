@@ -112,7 +112,15 @@
 
 /* menu bar design  */
 
+.menuIcon{
+    bottom: 10px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    color: rgb(4, 236, 159);
 
+
+}
 
   
   

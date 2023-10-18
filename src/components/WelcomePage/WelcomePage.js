@@ -1,7 +1,7 @@
 import React from 'react';
 import './WelcomePage.css';
 import fish1 from '../../assets/Images/Logo/3d-basketball-essentials.jpg';
-import { AiOutlineRight } from "react-icons/ai";
+
 
 const WelcomePage = () => {
     return (
