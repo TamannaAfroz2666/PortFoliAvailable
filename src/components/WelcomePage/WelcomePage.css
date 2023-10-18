@@ -16,9 +16,13 @@
     display: flex;
     gap: 30px;
 }
+.personalInfo{
+    margin-top: 10rem;
+}
 .personalInfo .sort_title{
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
+
 }
 .personalInfo .nameTitle{
     color: #fff;
@@ -35,4 +39,47 @@
     background-size: cover;
     width: 450px;
     height: 50vh;
+    
 }
+
+
+#frameDiv {
+    width: 500px;
+    height: 150px;
+    margin: 20px;
+    position: relative;
+  }
+
+  .span {
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    animation: moveImg 8s 3;
+  }
+ 
+
+  svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  #fish1 {
+    offset-path: path('M 50 80 C 150 -20 250 180 350 80');
+    offset-rotate: auto;
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 8px #e24e4e;
+    font-size: 25px;
+    font-weight: 600;
+    font-style:italic;
+
+  }
+
+ 
+
+  @keyframes moveImg {
+    100%  { offset-distance: 100%; }
+  }
