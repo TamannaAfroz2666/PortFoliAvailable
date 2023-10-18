@@ -17,9 +17,9 @@ const WelcomePage = () => {
 
                         <div id="frameDiv">
                             {/* <img id="fish1"  alt="fish" /> */}
-                            <span className='span' id="fish1">enjoy</span>
+                            <span className='span' id="fish1"> * </span>
 
-                            <svg fill="none" stroke="orange" stroke-width="3" stroke-dasharray="5,5">
+                            <svg fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
                                 <path d="M 50 80 C 150 -20 250 180 350 80" />
 
                             </svg>
