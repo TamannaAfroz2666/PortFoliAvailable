@@ -83,13 +83,19 @@
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
+    padding: 8px 26px;
 }
 .works .btnWorks .arrowRight1{
-    margin-left: 78px;
+    margin-left: 95px;
     width: 30px;
     color: #0000009c;
 
 }
+.works .btnWorks:hover{
+    background-color: rgb(84, 132, 175);
+}
+
+
 
 
 
