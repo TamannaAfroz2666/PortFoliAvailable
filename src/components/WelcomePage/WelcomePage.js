@@ -1,16 +1,21 @@
 import React from 'react';
 import './WelcomePage.css';
-import fish1 from '../../assets/Images/Logo/3d-basketball-essentials.jpg';
+// import fish1 from '../../assets/Images/Logo/3d-basketball-essentials.jpg';
+import { CgMail } from "react-icons/cg";
 
 
 const WelcomePage = () => {
+
+    const messagePart = () => {
+        console.log('hello world');
+    }
     return (
         <div className='welcome'>
             <div className="pageHead">
                 <div className="infoSection">
                     <div className="personalInfo">
                         <p className='sort_title'>Welcome To My World</p>
-                        
+
                         <div className="scrollerHead">
                             <div className="scroller">
                                 <span>
@@ -28,7 +33,7 @@ const WelcomePage = () => {
                         </p>
 
                         <div id="frameDiv">
-                          
+
                             <span className='span' id="fish1"> * </span>
 
                             <svg fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
@@ -41,6 +46,13 @@ const WelcomePage = () => {
                     </div>
                     <div className="contactInfo">
                         <div className="backgroundPart">
+                            <div className="btnInfo">
+                                <button onClick={messagePart}> 
+                                <CgMail className='mailIcon'  />  Message
+                                </button>
+
+                            </div>
+
 
                         </div>
 

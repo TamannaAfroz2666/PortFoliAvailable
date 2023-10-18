@@ -132,6 +132,20 @@
 
 }
 
+.btnInfo button{
+  /* width: 50px; */
+  padding: 14px 80px;
+  background-color: #837b7b00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.mailIcon{
+  width: 10px;
+}
 /* for star animation part  */
 #frameDiv {
   width: 500px;
