@@ -24,24 +24,24 @@
   margin-top: 10rem;
 }
 
+/* ---------------------fall animation created----------  */
 .personalInfo .sort_title {
-  color: #fff;
-  font-size: 18px;
+  color: rgb(241, 226, 241);
+  font-size: 22px;
   position: absolute;
-  top: -400px;
-  border: solid 1px;
-  width: 15%;
-  padding: 2em;
-  background-color: purple;
-  animation: drop 9s ease forwards;
-  animation-iteration-count: infinite;
+  top: -600px;
+  width: 25%;
+  text-shadow: 4px 4px 8px rgb(153, 238, 172);
+  animation: drop .2s ease-in forwards;
+  animation-iteration-count: 1;
 
 }
 @keyframes drop{
   0%{opacity: 0}
-  70%{transform: translateY(700px)}
-  100%{transform: translateY(650px)}
+  /* 70%{transform: translateY(750px)} */
+  100%{transform: translateY(750px)}
 }
+/* -------------fall animation created end----------  */
 
 .personalInfo .nameTitle {
   color: #fff;

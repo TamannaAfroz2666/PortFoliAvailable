@@ -29,7 +29,7 @@ const WelcomePage = () => {
                         </p>
 
                         <div id="frameDiv">
-                            {/* <img id="fish1"  alt="fish" /> */}
+                          
                             <span className='span' id="fish1"> * </span>
 
                             <svg fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
