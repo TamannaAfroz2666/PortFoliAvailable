@@ -4,6 +4,7 @@ import image from '../../assets/Images/Background/ABOUT.jpg'
 // import { IoIosArrowForward } from "react-icons/io";
 import { AiFillApple } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Button } from '@mui/material';
 
 
 const About = () => {
@@ -27,9 +28,17 @@ const About = () => {
                             </div>
                             <div className="workList">
                                 <div className="works">
-                                    <a href="/works">My Works     <MdKeyboardArrowRight color='red' className='arrowRight' /></a>
+                                    {/* <a href="/works">My Works     <MdKeyboardArrowRight color='red' className='arrowRight' /></a> */}
+                                    <a href="/works">
+                                        <Button className='btnWorks'>
+                                        My Works <span >
+                                        <MdKeyboardArrowRight  className='arrowRight1'/>
+                                        </span>
 
+                                        </Button>
 
+                                        {/* <button>My Works <span> <MdKeyboardArrowRight /> </span> </button> */}
+                                    </a>
                                 </div>
 
 
