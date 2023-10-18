@@ -27,14 +27,14 @@ const About = () => {
                             </div>
                             <div className="workList">
                                 <div className="works">
-                                <a href="/works">My Works     <MdKeyboardArrowRight color='red' className='arrowRight'/></a>
-                                
+                                    <a href="/works">My Works     <MdKeyboardArrowRight color='red' className='arrowRight' /></a>
+
 
                                 </div>
-                               
-                                  
 
-                                
+
+
+
 
                             </div>
                         </div>
@@ -42,8 +42,8 @@ const About = () => {
 
                 </div>
             </div>
-        
-            
+
+
         </div>
     );
 };

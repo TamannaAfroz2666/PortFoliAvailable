@@ -15,10 +15,11 @@
 .imageInfo img{
     border-radius: 25px;
     width: 500px;
-    height: 400px;
+    height: 500px;
     
 }
 .informationAll{
+    height: 500px;
     background-color: whitesmoke;
     box-shadow: inset 5px 5px 8px #fcfa7183, inset 5px 5px 8px #010caa;
 }
@@ -32,7 +33,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 30px;
-    
+
    
 }
 .titleAbout .title{
@@ -49,8 +50,23 @@
     text-align: justify;
     padding-right: 10px;
 
-    /* text-align: justify; */
+    
 }
+.contactAbout{
+    display: flex;
+    gap: 30px;
+}
+.btnAbout button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2405ec9a;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
 .arrowRight{
     /* font-size: 30px; */
     width: 30px;
