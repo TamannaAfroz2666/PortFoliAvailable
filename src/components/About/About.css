@@ -8,8 +8,19 @@
     margin: auto;
     margin-top: 4rem;
 }
+.aboutAllInfo{
+    display: flex;
+    gap: 30px;
+}
 .imageInfo img{
     border-radius: 25px;
     width: 500px;
     height: 400px;
+}
+.arrowRight{
+    /* font-size: 30px; */
+    width: 30px;
+    color: rgb(31, 29, 29);
+    margin-left: 41.5rem;
+    margin-top: 60rem;
 }
