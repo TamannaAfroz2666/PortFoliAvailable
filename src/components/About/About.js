@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="informationAll">
                     <div className="titleAbout">
-                        <h3>About</h3>
+                        <h3>About Me</h3>
                         <h1 className='title'> Front End Developer <br />From Bangladesh</h1>
                         <p className='descriptionAbout'> I'm a designer & developer with a passion for web design. I developing simple , clean and slick websites that provide real value to the end user. It is a long established fact that a reader will be destructed readable content of a page when looking layout </p>
 
