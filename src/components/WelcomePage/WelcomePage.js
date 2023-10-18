@@ -8,13 +8,16 @@ const WelcomePage = () => {
                 <div className="infoSection">
                     <div className="personalInfo">
                         <p className='sort_title'>Welcome To My World</p>
-                        <h1>Hey, I'm Tamanna! <br /> Creative Front-End Developer</h1>
+                        <h1 className='nameTitle'>Hey, I'm Tamanna! <br /> Creative Front-End Developer</h1>
                         <p className='descriptionInfo'>
                         I'm a Front-End Develpoer & I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.
                         </p>
                     </div>
                     <div className="contactInfo">
-                        
+                        <div className="backgroundPart">
+                            
+                        </div>
+
 
                     </div>
                 </div>

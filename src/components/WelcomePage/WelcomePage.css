@@ -12,3 +12,27 @@
     width: 90%;
     margin: auto;
 }
+.infoSection{
+    display: flex;
+    gap: 30px;
+}
+.personalInfo .sort_title{
+    color: #fff;
+    font-size: 16px;
+}
+.personalInfo .nameTitle{
+    color: #fff;
+}
+.personalInfo .descriptionInfo{
+    color: #fff;
+}
+
+
+.backgroundPart{
+    background-image: url('../../assets/Images/Background/SubMainBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 50vh;
+}
