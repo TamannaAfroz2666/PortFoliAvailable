@@ -127,13 +127,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 580px; */
   height: 90%;
 
 }
+.btnInfo{
+   top: 25rem;
+   left: 20rem;
+   position: relative;
 
+}
 .btnInfo .button{
-  /* width: 50px; */
   padding: 12px 50px;
   background-color: #c0242400;
   color: #fff;
