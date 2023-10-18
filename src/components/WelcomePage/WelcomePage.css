@@ -21,7 +21,7 @@
 }
 
 .personalInfo {
-  /* width: 50%; */
+  width: 50%;
   margin-top: 15rem;
 }
 
@@ -30,6 +30,7 @@
   color: rgb(241, 226, 241);
   font-size: 22px;
   position: absolute;
+  
   top: -500px;
   width: 25%;
   text-shadow: 4px 4px 8px rgb(153, 238, 172);
@@ -115,15 +116,18 @@
   font-size: 18px;
 }
 
-
+.contactInfo{
+  width: 50%;
+  
+}
 .backgroundPart {
   margin-top: 5rem;
-  width: 100%;
+  /* width: 100%; */
   background-image: url('../../assets/Images/Background/SubMainBg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 480px;
+  /* width: 580px; */
   height: 90%;
 
 }
