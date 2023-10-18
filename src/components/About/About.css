@@ -27,11 +27,12 @@
 }
 
 .titleAbout h3{
-    color: 	#483d8b;
+    color: 	#4329eb;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 30px;
+    
    
 }
 .titleAbout .title{
@@ -40,10 +41,20 @@
     padding-top: 20px;
     text-transform: capitalize;
 }
+.titleAbout .descriptionAbout{
+    font-size: 19px;
+    color: #181616a9;
+    font-weight: 500;
+    padding: 30px 0;
+    text-align: justify;
+    padding-right: 10px;
+
+    /* text-align: justify; */
+}
 .arrowRight{
     /* font-size: 30px; */
     width: 30px;
     color: rgb(31, 29, 29);
     margin-left: 41.5rem;
-    margin-top: 60rem;
+    margin-top: 70rem;
 }
