@@ -5,7 +5,7 @@
 }
 
 .welcome {
-  height: 100vh;
+  height: 100%;
   background-color: #111;
 
 }
@@ -17,11 +17,12 @@
 
 .infoSection {
   display: flex;
-  gap: 30px;
+ 
 }
 
 .personalInfo {
-  margin-top: 10rem;
+  /* width: 50%; */
+  margin-top: 15rem;
 }
 
 /* ---------------------fall animation created----------  */
@@ -29,7 +30,7 @@
   color: rgb(241, 226, 241);
   font-size: 22px;
   position: absolute;
-  top: -600px;
+  top: -500px;
   width: 25%;
   text-shadow: 4px 4px 8px rgb(153, 238, 172);
   animation: drop .2s ease-in forwards;
@@ -43,74 +44,8 @@
 }
 /* -------------fall animation created end----------  */
 
-.personalInfo .nameTitle {
-  color: #fff;
-}
 
-.personalInfo .descriptionInfo {
-  color: #fff;
-}
-
-
-.backgroundPart {
-  background-image: url('../../assets/Images/Background/SubMainBg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 480px;
-  height: 70vh;
-
-}
-
-/* for star animation part  */
-#frameDiv {
-  width: 500px;
-  height: 150px;
-  margin: 20px;
-  position: relative;
-}
-
-.span {
-  position: absolute;
-  z-index: 1;
-  width: 70px;
-  animation: moveImg 8s 3;
-}
-
-
-svg {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-
-#fish1 {
-  offset-path: path('M 50 80 C 150 -20 250 180 350 80');
-  offset-rotate: auto;
-  color: #fff;
-  text-transform: capitalize;
-  text-shadow: 4px 4px 18px #2fe06a;
-  font-size: 65px;
-  font-weight: 600;
-  font-style: italic;
-
-}
-
-
-
-@keyframes moveImg {
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-
-
-/* for star animation part end  */
-
-/* name and titlte scroller  */
+/* name and titlte scroller animation  */
 .scrollerHead {
   margin-top: 20px;
   /* padding: 30px; */
@@ -172,3 +107,67 @@ svg {
 }
 
 /* name and title scroller end  */
+
+.personalInfo .descriptionInfo {
+  width: 65%;
+  color: #fff;
+  padding: 10px 12px;
+  font-size: 18px;
+}
+
+
+.backgroundPart {
+  margin-top: 5rem;
+  width: 100%;
+  background-image: url('../../assets/Images/Background/SubMainBg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 90%;
+
+}
+
+/* for star animation part  */
+#frameDiv {
+  width: 500px;
+  height: 150px;
+  margin: 20px;
+  position: relative;
+}
+
+.span {
+  position: absolute;
+  z-index: 1;
+  width: 70px;
+  animation: moveImg 8s 3;
+}
+
+svg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#fish1 {
+  offset-path: path('M 50 80 C 150 -20 250 180 350 80');
+  offset-rotate: auto;
+  color: #fff;
+  text-transform: capitalize;
+  text-shadow: 4px 4px 18px #2fe06a;
+  font-size: 65px;
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+@keyframes moveImg {
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+/* for star animation part end  */
+
