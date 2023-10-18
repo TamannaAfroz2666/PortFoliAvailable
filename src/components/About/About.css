@@ -64,8 +64,16 @@
     padding: 15px 30px;
     border: 0;
     border-radius: 10px;
+    transition: transform .5s;
 }
+/* ---------hover create in button ======== */
 
+.btnAbout:hover button{
+    background-color: rgba(255, 196, 0, 0.63);
+    color: #000;
+    font-weight: 600;
+    transform: scale(1);
+}
 
 .arrowRight{
     /* font-size: 30px; */
