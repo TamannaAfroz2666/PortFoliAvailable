@@ -54,8 +54,8 @@ const WelcomePage = () => {
                         <div className="backgroundPart">
                             <div className="btnInfo">
                               
-                                <Button variant="outlined" startIcon={<CgMail className='mailIcon'  />}>
-                                    Delete <BsArrowRightCircle className='arrowIcon' size={10}/>
+                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon'  />}>
+                                    Message <BsArrowRightCircle className='arrowIcon' size={10}/>
                                 </Button>
 
                             </div>

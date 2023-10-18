@@ -132,26 +132,29 @@
 
 }
 
-.btnInfo button{
+.btnInfo .button{
   /* width: 50px; */
   padding: 14px 80px;
-  background-color: #837b7b00;
+  background-color: #c0242400;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   font-family: sans-serif;
   border: 1px solid black;
   border-radius: 10px;
+  text-transform: capitalize;
+  
 }
 .btnInfo  .mailIcon{
   width: 30px;
   color: #fff;
 }
 .btnInfo  .arrowIcon{
-  width: 10px;
-  color: #fff;
+  width: 18px;
+  color: #c4bbbb;
   left: 1rem;
   position: relative;
+  
 }
 /* for star animation part  */
 #frameDiv {
