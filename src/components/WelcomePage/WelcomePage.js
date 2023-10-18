@@ -11,17 +11,17 @@ const WelcomePage = () => {
                     <div className="personalInfo">
                         <p className='sort_title'>Welcome To My World</p>
                         <div className="scrollerHead">
-                        <div className="scroller">
-                            <span>
-                                Hey <br />
-                                I'm Tamanna <br />
-                                <small className='frontEnd'>Front-End Developer</small>
+                            <div className="scroller">
+                                <span>
+                                    <h3 className='hey'>Hey </h3><br />
+                                    <h2 className='name'>I'm Tamanna</h2>  <br />
+                                    <small className='frontEnd'>Front-End Developer</small>
 
-                            </span>
+                                </span>
+                            </div>
+
                         </div>
 
-                        </div>
-                        
                         {/* <h1 className='nameTitle'>Hey, I'm Tamanna! <br /> Creative Front-End Developer</h1> */}
                         <p className='descriptionInfo'>
                             I'm a Front-End Develpoer & I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.

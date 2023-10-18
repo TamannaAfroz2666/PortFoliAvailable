@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .welcome{
-    height: 80vh;
+    height: 100vh;
     background-color: #111;
 
 }
@@ -86,13 +86,14 @@
 
 .scrollerHead{
     margin-top: 20px;
+    /* padding: 30px; */
 }
   .scroller {
-    height: 1.2em;
-    line-height: 1.2em;
+    height: 15em;
+    line-height: 1.8em;
     position: relative;
     overflow: hidden;
-    width: 20em;
+    width: 50em;
     color: #fff;
     padding: 20px;
   }
@@ -101,9 +102,24 @@
     top: 0;
     animation: slide 5s infinite;
     font-weight: bold;
-    padding: 20px;
-    font-size: 20px;
     
+    
+  }
+ 
+  .hey{
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .name{
+    font-size: 45px;
+    color: #2fe06a;
+  }
+  .frontEnd{
+    font-size: 46px;
+    color: orange;
+    font-weight: 600;
+    /* padding-top: 10px; */
   }
   @keyframes slide {
     0% {
