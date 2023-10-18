@@ -134,20 +134,24 @@
 
 .btnInfo .button{
   /* width: 50px; */
-  padding: 14px 80px;
+  padding: 12px 50px;
   background-color: #c0242400;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   font-family: sans-serif;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 12px;
   text-transform: capitalize;
   
 }
 .btnInfo  .mailIcon{
   width: 30px;
-  color: #fff;
+  color: #faf9f9cb;
+  left: -5px;
+  position: relative;
+  background-color: #111;
+  border-radius: 50px;
 }
 .btnInfo  .arrowIcon{
   width: 18px;

@@ -55,7 +55,8 @@ const WelcomePage = () => {
                             <div className="btnInfo">
                               
                                 <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon'  />}>
-                                    Message <BsArrowRightCircle className='arrowIcon' size={10}/>
+                                    Message 
+                                    <BsArrowRightCircle className='arrowIcon' size={10}/>
                                 </Button>
 
                             </div>
