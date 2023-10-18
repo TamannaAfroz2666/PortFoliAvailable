@@ -10,6 +10,7 @@ const WelcomePage = () => {
                 <div className="infoSection">
                     <div className="personalInfo">
                         <p className='sort_title'>Welcome To My World</p>
+                        
                         <div className="scrollerHead">
                             <div className="scroller">
                                 <span>
