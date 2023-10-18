@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.aboutAll{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+}
 .imageInfo img{
-    width: 400px;
+    border-radius: 25px;
+    width: 500px;
     height: 400px;
 }
