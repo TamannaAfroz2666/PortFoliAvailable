@@ -14,8 +14,8 @@ const EducationAndExperience = () => {
                                     <p>In 2012</p>
                                 </div>
                                 <div className="experienceOfTitle">
-                                    <p>Software Engineer</p>
-                                    <p>UI Head and Manager</p>
+                                    <p className='JobTitle'>Software Engineer</p>
+                                    <p className='position'>UI Head and Manager</p>
                                 </div>
 
                             </div>

@@ -44,9 +44,23 @@
     font-size: 18px;
     font-weight: 500;
     color: #111111a4;
-   
-
 }
+.experienceOfTitle .JobTitle{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #111111e3;
+    font-family: Poppins;
+}
+.experienceOfTitle .position{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #111111e3;
+    font-family: Poppins;
+    padding-top: 10px;
+}
+
 .EducationField{
     width: 550px;
 }
