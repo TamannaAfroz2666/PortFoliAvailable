@@ -32,6 +32,8 @@
 }
 .skillContent{
     height: 60vh;
+    display: inline-flex;
+    gap: 100px;
     /* margin-top: 30px; */
     
 }

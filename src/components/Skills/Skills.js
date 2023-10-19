@@ -19,15 +19,28 @@ const Skills = () => {
                         <div className="imageInfoSkills">
                             <img src={html} alt="loading" />
                             <p className='percentSkill'>90%</p>
- 
                         </div>
                         <div className="nameTopic">
                             <p>HTML</p>
                         </div>
-
-                        
-
-
+                    </div>
+                    <div className="SkillContentAll">
+                        <div className="imageInfoSkills">
+                            <img src={html} alt="loading" />
+                            <p className='percentSkill'>90%</p>
+                        </div>
+                        <div className="nameTopic">
+                            <p>HTML</p>
+                        </div>
+                    </div>
+                    <div className="SkillContentAll">
+                        <div className="imageInfoSkills">
+                            <img src={html} alt="loading" />
+                            <p className='percentSkill'>90%</p>
+                        </div>
+                        <div className="nameTopic">
+                            <p>HTML</p>
+                        </div>
                     </div>
 
 
