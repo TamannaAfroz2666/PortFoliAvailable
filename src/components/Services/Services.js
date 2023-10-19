@@ -3,7 +3,17 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <div>
+        <div className='services'>
+            <div className="servicesHead">
+                <div className="servicesContent">
+                    <div className="miniTitle">
+                        <p>Services | Offer</p>
+                    </div>
+                    <p className='serviceTitle'>My Specializations</p>
+                </div>
+            </div>
+
+
             
         </div>
     );

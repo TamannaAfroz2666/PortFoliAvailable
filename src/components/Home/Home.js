@@ -4,6 +4,7 @@ import Header from '../../Layout/Header/Header';
 import WelcomePage from '../WelcomePage/WelcomePage';
 import BreakingNews from '../BreakingNews/BreakingNews';
 import About from '../About/About';
+import Services from '../Services/Services';
 // import Products from '../Products/Products';
 
 
@@ -17,6 +18,7 @@ const Home = () => {
             <WelcomePage></WelcomePage>
             <BreakingNews></BreakingNews>
             <About></About>
+            <Services></Services>
            
           
         </div>
