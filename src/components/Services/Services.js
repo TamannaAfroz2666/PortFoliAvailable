@@ -18,17 +18,17 @@ const Services = () => {
                     </div>
                     <div className="serviceContentItems">
                         <div className="designer">
-                            <hr />
+                            <hr color='black' size= {1} className='designerLine' />
                             <p>Designer</p>
                             <p>Illustration Designer </p>
                         </div>
                         <div className="designer">
-                            <hr />
+                            <hr color='black' size= {1} className='designerLine'/>
                             <p>Designer</p>
                             <p>Illustration Designer </p>
                         </div>
                         <div className="designer">
-                            <hr />
+                            <hr color='black' size= {1} className='designerLine' />
                             <p>Designer</p>
                             <p>Illustration Designer </p>
                         </div>
