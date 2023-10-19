@@ -33,7 +33,8 @@
 .serviceContent{
     margin-top: 70px;
     display: flex;
-    gap: 200px;
+    gap: 50px;
+   
 }
 .serviceImage {
     width: 500px;
@@ -42,6 +43,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .serviceContentItems .designer{
     width: 500px;
@@ -139,10 +141,13 @@
 
 /*------------- Simple note design -------------- */
 .noteHead{
-    margin-top: 20px;
-    width: 500px;
-    height: 300px; 
+    width: 450px;
+    height: 400px; 
     background-color: #000;
+    z-index: 999;
+    margin-top: -12rem;
+    margin-left: 10rem;
+   
 }
 /* ------------star designed--------  */
 .iconBall{
@@ -163,7 +168,7 @@
 }
 .noteHead .noteDescription{
     color: #fff;
-    padding: 30px 0px 30px 40px;
+    padding: 40px 0px 60px 40px;
     font-size: 17px;
 }
 .noteHead a {
