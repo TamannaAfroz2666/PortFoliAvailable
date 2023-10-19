@@ -30,7 +30,7 @@ const Skills = () => {
                             <p className='percentSkill'>90%</p>
                         </div>
                         <div className="nameTopic">
-                            <p>HTML</p>
+                            <p>Bootstrap</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
@@ -39,9 +39,28 @@ const Skills = () => {
                             <p className='percentSkill'>90%</p>
                         </div>
                         <div className="nameTopic">
-                            <p>HTML</p>
+                            <p>Tailwind</p>
                         </div>
                     </div>
+                    <div className="SkillContentAll">
+                        <div className="imageInfoSkills">
+                            <img src={html} alt="loading" />
+                            <p className='percentSkill'>90%</p>
+                        </div>
+                        <div className="nameTopic">
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    <div className="SkillContentAll">
+                        <div className="imageInfoSkills">
+                            <img src={html} alt="loading" />
+                            <p className='percentSkill'>90%</p>
+                        </div>
+                        <div className="nameTopic">
+                            <p>React</p>
+                        </div>
+                    </div>
+                   
 
 
                 </div>
