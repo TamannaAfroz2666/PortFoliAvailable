@@ -48,8 +48,8 @@
 }
 .serviceContentItems .designer{
     width: 500px;
-    animation-delay: 200ms; 
-    animation-name: fadeInUp;
+ 
+   
 
 }
 
@@ -60,6 +60,7 @@
     font-family: sans-serif;
     text-transform: capitalize;
     padding-top: 30px;
+   
 }
 .designer .nameOfWork{
     font-size: 35px;
@@ -68,6 +69,7 @@
     color: #000000d2;
     padding: 25px 0;
     text-transform: capitalize;
+  
 
 }
 
