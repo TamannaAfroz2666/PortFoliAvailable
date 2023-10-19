@@ -46,6 +46,11 @@
 .serviceContentItems .designer{
     width: 500px;
 }
-.designerLine{
-    color: #000000ef;
+.designer .titleDesign{
+    font-size: 20px;
+    color: #000000a6;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding-top: 30px;
 }
