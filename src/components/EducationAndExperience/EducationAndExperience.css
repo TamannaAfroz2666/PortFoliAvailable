@@ -34,8 +34,18 @@
 
 }
 .listOfExperience{
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    padding: 30px 0;
+  
+}
+.year p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111a4;
+   
+
 }
 .EducationField{
     width: 550px;
