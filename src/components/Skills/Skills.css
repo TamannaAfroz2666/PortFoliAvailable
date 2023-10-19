@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 .skills{
-   
     background-color: #000000ee;
+}
+.skillsHead .SkillSort{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(3, 3, 253, 0.555);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 6rem;
 
 }
