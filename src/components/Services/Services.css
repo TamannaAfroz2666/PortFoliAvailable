@@ -6,6 +6,7 @@
 .services{
     margin-top: 6rem;
     background-color: rgba(220, 220, 220, 0.514);
+    height: 180vh;
 }
 .servicesHead{
     width: 90%;
