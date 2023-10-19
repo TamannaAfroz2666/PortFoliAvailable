@@ -146,7 +146,7 @@
 }
 .noteHead .numberNote{
     color: #fff;
-    padding: 50px 0px 0px 40px;
+    padding: 20px 0px 0px 40px;
     font-size: 55px;
 }
 .noteHead .noteDescription{
@@ -154,4 +154,8 @@
 }
 .noteHead .linkMoreNote{
     color: #fff;
+}
+.iconBall{
+    margin-left: 10rem;
+    width: 5px;
 }
