@@ -18,7 +18,10 @@ const Skills = () => {
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
                             <img src={html} alt="loading" />
+                            <p className='percentSkill'>90%</p>
+                           
                         </div>
+                        
 
 
                     </div>
