@@ -46,18 +46,19 @@ const About = () => {
                         </div>
 
                         <div className="birthInfo">
-                            <div className="birthPlace">
+                            <div className="birthInfoHeading">
                                 <p>Born in</p>
-                                <h3>Bangladesh</h3>
+                                <span>Bangladesh</span>
+                                
                             </div>
-                            <div className="experienceInfo">
+                            <div className="birthInfoHeading">
                                 <p>Experience</p>
-                                <h3>1 Year</h3>
+                                <span>1 Year</span>
 
                             </div>
-                            <div className="birthDate">
+                            <div className="birthInfoHeading">
                                 <p>Date of Birth</p>
-                                <h3>05 March 1998</h3>
+                                <span>05 March 1998</span>
                             </div>
                         </div>
                     </div>

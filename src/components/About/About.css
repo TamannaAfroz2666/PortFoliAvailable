@@ -14,7 +14,7 @@
 }
 .imageInfo img{
     border-radius: 25px;
-    height: 500px;
+    height: 600px;
     --s: 15px;  /* size of the frame */
   --b: 2px;   /* border thickness */
   --w: 500px; /* width of the image */
@@ -41,7 +41,7 @@ img:hover {
     --_i: calc(100% - 2*var(--s));
   }
 .informationAll{
-    height: 500px;
+    height: 600px;
     background-color: whitesmoke;
     box-shadow: inset 5px 5px 8px #fcfa7183, inset 5px 5px 8px #010caa;
 }
@@ -117,14 +117,21 @@ img:hover {
     background-color: rgb(84, 132, 175);
 }
 
-
-
-
-
-.arrowRight{
-    /* font-size: 30px; */
-    width: 30px;
-    color: rgb(31, 29, 29);
-    margin-left: 41.5rem;
-    margin-top: 70rem;
+/*----------------- birth info ------------- */
+.birthInfo{
+    margin-top: 50px;
+    display: inline-flex;
+    gap: 40px;
 }
+.birthInfoHeading p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000b0;
+    text-transform: capitalize;
+    padding: 0 20px;
+
+    
+}
+
+
+
