@@ -70,7 +70,8 @@
 
 
 
-/* practice  */
+/* Used FadeInUP Animated start */
+
 @keyframes fadeInUp {
     from {
         transform: translate3d(0,50px,0)
@@ -121,4 +122,5 @@
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
-/* visibility: visible; animation-delay: 400ms; animation-name: fadeInUp; */
+
+/* Used FadeInUP Animated end */
