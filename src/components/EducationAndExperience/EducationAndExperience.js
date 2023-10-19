@@ -11,7 +11,7 @@ const EducationAndExperience = () => {
                         <div className="experienceContent">
                             <div className="listOfExperience">
                                 <div className="year">
-                                    <p>In 2012</p>
+                                    <p>In 2021</p>
                                 </div>
                                 <div className="experienceOfTitle">
                                     <p className='JobTitle'>Software Engineer</p>
@@ -24,24 +24,23 @@ const EducationAndExperience = () => {
                         <div className="experienceContent">
                             <div className="listOfExperience">
                                 <div className="year">
-                                    <p>In 2012</p>
+                                    <p>In 2022</p>
                                 </div>
                                 <div className="experienceOfTitle">
-                                    <p className='JobTitle'>Software Engineer</p>
-                                    <p className='position'>UI Head and Manager</p>
+                                    <p className='JobTitle'>Front End Developer</p>
+                                    <p className='position'>Sawari OverSeas</p>
                                 </div>
-
                             </div>
                            
                         </div>
                         <div className="experienceContent">
                             <div className="listOfExperience">
                                 <div className="year">
-                                    <p>In 2012</p>
+                                    <p>In 2023</p>
                                 </div>
                                 <div className="experienceOfTitle">
-                                    <p className='JobTitle'>Software Engineer</p>
-                                    <p className='position'>UI Head and Manager</p>
+                                    <p className='JobTitle'>Front End Developer</p>
+                                    <p className='position'>Sawari Holydays</p>
                                 </div>
 
                             </div>
