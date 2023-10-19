@@ -27,5 +27,15 @@
     text-align: center;
     padding-top: 15px;
     color: #000000e7;
+}
 
+/*----------- service items design --------------  */
+.serviceContent{
+    margin-top: 30px;
+    display: flex;
+    gap: 100px;
+}
+.serviceImage img{
+    width: 400px;
+    height: 400px;
 }
