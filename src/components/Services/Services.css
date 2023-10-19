@@ -163,6 +163,8 @@
 }
 .noteHead .noteDescription{
     color: #fff;
+    padding: 30px 0px 0px 40px;
+    font-size: 17px;
 }
 .noteHead .linkMoreNote{
     color: #fff;
