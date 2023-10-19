@@ -136,3 +136,11 @@
 }
 
 /* Used FadeInUP Animated end */
+
+/*------------- Simple note design -------------- */
+.noteHead{
+    margin-top: 20px;
+    width: 500px;
+    height: 300px; 
+    background-color: #000;
+}
