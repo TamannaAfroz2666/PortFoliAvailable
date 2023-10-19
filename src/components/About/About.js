@@ -44,7 +44,25 @@ const About = () => {
 
                             </div>
                         </div>
+
+                        <div className="birthInfo">
+                            <div className="birthPlace">
+                                <p>Born in</p>
+                                <h3>Bangladesh</h3>
+                            </div>
+                            <div className="experienceInfo">
+                                <p>Experience</p>
+                                <h3>1 Year</h3>
+
+                            </div>
+                            <div className="birthDate">
+                                <p>Date of Birth</p>
+                                <h3>05 March 1998</h3>
+                            </div>
+                        </div>
                     </div>
+
+
 
                 </div>
             </div>
