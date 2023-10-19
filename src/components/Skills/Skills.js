@@ -1,6 +1,8 @@
 import React from 'react';
 import './Skills.css';
-import html from '../../assets/Images/Skills/html2.jpg'
+import html from '../../assets/Images/Skills/html2.jpg';
+import bootstrap from '../../assets/Images/Skills/bootstrap.jpg';
+
 
 
 const Skills = () => {
@@ -26,10 +28,10 @@ const Skills = () => {
                     </div>
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
-                            <img src={html} alt="loading" />
+                            <img src={bootstrap} alt="loading" />
                             <p className='percentSkill'>90%</p>
                         </div>
-                        <div className="nameTopic">
+                        <div className="nameTopicLong">
                             <p>Bootstrap</p>
                         </div>
                     </div>
