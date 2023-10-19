@@ -11,3 +11,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.educationHead{
+    width: 90%;
+    margin: auto;
+
+}
+.educationAndExperience{
+    /* margin-top: 60px; */
+    display: flex;
+    gap: 20px;
+}
+.experienceField{
+    width: 550px;
+}
+.EducationField{
+    width: 550px;
+}
