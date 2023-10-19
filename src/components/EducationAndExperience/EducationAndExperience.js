@@ -53,11 +53,35 @@ const EducationAndExperience = () => {
                         <div className="experienceContent">
                             <div className="listOfExperience">
                                 <div className="year">
-                                    <p>In 2012</p>
+                                    <p>2015</p>
                                 </div>
                                 <div className="experienceOfTitle">
-                                    <p>Software Engineer</p>
-                                    <p>UI Head and Manager</p>
+                                    <p className='JobTitle'>S.Sc Examination</p>
+                                    <p className='position'>Lalmonirhat School</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="experienceContent">
+                            <div className="listOfExperience">
+                                <div className="year">
+                                    <p>2017</p>
+                                </div>
+                                <div className="experienceOfTitle">
+                                    <p className='JobTitle'>H.Sc Examination</p>
+                                    <p className='position'>Lalmonirhat Govt. College</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="experienceContent">
+                            <div className="listOfExperience">
+                                <div className="year">
+                                    <p> 2022</p>
+                                </div>
+                                <div className="experienceOfTitle">
+                                    <p className='JobTitle'>B.Sc in Software Engineering</p>
+                                    <p className='position'>Daffodil International University</p>
                                 </div>
 
                             </div>
