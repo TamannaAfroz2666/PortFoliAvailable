@@ -144,3 +144,9 @@
     height: 300px; 
     background-color: #000;
 }
+.noteHead .numberNote{
+    color: #fff;
+}
+.noteHead .noteDescription{
+    color: #fff;
+}

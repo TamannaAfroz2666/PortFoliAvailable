@@ -46,7 +46,11 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="noteHead">
-                    
+                    <h1 className='numberNote'>01</h1>
+                    <p className='noteDescription'>
+                        There are many variations of passages ipsum available , but the majority  have some form, by injected humour, and randomised words which looks even slightly believable 
+                    </p>
+                    <a className='linkMoreNote' href="/readmore"> Read More</a>
 
                 </div>
             </div>
