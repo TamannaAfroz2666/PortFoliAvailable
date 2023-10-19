@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.services{
+    margin-top: 6rem;
+    background-color: rgba(220, 220, 220, 0.514);
+}
+.servicesHead{
+    width: 90%;
+    margin: auto;
+}
+.servicesParentNode .miniTitle{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(54, 54, 235, 0.801);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10rem;
+
+}
