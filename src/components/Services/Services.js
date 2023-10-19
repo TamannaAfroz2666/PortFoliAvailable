@@ -14,7 +14,7 @@ const Services = () => {
                 </div>
                 <div className="serviceContent">
                     <div className="serviceImage">
-                        <img src={image} alt="loading ...." />
+                        
                     </div>
                     <div className="serviceContentItems">
                         <div className="designer">
