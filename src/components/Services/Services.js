@@ -14,31 +14,41 @@ const Services = () => {
                 </div>
                 <div className="serviceContent">
                     <div className="serviceImage">
-                        
+
                     </div>
-                    
+
                     <div className="serviceContentItems">
                         <div className="designer designer animated1 animatedFadeInUp fadeInUp" >
-                            <hr color='black' size= {1} className='designerLine' />
+                            <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>Designer</p>
                             <p className='nameOfWork' >Illustration Designer </p>
                         </div>
                         <div className="designer designer animated2 animatedFadeInUp fadeInUp">
-                            <hr color='black' size= {1} className='designerLine'/>
+                            <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>Branding</p>
                             <p className='nameOfWork'>Business Branding </p>
                         </div>
                         <div className="designer animated animatedFadeInUp fadeInUp">
-                            <hr color='black' size= {1} className='designerLine' />
+                            <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>Design System</p>
-                            <p  className='nameOfWork'>Illustration Designer </p>
+                            <p className='nameOfWork'>Illustration Designer </p>
+                        </div>
+                        <div className="designer animated3 animatedFadeInUp fadeInUp">
+                            <hr color='black' size={1} className='designerLine' />
+                            <p className='titleDesign'>UI/UX Design </p>
+                            <p className='nameOfWork'>Web UI/UX Design </p>
+                        </div>
+                        <div className="designer animated4 animatedFadeInUp fadeInUp">
+                            <hr color='black' size={1} className='designerLine' />
+                            <p className='titleDesign'> Web Design </p>
+                            <p className='nameOfWork'>Application Design</p>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            
+
         </div>
     );
 };
