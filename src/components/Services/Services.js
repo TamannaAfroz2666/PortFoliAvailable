@@ -31,10 +31,7 @@ const Services = () => {
                             <a className='linkMoreNote' href="/readmore"> Read More</a>
 
                         </div>
-
-
                     </div>
-
 
                     <div className="serviceContentItems">
                         <div className="designer designer animated1 animatedFadeInUp fadeInUp" >

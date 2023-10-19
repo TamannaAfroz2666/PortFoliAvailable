@@ -70,6 +70,10 @@
 
 }
 
+.nameOfWork:hover{
+    color: rgba(13, 45, 224, 0.788);
+}
+
 
 
 /* Used FadeInUP Animated start */
