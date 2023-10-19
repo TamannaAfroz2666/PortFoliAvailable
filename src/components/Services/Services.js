@@ -49,11 +49,12 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="noteHead">
-                <Button variant="text"> <BsCircleFill className='iconBall' color='yellow' size={1}/></Button>
-                    
+
+                    <Button variant="text"> <BsCircleFill className='iconBall' color='yellow' size={1} /></Button>
+                    <Button variant="text"> <BsCircleFill className='iconBallRed' color='yellow' size={1} /></Button>
                     <h1 className='numberNote'>01</h1>
                     <p className='noteDescription'>
-                        There are many variations of passages ipsum available , but the majority  have some form, by injected humour, and randomised words which looks even slightly believable 
+                        There are many variations of passages ipsum available , but the majority  have some form, by injected humour, and randomised words which looks even slightly believable
                     </p>
                     <a className='linkMoreNote' href="/readmore"> Read More</a>
 

@@ -144,6 +144,18 @@
     height: 300px; 
     background-color: #000;
 }
+/* ------------star designed--------  */
+.iconBall{
+    margin-left: 10rem;
+    width: 5px;
+}
+.iconBallRed{
+    margin-top: 1rem;
+    margin-left: 11rem;
+    width: 2px;
+}
+/* ------------star designed--------  */
+
 .noteHead .numberNote{
     color: #fff;
     padding: 20px 0px 0px 40px;
@@ -154,8 +166,4 @@
 }
 .noteHead .linkMoreNote{
     color: #fff;
-}
-.iconBall{
-    margin-left: 10rem;
-    width: 5px;
 }
