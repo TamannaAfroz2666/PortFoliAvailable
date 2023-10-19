@@ -8,6 +8,10 @@
     linear-gradient(227deg, rgba(196, 132, 15, 0.932), rgba(19, 19, 18, 0.007) 80.71%),
     linear-gradient(316deg, rgb(19, 18, 18), rgba(109, 7, 224, 0) 100%);
 }
+.skillBody{
+    width: 90%;
+    margin: auto;
+}
 .skillsHead .SkillSort{
     font-size: 16px;
     text-align: center;
@@ -29,4 +33,17 @@
 .skillContent{
     height: 60vh;
     
+}
+
+.htmlSkill .htmlSkill3 .id{
+    font-size: 700px;
+    width: 200px;
+    size:70;
+    color: rgb(228, 218, 218);
+
+}
+.imageInfoSkills img{ 
+    width: 100px;
+    height: 50px;
+
 }
