@@ -15,3 +15,12 @@
     padding-top: 6rem;
 
 }
+.skillsHead .SkillTitle{
+    color: #ffffffe3;
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 80px;
+}

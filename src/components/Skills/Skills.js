@@ -6,7 +6,7 @@ const Skills = () => {
         <div className='skills'>
             <div className="skillsHead">
                 <p className='SkillSort'>My Skills</p>
-                <p>I'm great in what I do <br />and I'm loving it</p>
+                <p className='SkillTitle'>I'm great in what I do <br />and I'm loving it</p>
             
             </div>
            
