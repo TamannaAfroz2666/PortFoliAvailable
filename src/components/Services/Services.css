@@ -45,7 +45,11 @@
 }
 .serviceContentItems .designer{
     width: 500px;
+    animation-delay: 200ms; 
+    animation-name: fadeInUp;
+
 }
+
 .designer .titleDesign{
     font-size: 20px;
     color: #000000a6;
@@ -63,3 +67,58 @@
     text-transform: capitalize;
 
 }
+
+
+
+/* practice  */
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,50px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 6s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-fill-mode: both
+}
+.animated1 {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+.animated2 {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+/* visibility: visible; animation-delay: 400ms; animation-name: fadeInUp; */
