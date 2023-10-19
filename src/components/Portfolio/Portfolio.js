@@ -6,10 +6,10 @@ const Portfolio = () => {
         <div className='portfolio'>
             <div className="portfolioHead">
                 <p className='sortTitlePortfolio'>My Portfolio</p>
-                <p>Visit my portfolio and keep <br /> your feedback</p>
+                <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>
             </div>
             <div className="btnGroupFolio">
-                
+
             </div>
             
             

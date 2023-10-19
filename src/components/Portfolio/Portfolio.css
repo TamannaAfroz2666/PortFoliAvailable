@@ -15,3 +15,13 @@
     text-transform: uppercase;
     padding-top: 6rem;
 }
+.portfolioHead .portfolioTitle{
+    font-size: 54px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000e7;
+    font-family: poppins;
+
+}
