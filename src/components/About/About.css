@@ -119,7 +119,7 @@ img:hover {
 
 /*----------------- birth info ------------- */
 .birthInfo{
-    margin-top: 50px;
+    margin-top: 40px;
     display: inline-flex;
     gap: 40px;
 }
@@ -128,10 +128,16 @@ img:hover {
     font-weight: 500;
     color: #000000b0;
     text-transform: capitalize;
-    padding: 0 20px;
-
+    padding: 15px 20px; 
+}
+.birthInfoHeading span{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000000b4;
+    padding-left: 20px;
+    
     
 }
 
-
-
+/*----------------- birth info end------------- */
