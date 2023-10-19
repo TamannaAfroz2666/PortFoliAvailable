@@ -19,6 +19,33 @@ const EducationAndExperience = () => {
                                 </div>
 
                             </div>
+                           
+                        </div>
+                        <div className="experienceContent">
+                            <div className="listOfExperience">
+                                <div className="year">
+                                    <p>In 2012</p>
+                                </div>
+                                <div className="experienceOfTitle">
+                                    <p className='JobTitle'>Software Engineer</p>
+                                    <p className='position'>UI Head and Manager</p>
+                                </div>
+
+                            </div>
+                           
+                        </div>
+                        <div className="experienceContent">
+                            <div className="listOfExperience">
+                                <div className="year">
+                                    <p>In 2012</p>
+                                </div>
+                                <div className="experienceOfTitle">
+                                    <p className='JobTitle'>Software Engineer</p>
+                                    <p className='position'>UI Head and Manager</p>
+                                </div>
+
+                            </div>
+                           
                         </div>
                     </div>
                     <div className="EducationField">
