@@ -2,6 +2,9 @@ import React from 'react';
 import './Skills.css';
 import html from '../../assets/Images/Skills/html2.jpg';
 import bootstrap from '../../assets/Images/Skills/bootstrap.jpg';
+import tailwind from '../../assets/Images/Skills/tailwind.png';
+import js from '../../assets/Images/Skills/js.png';
+import react from '../../assets/Images/Skills/react.png';
 
 
 
@@ -20,7 +23,7 @@ const Skills = () => {
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
                             <img src={html} alt="loading" />
-                            <p className='percentSkill'>90%</p>
+                            <p className='percentSkill'>100%</p>
                         </div>
                         <div className="nameTopic">
                             <p>HTML</p>
@@ -29,7 +32,7 @@ const Skills = () => {
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
                             <img src={bootstrap} alt="loading" />
-                            <p className='percentSkill'>90%</p>
+                            <p className='percentSkill'>100%</p>
                         </div>
                         <div className="nameTopicLong">
                             <p>Bootstrap</p>
@@ -37,25 +40,25 @@ const Skills = () => {
                     </div>
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
-                            <img src={html} alt="loading" />
-                            <p className='percentSkill'>90%</p>
+                            <img src={tailwind} alt="loading" />
+                            <p className='percentSkill'>100%</p>
                         </div>
-                        <div className="nameTopic">
+                        <div className="nameTopicTail">
                             <p>Tailwind</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
-                            <img src={html} alt="loading" />
-                            <p className='percentSkill'>90%</p>
+                            <img src={js} alt="loading" />
+                            <p className='percentSkill'>80%</p>
                         </div>
-                        <div className="nameTopic">
+                        <div className="nameTopicJS">
                             <p>JavaScript</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
                         <div className="imageInfoSkills">
-                            <img src={html} alt="loading" />
+                            <img src={react} alt="loading" />
                             <p className='percentSkill'>90%</p>
                         </div>
                         <div className="nameTopic">
