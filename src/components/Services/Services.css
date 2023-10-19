@@ -163,9 +163,17 @@
 }
 .noteHead .noteDescription{
     color: #fff;
-    padding: 30px 0px 0px 40px;
+    padding: 30px 0px 30px 40px;
     font-size: 17px;
 }
-.noteHead .linkMoreNote{
+.noteHead a {
     color: #fff;
+    text-decoration: none;
+    padding: 0px 0px 0px 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.linkMoreNote:hover {
+    color: rgba(57, 84, 240, 0.52);
+    font-weight: 500;
 }
