@@ -7,3 +7,11 @@
     width: 90%;
     margin: auto;
 }
+.portfolioHead .sortTitlePortfolio{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(54, 54, 235, 0.801);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 6rem;
+}
