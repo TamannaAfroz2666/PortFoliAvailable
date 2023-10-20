@@ -12,12 +12,17 @@ const Portfolio = () => {
             <div className="btnGroupFolio">
                 <ul className='listOfLink'>
                     <li>
-                        <Link to='/skills'>All</Link>
+                        <Link to='/all'>All</Link>
                     </li>
-                    <li>Branding App </li>
-                    <li>Ios App</li>
-                    <li>Landing Page</li>
-                    <li>Website</li>
+                    <li>
+                    <Link to='/brandingApp'>Branding App</Link>
+                         </li>
+                    <li>
+                    <Link to='/ios'>Ios App</Link></li>
+                    <li>
+                    <Link to='/landingPage'>Landing Page</Link></li>
+                    <li>
+                    <Link to='/Website'>Website</Link></li>
                 </ul>
 
             </div>
