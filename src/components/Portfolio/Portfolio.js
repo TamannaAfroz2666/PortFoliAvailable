@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
@@ -10,7 +11,9 @@ const Portfolio = () => {
             </div>
             <div className="btnGroupFolio">
                 <ul className='listOfLink'>
-                    <li>All</li>
+                    <li>
+                        <Link to='/skills'>All</Link>
+                    </li>
                     <li>Branding App </li>
                     <li>Ios App</li>
                     <li>Landing Page</li>
@@ -18,8 +21,8 @@ const Portfolio = () => {
                 </ul>
 
             </div>
-            
-            
+
+
         </div>
     );
 };
