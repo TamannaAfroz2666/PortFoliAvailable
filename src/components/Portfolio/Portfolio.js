@@ -37,7 +37,7 @@ const Portfolio = () => {
 
                 <div className="webDesign">
                     <div className="webContents">
-                        <button >Designing</button>
+                        <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Web Design</p>
                         <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 </div>
                 <div className="webDesign">
                     <div className="webContents">
-                        <button>Designing</button>
+                        <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Web Design</p>
                         <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 </div>
                 <div className="webDesign">
                     <div className="webContents">
-                        <button>Designing</button>
+                        <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Web Design</p>
                         <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
@@ -67,7 +67,7 @@ const Portfolio = () => {
                 </div>
                 <div className="webDesign">
                     <div className="webContents">
-                        <button>Designing</button>
+                        <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Web Design</p>
                         <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>

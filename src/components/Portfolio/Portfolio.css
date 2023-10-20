@@ -54,7 +54,7 @@
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 40px;
 
 }
 .webDesign{
@@ -78,6 +78,11 @@
     margin-top: 50px;
     
 }
+.btnWeb:hover{
+    background-color: aqua;
+
+}
+
 .webContents  .web_title{
     font-size: 35px;
     color: #111;
