@@ -12,24 +12,29 @@ const Portfolio = () => {
             <div className="btnGroupFolio">
                 <ul className='listOfLink'>
                     <li>
-                        <Link to='/all'>All</Link>
+                        {/* <Link>All</Link> */}
+                        <button className='btnShow' >all</button>
                     </li>
                     <li>
-                    <Link to='/brandingApp'>Branding App</Link>
-                         </li>
+                        <button className='btnShow'>Branding App</button>
+                    </li>
                     <li>
-                    <Link to='/ios'>Ios App</Link></li>
+                        <button className='btnShow'>Ios App</button>
+                    </li>
                     <li>
-                    <Link to='/landingPage'>Landing Page</Link></li>
-                    <li>
-                    <Link to='/Website'>Website</Link></li>
-                </ul>
+                        <button className='btnShow'>Landing Page</button>
+                        </li>
+                        <li>
+                        <button className='btnShow'>Website</button>
+                        </li>
+                            
+                        </ul>
+
+                    </div>
+
 
             </div>
-
-
-        </div>
-    );
+            );
 };
 
-export default Portfolio;
+            export default Portfolio;
