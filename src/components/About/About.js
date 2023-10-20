@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import image from '../../assets/Images/Background/ABOUT.jpg'
 // import { IoIosArrowForward } from "react-icons/io";
-import { AiFillApple } from "react-icons/ai";
+// import { AiFillApple } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Button } from '@mui/material';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Services.css';
-import image from '../../assets/Images/Background/Leaf.jpg'
+// import image from '../../assets/Images/Background/Leaf.jpg'
 import { BsCircleFill } from "react-icons/bs";
 import Button from '@mui/material/Button';
 
