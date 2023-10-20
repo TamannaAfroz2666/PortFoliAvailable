@@ -31,16 +31,22 @@ const Portfolio = () => {
 
                     </ul>
                 </div>
-
-
             </div>
-
-
             <div className="showActivities">
-                <h1>hh</h1>
+
+                <div className="webDesign">
+                    <div className="webContents">
+                        <button>Designing</button>
+                        <p className='web_title'>Web Design</p>
+                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
+                    </div>
+                    <div className="webImages">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+
+                
             </div>
-
-
         </div>
     );
 };
