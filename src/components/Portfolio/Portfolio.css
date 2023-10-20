@@ -57,9 +57,9 @@
     grid-gap: 30px;
 
 }
-.showActivities h1{
-    padding-top: 50px;
-
+.webDesign{
+    display: flex;
+    justify-content: space-between;
 }
 .webContents button{
     font-size: 18px;
@@ -75,5 +75,6 @@
 
 .webImages img{
     width: 250px;
-    height: 200px;
+    height: 280px;
+    border-radius: 20px;
 }
