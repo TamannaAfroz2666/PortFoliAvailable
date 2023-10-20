@@ -8,6 +8,7 @@ import Snackbar from '@mui/material/Snackbar';
 import IconButton from '@mui/material/IconButton';
 
 import { RxCross2 } from "react-icons/rx";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -53,60 +54,61 @@ const Header = () => {
                         <ul className='nav_links'>
 
                             <li>
-                                <a href="#" className='active'>Home</a>
+                                {/* <a href="#" className='active'>Home</a> */}
+                                <NavLink to ='/'>Home</NavLink>
                                 <hr className='underline' color='yellow' />
 
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/first">Home Page 01</a>
+                                        <NavLink to="/">Home Page 01</NavLink>
 
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./manage">Home Page 02 </a>
+                                        <NavLink to="./page2">Home Page 02 </NavLink>
                                     </li>
                                 </ul>
 
                             </li>
-                            <li><a href="/about">About Me</a>
+                            <li><NavLink to="/about">About Me</NavLink>
                                 <hr className='underline1' color='yellow' />
                             </li>
                             <li>
-                                <a href="/services">Services</a>
+                                <NavLink to="/services">Services</NavLink>
                                 <hr className='underline1' color='yellow' />
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/services">Services</a>
+                                        <NavLink to="/services">Services</NavLink>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./servicesDetails">Services Details </a>
+                                        <NavLink to="./servicesDetails">Services Details </NavLink>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/portfolio">Portfolio</a>
+                                <NavLink to="/portfolio">Portfolio</NavLink>
                                 <hr className='underline1' color='yellow' />
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/portfolio">Portfolio</a>
+                                        <NavLink to="/portfolio">Portfolio</NavLink>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./portfolioDetails">Portfolio Details </a>
+                                        <NavLink to="./portfolioDetails">Portfolio Details </NavLink>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/blogs">Blogs</a>
+                                <NavLink to="/blogs">Blogs</NavLink>
                                 <hr className='underline1' color='yellow' />
                                 <ul class="drop_menu">
                                     <li className='menu'>
-                                        <a href="/blogs">Blogs</a>
+                                        <NavLink to="/blogs">Blogs</NavLink>
                                     </li>
                                     <li className='menu1'>
-                                        <a href="./blogsDetails">Blogs Details </a>
+                                        <NavLink to="./blogsDetails">Blogs Details </NavLink>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="/contact">Contact</a>
+                            <li><NavLink to="/contact">Contact</NavLink>
                                 <hr className='underline1' color='yellow' />
                             </li>
 
