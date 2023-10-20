@@ -1,6 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
 // import { Link } from 'react-router-dom';
+import web1 from '../../assets/Images/Portfolio/we1.jpg';
 
 const Portfolio = () => {
     return (
@@ -41,7 +42,37 @@ const Portfolio = () => {
                         <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
                     <div className="webImages">
-                        <img src="" alt="" />
+                        <img src={web1} alt="" />
+                    </div>
+                </div>
+                <div className="webDesign">
+                    <div className="webContents">
+                        <button>Designing</button>
+                        <p className='web_title'>Web Design</p>
+                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
+                    </div>
+                    <div className="webImages">
+                        <img src={web1} alt="" />
+                    </div>
+                </div>
+                <div className="webDesign">
+                    <div className="webContents">
+                        <button>Designing</button>
+                        <p className='web_title'>Web Design</p>
+                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
+                    </div>
+                    <div className="webImages">
+                        <img src={web1} alt="" />
+                    </div>
+                </div>
+                <div className="webDesign">
+                    <div className="webContents">
+                        <button>Designing</button>
+                        <p className='web_title'>Web Design</p>
+                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
+                    </div>
+                    <div className="webImages">
+                        <img src={web1} alt="" />
                     </div>
                 </div>
 

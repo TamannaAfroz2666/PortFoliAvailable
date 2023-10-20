@@ -50,6 +50,19 @@
     background-color: white;
     
 }
+.showActivities{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+
+}
 .showActivities h1{
     padding-top: 50px;
+
+}
+
+
+.webImages img{
+    width: 250px;
+    height: 200px;
 }
