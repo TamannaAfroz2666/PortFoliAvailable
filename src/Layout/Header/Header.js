@@ -9,6 +9,8 @@ import IconButton from '@mui/material/IconButton';
 
 import { RxCross2 } from "react-icons/rx";
 import { NavLink } from 'react-router-dom';
+import { Link } from "react-scroll";
+
 
 const Header = () => {
 
@@ -55,7 +57,7 @@ const Header = () => {
 
                             <li>
                                 {/* <a href="#" className='active'>Home</a> */}
-                                <NavLink to ='/'>Home</NavLink>
+                                <NavLink to='/'>Home</NavLink>
                                 <hr className='underline' color='yellow' />
 
                                 <ul class="drop_menu">
@@ -69,9 +71,10 @@ const Header = () => {
                                 </ul>
 
                             </li>
-                            <li><NavLink to="/about">About Me</NavLink>
+                            <li><Link smooth duration={500} to="about">About Me</Link>
                                 <hr className='underline1' color='yellow' />
                             </li>
+                            
                             <li>
                                 <NavLink to="/services">Services</NavLink>
                                 <hr className='underline1' color='yellow' />
@@ -119,7 +122,7 @@ const Header = () => {
                         <div className="wrapper">
                             <div className="menuBar">
                                 <Button onClick={handleClick}>
-                                    <AiOutlineMenu  className='menuIcon' />
+                                    <AiOutlineMenu className='menuIcon' />
                                 </Button>
                                 <Snackbar
                                     open={open}
@@ -128,7 +131,7 @@ const Header = () => {
                                     message="Note archived"
                                     action={action}
                                 />
-                                
+
                             </div>
 
 

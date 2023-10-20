@@ -17,11 +17,11 @@ const Portfolio = () => {
                 <div className="btnContents">
                     <ul className='listOfLink'>
                         <li>
-
-                            <button className='btnShow' >all</button>
+                        <li><a href="#home" class="menu-btn" onclick="navChanger2()">Home</a></li>
+                            {/* <a href="#b" type='button' className='btnShow' >all</a> */}
                         </li>
                         <li>
-                            <button className='btnShow'>Branding App</button>
+                            <button className='btnShow' >Branding App</button>
                         </li>
                         <li>
                             <button className='btnShow'>Ios App</button>
@@ -81,6 +81,8 @@ const Portfolio = () => {
 
                 
             </div>
+
+            <h1 className='h1'>jjj</h1>
         </div>
     );
 };

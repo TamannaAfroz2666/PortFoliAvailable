@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import {ContactWrapper} from './AboutElement';
 import image from '../../assets/Images/Background/ABOUT.jpg'
 // import { IoIosArrowForward } from "react-icons/io";
 // import { AiFillApple } from "react-icons/ai";
@@ -9,7 +10,8 @@ import { Button } from '@mui/material';
 
 const About = () => {
     return (
-        <div className='aboutAll'>
+        
+        <div className='aboutAll' id="about" name="about">
             <div className="aboutAllInfo">
                 <div className="imageInfo">
                     <img src={image} alt="image" />
@@ -28,13 +30,13 @@ const About = () => {
                             </div>
                             <div className="workList">
                                 <div className="works">
-                                   
+
                                     <a href="/works">
                                         <Button className='btnWorks'>
-                                        My Works 
-                                        <span >
-                                        <MdKeyboardArrowRight   className='arrowRight1'/>
-                                        </span>
+                                            My Works
+                                            <span >
+                                                <MdKeyboardArrowRight className='arrowRight1' />
+                                            </span>
                                         </Button>
                                     </a>
                                 </div>
@@ -50,7 +52,7 @@ const About = () => {
                             <div className="birthInfoHeading">
                                 <p>Born in</p>
                                 <span>Bangladesh</span>
-                                
+
                             </div>
                             <div className="birthInfoHeading">
                                 <p>Experience</p>
@@ -71,6 +73,7 @@ const About = () => {
 
 
         </div>
+
     );
 };
 
