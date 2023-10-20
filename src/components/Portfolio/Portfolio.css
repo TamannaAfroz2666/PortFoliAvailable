@@ -91,6 +91,11 @@
     padding: 20px 0;
 
 }
+.designDes{
+    width: 250px;
+    font-size: 16px;
+    text-align: justify;
+}
 
 
 .webImages img{
