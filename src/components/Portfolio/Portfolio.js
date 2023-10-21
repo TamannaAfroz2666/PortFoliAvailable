@@ -5,11 +5,7 @@ import web1 from '../../assets/Images/Portfolio/we1.jpg';
 import figma1 from '../../assets/Images/Portfolio/fig1.jpg';
 import web2 from '../../assets/Images/Portfolio/web2.jpg';
 import fig2 from '../../assets/Images/Portfolio/figma2.jpg'
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+
 
 
 
