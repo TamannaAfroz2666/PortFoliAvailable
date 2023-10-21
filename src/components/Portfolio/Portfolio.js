@@ -33,10 +33,6 @@ const Portfolio = () => {
             </div>
             <div className="btnGroupFolio">
                 <div className="btnContents">
-
-
-
-
                     <ul className='listOfLink'>
                         <li>
                             <button className='btnShow' >all</button>
@@ -104,8 +100,9 @@ const Portfolio = () => {
 
             </div>
 
+            {/* <div>
+                
             <h1 className='h1'>jjj</h1>
-            <div>
                 <div class="tab">
                     <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>London</button>
                     <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>Paris</button>
@@ -126,10 +123,7 @@ const Portfolio = () => {
                     <h3>Tokyo</h3>
                     <p>Tokyo is the capital of Japan.</p>
                 </div>
-            </div>
-
-            <h1 className='h1'>jjj</h1>
-
+            </div> */}
         </div>
     );
 };
