@@ -12,6 +12,7 @@ const Testimonials = () => {
                             <p className='ratingTitle'>Rating</p>
                         </div>
                         <h1 className='testimonialSort'>Testimonials</h1>
+                        <p className='testimonialDes'>What My Client Say</p>
                     </div>
                 </div>
 
