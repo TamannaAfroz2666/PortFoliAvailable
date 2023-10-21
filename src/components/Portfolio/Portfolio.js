@@ -5,6 +5,11 @@ import web1 from '../../assets/Images/Portfolio/we1.jpg';
 import figma1 from '../../assets/Images/Portfolio/fig1.jpg';
 import web2 from '../../assets/Images/Portfolio/web2.jpg';
 import fig2 from '../../assets/Images/Portfolio/figma2.jpg'
+import PropTypes from 'prop-types';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 
 
@@ -21,7 +26,7 @@ const Portfolio = () => {
         for (i = 0; i < tabLinks.length; i++) {
             tabLinks[i].className = tabLinks[i].className.replace(" active", "");
         }
-        // document.getElementById(cityName).style.display = "block";
+        document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
     }
 
@@ -100,30 +105,12 @@ const Portfolio = () => {
 
             </div>
 
-            {/* <div>
+            <div>
+
+           
                 
-            <h1 className='h1'>jjj</h1>
-                <div class="tab">
-                    <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>London</button>
-                    <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>Paris</button>
-                    <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>Tokyo</button>
-                </div>
-
-                <div id="London" style={{ display: 'none' }} className="tabcontent">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
-                </div>
-
-                <div id="Paris" style={{ display: 'none' }} className="tabcontent">
-                    <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p>
-                </div>
-
-                <div id="Tokyo" style={{ display: 'none' }} className="tabcontent">
-                    <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
-                </div>
-            </div> */}
+          
+            </div>
         </div>
     );
 };
