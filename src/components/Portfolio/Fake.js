@@ -22,9 +22,9 @@ export default function Fake() {
                         <TabList onChange={handleChange} aria-label="lab API tabs example">
                             <Tab label="All" value="1" />
                             <Tab label="Branding App" value="2" />
-                            <Tab label="Ios App " value="3" />
-                            <Tab label="Landing page " value="4" />
-                            <Tab label="Website " value="5" />
+                           
+                            <Tab label="Landing page " value="3" />
+                            <Tab label="Website " value="4" />
                         </TabList>
                     </Box>
                     <TabPanel value="1">
@@ -33,13 +33,11 @@ export default function Fake() {
                     <TabPanel value="2">
                         <All></All>
                     </TabPanel>
+                    
                     <TabPanel value="3">
-                        <All></All>
-                    </TabPanel>
-                    <TabPanel value="4">
                       <LandingPage></LandingPage>
                     </TabPanel>
-                    <TabPanel value="5">
+                    <TabPanel value="4">
                         <All></All>
                     </TabPanel>
                 </TabContext>
