@@ -6,19 +6,41 @@ import figma1 from '../../assets/Images/Portfolio/fig1.jpg';
 import web2 from '../../assets/Images/Portfolio/web2.jpg';
 import fig2 from '../../assets/Images/Portfolio/figma2.jpg'
 
+
+
+
 const Portfolio = () => {
+
+    const openCity = (evt, cityName) => {
+        var i, tabContent, tabLinks;
+        tabContent = document.getElementsByClassName("tabcontent");
+        // for (i = 0; i < tabContent.length; i++) {
+        //   tabContent[i].style.display = "none";
+        // }
+        tabLinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tabLinks.length; i++) {
+            tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+        }
+        // document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
     return (
         <div className='portfolio'>
             <div className="portfolioHead">
                 <p className='sortTitlePortfolio'>My Portfolio</p>
-                <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>
+                <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>  
             </div>
             <div className="btnGroupFolio">
                 <div className="btnContents">
+
+
+
+
                     <ul className='listOfLink'>
                         <li>
-                        <li><a href="#home" class="menu-btn" onclick="navChanger2()">Home</a></li>
-                            {/* <a href="#b" type='button' className='btnShow' >all</a> */}
+                            <button className='btnShow' >all</button>
+
                         </li>
                         <li>
                             <button className='btnShow' >Branding App</button>
@@ -79,10 +101,35 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                
+
             </div>
 
             <h1 className='h1'>jjj</h1>
+            <div>
+                <div class="tab">
+                    <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>London</button>
+                    <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>Paris</button>
+                    <button style={{ display: 'block' }} className="tablinks" onClick={(event) => openCity(event, 'tokio')}>Tokyo</button>
+                </div>
+
+                <div id="London" style={{ display: 'none' }} className="tabcontent">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+
+                <div id="Paris" style={{ display: 'none' }} className="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+
+                <div id="Tokyo" style={{ display: 'none' }} className="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+            <h1 className='h1'>jjj</h1>
+
         </div>
     );
 };
