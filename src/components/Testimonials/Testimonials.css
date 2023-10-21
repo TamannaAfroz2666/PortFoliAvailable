@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+.testimonial{
+    background-color: #111;
+}
+.testimonialHead{
+    width: 90%;
+    margin: auto;
+}
+.ratings .ratingNumber{
+    color: #fff;
+    font-size: 35px;
+
+}
+.ratings .ratingTitle{
+    color: #fff;
+    font-size: 20px;
+    font-family: poppins;
+    padding: 10px 0;
+}
