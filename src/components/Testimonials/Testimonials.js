@@ -11,6 +11,7 @@ const Testimonials = () => {
                             <h1 className='ratingNumber'>4.8</h1>
                             <p className='ratingTitle'>Rating</p>
                         </div>
+                        <h1>titlw</h1>
                     </div>
                 </div>
 

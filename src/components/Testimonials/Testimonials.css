@@ -9,22 +9,24 @@
 .testimonialHead{
     width: 90%;
     margin: auto;
+    margin-top: 10px;
 }
 .ratings{
     background-color: #ff8c00;
     width: 150px;
-    border-radius: 10px 100px / 120px;
-    margin: 0px 0px -50px 0px;
+    border-radius: 1px 80px / 140px;
+    bottom: 4rem;
+    position: relative;
 }
 .ratings .ratingNumber{
     color: #fff;
     font-size: 35px;
-    padding: 10px 50px;
+    padding: 30px 50px 10px 50px;
 
 }
 .ratings .ratingTitle{
     color: #fff;
     font-size: 20px;
     font-family: poppins;
-    padding: 0px 50px 20px  50px;
+    padding: 0px 50px 40px  50px;
 }
