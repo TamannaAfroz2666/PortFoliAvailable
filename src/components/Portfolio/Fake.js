@@ -6,6 +6,8 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import All from './SubContent/All';
 import LandingPage from './SubContent/LandingPage/LandingPage';
+import Website from './SubContent/Website/Website';
+import BrandingApp from './SubContent/BrandingApp/BrandingApp';
 
 export default function Fake() {
     const [value, setValue] = React.useState('1');
@@ -31,14 +33,14 @@ export default function Fake() {
                         <All></All>
                     </TabPanel>
                     <TabPanel value="2">
-                        <All></All>
+                       <BrandingApp></BrandingApp>
                     </TabPanel>
                     
                     <TabPanel value="3">
                       <LandingPage></LandingPage>
                     </TabPanel>
                     <TabPanel value="4">
-                        <All></All>
+                       <Website></Website>
                     </TabPanel>
                 </TabContext>
             </Box>

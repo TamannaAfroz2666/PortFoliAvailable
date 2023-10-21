@@ -16,7 +16,7 @@ const BrandingApp = () => {
                         <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
                     <div className="webImages">
-                        <img src={web2} alt="" />
+                        <img src={fig2} alt="" />
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@ const BrandingApp = () => {
                         <p className='designDes'>Several factors such as consistency, colours, typography,imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
                     <div className="webImages">
-                        <img src={fig2} alt="" />
+                        <img src={web2} alt="" />
                     </div>
                 </div>
 
