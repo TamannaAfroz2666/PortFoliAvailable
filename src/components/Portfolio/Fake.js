@@ -5,6 +5,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import All from './SubContent/All';
+import LandingPage from './SubContent/LandingPage/LandingPage';
 
 export default function Fake() {
     const [value, setValue] = React.useState('1');
@@ -36,7 +37,7 @@ export default function Fake() {
                         <All></All>
                     </TabPanel>
                     <TabPanel value="4">
-                        <All></All>
+                      <LandingPage></LandingPage>
                     </TabPanel>
                     <TabPanel value="5">
                         <All></All>
