@@ -12,7 +12,7 @@
     margin-top: 10px;
 }
 .ratings{
-    background-color: #ff8c00;
+    background-color: #df9030fb;
     width: 150px;
     border-radius: 1px 80px / 140px;
     bottom: 4rem;
@@ -29,4 +29,11 @@
     font-size: 20px;
     font-family: poppins;
     padding: 0px 50px 40px  50px;
+}
+.testimonialSort{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(54, 54, 235, 0.801);
+    font-weight: 700;
+    text-transform: uppercase;
 }
