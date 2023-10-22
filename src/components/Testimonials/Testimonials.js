@@ -17,7 +17,7 @@ const Testimonials = () => {
                         <h1 className='testimonialSort'>Testimonials</h1>
                         <p className='testimonialDes'>What My Client Say</p>
                     </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                    {/* <button type="button" class="btn btn-primary">Primary</button> */}
 
                     <div className="caroselManu">
                         {/* <button type="button" class="btn btn-primary">Primary</button> */}
@@ -71,8 +71,8 @@ const Testimonials = () => {
                       
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <div className="card-wrapper container-sm d-flex  justify-content-around">
-                                        <div className="card  " >
+                                    <div className="card-wrapper ">
+                                        <div className="card " >
                                             <img src={image} className="card-img-top" alt="..." />
                                             <div className="card-body">
                                                 <h5 className="card-title">Card title</h5>
@@ -88,7 +88,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <div className="card-wrapper container-sm d-flex   justify-content-around">
+                                    <div className="card-wrapper ">
                                         {/* <div class="card  " >
                                             <img src={image2} class="card-img-top" alt="..." />
                                             <div class="card-body">
@@ -113,7 +113,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <div className="card-wrapper container-sm d-flex  justify-content-around">
+                                    <div className="card-wrapper">
                                         {/* <div class="card " >
                                             <img src={image2} class="card-img-top" alt="..." />
                                             <div class="card-body">

@@ -65,19 +65,16 @@
     
   }
   .card-wrapper{
-    visibility: visible;
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
     
   }
   .h11{
     padding-top: 25rem;
     color: #fff;
   }
-  .carousel-indicators {
-    color: red;
-    /* bottom: 9rem !important; */
-    position: relative;
-    margin-top: 80rem;
-  }
-  .iconName{
-    color: red;
-  }
+  
+.card{
+    width: 50%;
+}
