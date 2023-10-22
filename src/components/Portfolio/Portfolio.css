@@ -6,7 +6,7 @@
 .portfolio{
     width: 90%;
     margin: auto;
-    height: 189vh;
+    /* height: 189vh; */
 }
 .portfolioHead .sortTitlePortfolio{
     font-size: 16px;
@@ -27,7 +27,7 @@
 
 }
 .btnGroupFolio{
-    width: 60%;
+    width: 55%;
     margin: auto;
     margin-top: 40px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -35,22 +35,31 @@
     border-radius: 10px;
 }
 
-.btnGroupFolio ul{
+.btnGroupFolio .ul {
     display: flex;
-    gap: 30px;
+    gap: 60px;
     justify-content: center;   
 }
 .listOfLink li{
     list-style: none;
 }
 .listOfLink .btnShow{
-    padding: 8px 20px;
-    font-size: 18px;
+    padding: 8px 40px 20px  40px;
+    font-size: 14px;
     border: 0;
     margin-top: 15px;
     background-color: white;
+    font-weight: 600;
     
 }
+/* tabs .MuiTabs-indicator{
+
+      
+      display: "none"
+    
+    
+  
+  } */
 .showActivities{
     margin-top: 60px;
     display: grid;

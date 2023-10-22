@@ -18,32 +18,42 @@ export default function Fake() {
 
     return (
         <>
-            <Box>
-                <TabContext value={value}>
-                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <TabList onChange={handleChange} aria-label="lab API tabs example">
-                            <Tab label="All" value="1" />
-                            <Tab label="Branding App" value="2" />
-                           
-                            <Tab label="Landing page " value="3" />
-                            <Tab label="Website " value="4" />
-                        </TabList>
-                    </Box>
-                    <TabPanel value="1">
-                        <All></All>
-                    </TabPanel>
-                    <TabPanel value="2">
-                       <BrandingApp></BrandingApp>
-                    </TabPanel>
-                    
-                    <TabPanel value="3">
-                      <LandingPage></LandingPage>
-                    </TabPanel>
-                    <TabPanel value="4">
-                       <Website></Website>
-                    </TabPanel>
-                </TabContext>
-            </Box>
+
+            {/* <Box> */}
+            <TabContext value={value}>
+                <div className="btnGroupFolio">
+                    <div className="btnContents">
+
+                        <Box className='listOfLink' >
+                            <TabList onChange={handleChange} >
+                                <Tab className='btnShow' label="All" value="1" />
+                                <Tab className='btnShow' label="Branding App" value="2" />
+
+                                <Tab className='btnShow' label="Landing page " value="3" />
+                                <Tab className='btnShow' label="Website " value="4" />
+                            </TabList>
+                        </Box>
+
+                    </div>
+
+                </div>
+
+
+                <TabPanel value="1">
+                    <All></All>
+                </TabPanel>
+                <TabPanel value="2">
+                    <BrandingApp></BrandingApp>
+                </TabPanel>
+
+                <TabPanel value="3">
+                    <LandingPage></LandingPage>
+                </TabPanel>
+                <TabPanel value="4">
+                    <Website></Website>
+                </TabPanel>
+            </TabContext>
+            {/* </Box> */}
         </>
     );
 }

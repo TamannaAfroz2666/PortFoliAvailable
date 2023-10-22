@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.landingPage{
+/* .landingPage{
     width: 90%;
     margin: auto;
-}
+} */
 .showActivities{
     margin-top: 60px;
     display: grid;

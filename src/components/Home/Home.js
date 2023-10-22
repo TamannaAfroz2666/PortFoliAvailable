@@ -8,8 +8,8 @@ import Services from '../Services/Services';
 import Skills from '../Skills/Skills';
 import EducationAndExperience from '../EducationAndExperience/EducationAndExperience';
 import Portfolio from '../Portfolio/Portfolio';
-import Fake from '../Portfolio/Fake';
-// import Testimonials from '../Testimonials/Testimonials';
+
+import Testimonials from '../Testimonials/Testimonials';
 // import Products from '../Products/Products';
 
 
@@ -27,9 +27,9 @@ const Home = () => {
             <Skills></Skills>
             <EducationAndExperience></EducationAndExperience>
             <Portfolio></Portfolio>
-            {/* <Testimonials></Testimonials> */}
+            <Testimonials></Testimonials>
 
-            <Fake></Fake>
+    
            
           
         </div>
