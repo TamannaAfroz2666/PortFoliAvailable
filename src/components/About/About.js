@@ -4,8 +4,8 @@ import {ContactWrapper} from './AboutElement';
 import image from '../../assets/Images/Background/ABOUT.jpg'
 // import { IoIosArrowForward } from "react-icons/io";
 // import { AiFillApple } from "react-icons/ai";
-// import { MdKeyboardArrowRight } from "react-icons/md";
-// import { Button } from '@mui/material';
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { Button } from '@mui/material';
 
 
 const About = () => {
@@ -32,12 +32,12 @@ const About = () => {
                                 <div className="works">
 
                                     <a href="/works">
-                                        {/* <Button className='btnWorks'>
+                                        <Button className='btnWorks'>
                                             My Works
                                             <span >
-                                                <MdKeyboardArrowRight className='arrowRight1' />
+                                                <MdKeyboardArrowRight size={20} className='arrowRight1' />
                                             </span>
-                                        </Button> */}
+                                        </Button>
                                     </a>
                                 </div>
 

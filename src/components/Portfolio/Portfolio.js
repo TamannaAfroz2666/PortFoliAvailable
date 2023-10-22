@@ -7,18 +7,17 @@ import web2 from '../../assets/Images/Portfolio/web2.jpg';
 import fig2 from '../../assets/Images/Portfolio/figma2.jpg'
 
 
-// import Box from '@mui/material/Box';
-// // import Tab from '@mui/material/Tab';
-// import TabContext from '@mui/lab/TabContext';
-// import TabList from '@mui/lab/TabList';
-// import TabPanel from '@mui/lab/TabPanel';
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
+
 import All from './SubContent/All';
 import BrandingApp from './SubContent/BrandingApp/BrandingApp';
 import LandingPage from './SubContent/LandingPage/LandingPage';
 import Website from './SubContent/Website/Website';
-import { useState } from 'react';
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
 // import All from './SubContent/All';
 // import LandingPage from './SubContent/LandingPage/LandingPage';
 // import Website from './SubContent/Website/Website';
@@ -29,43 +28,22 @@ import Tabs from 'react-bootstrap/Tabs';
 
 
 const Portfolio = () => {
-    // const [value, setValue] = React.useState('1');
+    const [value, setValue] = React.useState('1');
 
-    // const handleChange = (event, newValue) => {
-    //     setValue(newValue);
-    // };
-    const [key, setKey] = useState('home');
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    };
 
-
+   
 
     return (
         <div className='portfolio'>
             <div className="portfolioHead">
                 <p className='sortTitlePortfolio'>My Portfolio</p>
-                <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>
+                <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>  
             </div>
 
-            <Tabs
-                id="controlled-tab-example"
-                activeKey={key}
-                onSelect={(k) => setKey(k)}
-                className="mb-3"
-            >
-                <Tab eventKey="all" title="All">
-                <All></All>
-                </Tab>
-                <Tab eventKey="branding" title="Branding App">
-                <BrandingApp></BrandingApp>
-                </Tab>
-                <Tab eventKey="landing" title="Landing Page" >
-                <LandingPage></LandingPage>
-                </Tab>
-                <Tab eventKey="website" title="Website" >
-                <Website></Website>
-                </Tab>
-            </Tabs>
-
-            {/* <TabContext value={value}>
+            <TabContext value={value}>
                 <div className="btnGroupFolio">
                     <div className="btnContents">
 
@@ -97,8 +75,30 @@ const Portfolio = () => {
                 <TabPanel value="4">
                    <Website></Website>
                 </TabPanel>
-            </TabContext> */}
+            </TabContext>
+            {/* <div className="btnGroupFolio">
+                <div className="btnContents">
+                    <ul className='listOfLink'>
+                        <li>
+                            <button className='btnShow' >all</button>
 
+                        </li>
+                        <li>
+                            <button className='btnShow' >Branding App</button>
+                        </li>
+                        <li>
+                            <button className='btnShow'>Ios App</button>
+                        </li>
+                        <li>
+                            <button className='btnShow'>Landing Page</button>
+                        </li>
+                        <li>
+                            <button className='btnShow'>Website</button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div> */}
 
 
             {/* <div className="showActivities">
@@ -149,9 +149,9 @@ const Portfolio = () => {
 
             <div>
 
-
-
-
+           
+                
+          
             </div>
         </div>
     );

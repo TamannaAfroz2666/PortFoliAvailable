@@ -1,8 +1,8 @@
 import React from 'react';
 import './Services.css';
-// import image from '../../assets/Images/Background/Leaf.jpg'
-// import { BsCircleFill } from "react-icons/bs";
-// import Button from '@mui/material/Button';
+import image from '../../assets/Images/Background/Leaf.jpg'
+import { BsCircleFill } from "react-icons/bs";
+import Button from '@mui/material/Button';
 
 
 const Services = () => {
@@ -22,8 +22,8 @@ const Services = () => {
 
                         <div className=" noteHead">
 
-                            {/* <Button variant="text"> <BsCircleFill className='iconBall' color='yellow' size={1} /></Button>
-                            <Button variant="text"> <BsCircleFill className='iconBallRed' color='yellow' size={1} /></Button> */}
+                            <Button variant="text"> <BsCircleFill className='iconBall' color='yellow' size={20} /></Button>
+                            <Button variant="text"> <BsCircleFill className='iconBallRed' color='yellow' size={10} /></Button>
                             <h1 className='numberNote'>01</h1>
                             <p className='noteDescription'>
                                 There are many variations of passages ipsum available , but the majority  have some form, by injected humour, and randomised words which looks even slightly believable
