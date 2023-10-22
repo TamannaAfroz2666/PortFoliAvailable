@@ -1,8 +1,8 @@
 import React from 'react';
 import './Services.css';
 // import image from '../../assets/Images/Background/Leaf.jpg'
-import { BsCircleFill } from "react-icons/bs";
-import Button from '@mui/material/Button';
+// import { BsCircleFill } from "react-icons/bs";
+// import Button from '@mui/material/Button';
 
 
 const Services = () => {
@@ -22,8 +22,8 @@ const Services = () => {
 
                         <div className=" noteHead">
 
-                            <Button variant="text"> <BsCircleFill className='iconBall' color='yellow' size={1} /></Button>
-                            <Button variant="text"> <BsCircleFill className='iconBallRed' color='yellow' size={1} /></Button>
+                            {/* <Button variant="text"> <BsCircleFill className='iconBall' color='yellow' size={1} /></Button>
+                            <Button variant="text"> <BsCircleFill className='iconBallRed' color='yellow' size={1} /></Button> */}
                             <h1 className='numberNote'>01</h1>
                             <p className='noteDescription'>
                                 There are many variations of passages ipsum available , but the majority  have some form, by injected humour, and randomised words which looks even slightly believable
@@ -39,16 +39,16 @@ const Services = () => {
                             <p className='titleDesign'>Designer</p>
                             <p className='nameOfWork' >Illustration Designer </p>
                         </div>
-                        <div className="designer designer animated2 animatedFadeInUp fadeInUp">
+                        {/* <div className="designer designer animated2 animatedFadeInUp fadeInUp">
                             <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>Branding</p>
                             <p className='nameOfWork'>Business Branding </p>
-                        </div>
-                        <div className="designer animated animatedFadeInUp fadeInUp">
+                        </div> */}
+                        {/* <div className="designer animated animatedFadeInUp fadeInUp">
                             <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>Design System</p>
                             <p className='nameOfWork'>Illustration Designer </p>
-                        </div>
+                        </div> */}
                         <div className="designer animated3 animatedFadeInUp fadeInUp">
                             <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>UI/UX Design </p>

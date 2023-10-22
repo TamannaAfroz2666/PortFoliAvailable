@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 // import DeleteIcon from '@mui/icons-material/Delete';
 // import SendIcon from '@mui/icons-material/Send';
 // import Stack from '@mui/material/Stack';
-
+// import { FaBeer } from "react-icons/fa";
 
 const WelcomePage = () => {
 
@@ -21,7 +21,7 @@ const WelcomePage = () => {
                 <div className="infoSection">
                     <div className="personalInfo">
                         <p className='sort_title'>Welcome To My World</p>
-
+                      
                         <div className="scrollerHead">
                             <div className="scroller">
                                 <span>
@@ -42,7 +42,7 @@ const WelcomePage = () => {
 
                             <span className='span' id="fish1"> * </span>
 
-                            <svg fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
+                            <svg className='svg' fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
                                 <path d="M 50 80 C 150 -20 250 180 350 80" />
 
                             </svg>
@@ -54,9 +54,10 @@ const WelcomePage = () => {
                         <div className="backgroundPart">
                             <div className="btnInfo">
                               
-                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon'  />}>
+                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon' size={30} />}>
+                                 
                                     Message 
-                                    <BsArrowRightCircle className='arrowIcon' size={10}/>
+                                    <BsArrowRightCircle className='arrowIcon' size={20}/>
                                 </Button>
 
                             </div>

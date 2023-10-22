@@ -7,7 +7,7 @@ import About from '../About/About';
 import Services from '../Services/Services';
 import Skills from '../Skills/Skills';
 import EducationAndExperience from '../EducationAndExperience/EducationAndExperience';
-import Portfolio from '../Portfolio/Portfolio';
+// import Portfolio from '../Portfolio/Portfolio';
 
 import Testimonials from '../Testimonials/Testimonials';
 // import Products from '../Products/Products';
@@ -26,7 +26,7 @@ const Home = () => {
             <Services></Services>
             <Skills></Skills>
             <EducationAndExperience></EducationAndExperience>
-            <Portfolio></Portfolio>
+            {/* <Portfolio></Portfolio> */}
             <Testimonials></Testimonials>
 
     

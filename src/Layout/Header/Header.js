@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu  } from "react-icons/ai";
 // import logo2 from '../../assets/Images/Logo/logo2.jpg'
 import logo from '../../assets/Images/Logo/logo.jpg';
 import Button from '@mui/material/Button';
@@ -10,6 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import { RxCross2 } from "react-icons/rx";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
+
 
 
 const Header = () => {
@@ -28,7 +29,7 @@ const Header = () => {
         setOpen(false);
     };
 
-    const action = (
+     const action = (
         <React.Fragment>
             <Button color="secondary" size="small" onClick={handleClose}>
                 UNDO
@@ -40,6 +41,7 @@ const Header = () => {
                 onClick={handleClose}
             >
                 <RxCross2 fontSize="small" />
+               
             </IconButton>
         </React.Fragment>
     );
@@ -71,7 +73,7 @@ const Header = () => {
                                 </ul>
 
                             </li>
-                            <li><Link smooth duration={500} to="about">About Me</Link>
+                            <li><NavLink smooth duration={500} to="about">About Me</NavLink>
                                 <hr className='underline1' color='yellow' />
                             </li>
                             

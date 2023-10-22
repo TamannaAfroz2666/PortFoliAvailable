@@ -145,16 +145,17 @@
   font-family: sans-serif;
   border: 1px solid black;
   border-radius: 12px;
-  text-transform: capitalize;
+  
   
 }
 .btnInfo  .mailIcon{
-  width: 30px;
+  width: 48px;
   color: #faf9f9cb;
-  left: -5px;
+  left: -10px;
   position: relative;
-  background-color: #111;
+  background-color: #11111109;
   border-radius: 50px;
+  /* padding: 10px 0; */
 }
 .btnInfo  .arrowIcon{
   width: 18px;
@@ -178,7 +179,7 @@
   animation: moveImg 8s 3;
 }
 
-svg {
+.svg {
   position: absolute;
   height: 100%;
   width: 100%;

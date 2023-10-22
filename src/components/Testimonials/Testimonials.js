@@ -3,6 +3,7 @@ import './Testimonials.css';
 import image from '../../assets/Images/Portfolio/fig1.jpg'
 import image2 from '../../assets/Images/Portfolio/figma2.jpg'
 // import Carousel from 'react-bootstrap/Carousel';
+import { FaBeer } from 'react-icons/fa';
 
 const Testimonials = () => {
     return (
@@ -17,10 +18,10 @@ const Testimonials = () => {
                         <h1 className='testimonialSort'>Testimonials</h1>
                         <p className='testimonialDes'>What My Client Say</p>
                     </div>
-                    {/* <button type="button" class="btn btn-primary">Primary</button> */}
+
 
                     <div className="caroselManu">
-                        {/* <button type="button" class="btn btn-primary">Primary</button> */}
+
 
                         {/* <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -62,29 +63,53 @@ const Testimonials = () => {
                         </div> */}
                         <div id="carouselExampleAutoplaying" class=" carousel slide" data-bs-ride="carousel">
 
-                        {/* <div class="carousel-indicators">
+                            {/* <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active btncaro" aria-current="true" aria-label="Slide 1">
                                 </button>
                                 <button type="button" className='btncaro' data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                
                             </div> */}
-                      
+
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <div className="card-wrapper ">
                                         <div className="card " >
-                                            <img src={image} className="card-img-top" alt="..." />
+
+
+                                            {/* <span className='iconTom'><AiFillStar  size={6}/></span> */}
+
+                                            {/* <img src={image} className="card-img-top" alt="..." /> */}
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
                                             <div className="card-body">
-                                                <h5 className="card-title">Card title</h5>
+                                                {/* <h5 className="card-title">Card title</h5> */}
+                                                <div className="imageCardSec">
+                                                    <div className="imageCardTest">
+                                                        <div className="img">
+                                                            {/* <img src={image} className="card-img-top" alt="..." /> */}
+
+                                                        </div>
+                                                        <div className="infoImgTest">
+                                                            <p> Nicolas Marko</p>
+                                                            <p>Web developer</p>
+                                                           
+                                                            <br></br>
+                                                            <p> Nicolas Marko</p>
+                                                            <p>Web developer</p>
+                                                            
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div><div className="card" >
+                                        </div>
+                                        <div className="card" >
                                             <img src={image} className="card-img-top" alt="..." />
                                             <div className="card-body">
                                                 <h5 className="card-title">Card title</h5>
 
                                             </div>
                                         </div>
-                                      
+
                                     </div>
                                 </div>
                                 <div className="carousel-item">
@@ -155,13 +180,13 @@ const Testimonials = () => {
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button> */}
-                           
+
 
                         </div>
                     </div>
 
-
-                    <h1 className='h11'>hhh</h1>
+                    
+                    <h1 className='h11'>hhh <FaBeer color='white' size={13}/> </h1>
 
                 </div>
             </div>
