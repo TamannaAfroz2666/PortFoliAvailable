@@ -14,6 +14,7 @@ const Testimonials = () => {
                         <h1 className='testimonialSort'>Testimonials</h1>
                         <p className='testimonialDes'>What My Client Say</p>
                     </div>
+                    <button type="button" class="btn btn-primary">Primary</button>
                 </div>
 
             </div>
