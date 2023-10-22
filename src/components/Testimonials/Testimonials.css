@@ -47,3 +47,37 @@
     color: #fff;
     font-family: poppins;
 }
+.caroselManu{
+    /* width: 90%; */
+    /* margin: auto; */
+    margin-top: 4rem;
+    height: 20px;
+    /* top: 8rem; */
+}
+.carousel-item img{
+    width: 90%;
+    max-width: auto;
+    height: 16rem;
+}
+.card{
+    padding:0;
+    width: 18rem;
+    
+  }
+  .card-wrapper{
+    visibility: visible;
+    
+  }
+  .h11{
+    padding-top: 25rem;
+    color: #fff;
+  }
+  .carousel-indicators {
+    color: red;
+    /* bottom: 9rem !important; */
+    position: relative;
+    margin-top: 80rem;
+  }
+  .iconName{
+    color: red;
+  }
