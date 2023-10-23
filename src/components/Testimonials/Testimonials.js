@@ -3,8 +3,8 @@ import './Testimonials.css';
 import image from '../../assets/Images/Portfolio/fig1.jpg'
 import image2 from '../../assets/Images/Portfolio/figma2.jpg'
 // import Carousel from 'react-bootstrap/Carousel';
-import { FaBeer } from 'react-icons/fa';
 import { AiFillStar } from "react-icons/ai";
+import image1 from '../../assets/Images/Background/Pic1.jpg';
 
 const Testimonials = () => {
     return (
@@ -76,31 +76,24 @@ const Testimonials = () => {
                                     <div className="card-wrapper ">
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                       <AiFillStar color='yellow' size={25} className='starIcon' /> 
-                                       <AiFillStar color='yellow' size={25} className='starIcon'/> 
-                                       <AiFillStar color='yellow' size={25} className='starIcon'/> 
-                                       <AiFillStar color='yellow' size={25} className='starIcon'/> 
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
 
                                             </span>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
+                                            <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
                                             <div className="card-body">
                                                 {/* <h5 className="card-title">Card title</h5> */}
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            {/* <img src={image} className="card-img-top" alt="..." /> */}
-
+                                                            <img src={image1}  alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
                                                             <p> Nicolas Marko</p>
-                                                            <p>Web developer</p>
-                                                           
-                                                            <br></br>
-                                                            <p> Nicolas Marko</p>
-                                                            <p>Web developer</p>
-                                                            
+                                                            <span>Web developer</span>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
@@ -188,8 +181,8 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    
-                    <h1 className='h11'>hhh <FaBeer color='white' size={13}/> </h1>
+
+                    <h1 className='h11'>hhh  </h1>
 
                 </div>
             </div>
