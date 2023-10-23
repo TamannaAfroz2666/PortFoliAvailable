@@ -1,7 +1,7 @@
 import React from 'react';
 import './Customer.css';
 import image1 from '../../../assets/Images/Blog/1.png'
-import image2 from '../../../assets/Images/Blog/2.png';
+
 import image3 from '../../../assets/Images/Blog/3.png';
 
 

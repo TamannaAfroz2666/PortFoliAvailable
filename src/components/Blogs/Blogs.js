@@ -1,6 +1,7 @@
 import React from 'react';
 import './Blogs.css';
 import Customer from './Customer/Customer';
+import BlogWebsite from './BlogWebsite/BlogWebsite';
 
 const Blogs = () => {
     return (
@@ -16,6 +17,7 @@ const Blogs = () => {
 
                     </div>
                     <div className="websiteBlog">
+                        <BlogWebsite></BlogWebsite>
 
                     </div>
                     <div className="usability">
