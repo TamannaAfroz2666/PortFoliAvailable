@@ -14,9 +14,24 @@
 .phoneIcon{
     width: 60px;
     height: 60px;
-    background-color: SlateBlue;
+    background-color: rgba(105, 90, 205, 0.863);
     border-radius: 10px;
 }
 .locationPhoneIcon{
     margin: 15px ;
+}
+.phoneInfo .phoneTitle{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111cc;
+    text-transform: uppercase;
+}
+.phoneInfo .phoneNumber{
+    font-size: 22px;
+    font-weight: 700;
+    color: #272626fd;
+    bottom: 10px;
+    position: relative;
+    
+
 }
