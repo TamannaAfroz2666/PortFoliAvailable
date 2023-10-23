@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-.contactMeHead{
+.contactMe{
     background-color: #111;
     height: 120vh;
+}
+.contactMeHead{
+    width: 90%;
+    margin: auto;
 }
 .contactMeTitle .contactOfTitle{
     font-size: 16px;
@@ -14,4 +18,13 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 7rem;
+}
+.contactMeBody{
+    display: flex;
+
+}
+.imagePart img{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
 }
