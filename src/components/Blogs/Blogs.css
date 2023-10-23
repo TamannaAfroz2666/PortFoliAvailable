@@ -23,3 +23,8 @@
     color: #000000e7;
     font-family: poppins;
 }
+.cardContent{
+    margin-top: 60px;
+    display: flex;
+    gap: 60px;
+}
