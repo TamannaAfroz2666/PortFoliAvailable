@@ -1,6 +1,7 @@
 import React from 'react';
 import './PersonalPlan.css';
 import BasicPlan from './BasicPlan/BasicPlan';
+import GoldPlan from './GoldPlan/GoldPlan';
 
 const PersonalPlan = () => {
     return (
@@ -20,6 +21,7 @@ const PersonalPlan = () => {
 
                         </div>
                         <div className="goldPlan">
+                            <GoldPlan></GoldPlan>
 
                         </div>
                     </div>

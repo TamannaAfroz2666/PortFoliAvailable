@@ -24,7 +24,17 @@
     font-family: poppins;
 
 }
+.planContent{
+    display: flex;
+    gap: 60px;
+
+}
 .basicPlan{
     width: 360px;
     background-color: wheat;
+}
+.goldPlan{
+    width: 360px;
+    background-color: wheat;
+
 }

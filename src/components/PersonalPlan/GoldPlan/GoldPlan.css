@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+.goldPlan{
+    height: 84vh;
+}
+.goldContent{
+    padding: 40px 40px;
+
+}
+.goldContent .goldTitle{
+    font-size: 22px;
+    color: #111;
+    font-weight: 600;
+}
+.goldContent .goldDollarBasic{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.goldContent .GoldMonth{
+    font-size: 19px;
+    padding: 0px 0 15px 0;
+    color: #111111be;
+    font-weight: 600;
+}
+.goldPlanTitles{
+    font-size: 18px;
+    color: #111111d2;
+    font-weight: 400; 
+}
+
+.bsArrowGold{
+    padding: 0 10px 0 0;
+}
+.goldContent a{
+    text-decoration: none;
+}
+.goldContent button{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0 ;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 0;
+    background-color: #347ce9d5;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: #ffc107;
+    color: #111;
+
+}

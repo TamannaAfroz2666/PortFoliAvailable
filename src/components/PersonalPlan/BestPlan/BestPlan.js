@@ -2,7 +2,11 @@ import React from 'react';
 import './BestPlan.css';
 const BestPlan = () => {
     return (
-        <div>
+        const btnStart =() =>{
+            console.log('new project of gold');
+        }
+        <div className='bestPlan'>
+
             
         </div>
     );
