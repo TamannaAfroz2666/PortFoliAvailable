@@ -5,7 +5,12 @@ import image2 from '../../assets/Images/Portfolio/figma2.jpg'
 // import Carousel from 'react-bootstrap/Carousel';
 import { AiFillStar } from "react-icons/ai";
 import { PiQuotesBold } from "react-icons/pi";
-import image1 from '../../assets/Images/Background/Pic1.jpg';
+import image1 from '../../assets/Images/Client/Pic1.jpg';
+import img2 from '../../assets/Images/Client/pic2.jpg';
+import image3 from '../../assets/Images/Client/pic3.jpg'
+import image4 from '../../assets/Images/Client/pic4.jpg'
+import image5 from '../../assets/Images/Client/pic5.jpg'
+import image6 from '../../assets/Images/Client/pice4.jpg'
 
 const Testimonials = () => {
     return (
@@ -23,52 +28,19 @@ const Testimonials = () => {
 
 
                     <div className="caroselManu">
-
-
-                        {/* <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src={image} class="d-block w-100" alt="..." />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src={image2} class="d-block w-100" alt="" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Second slide label</h5>
-                                        <p>Some representative placeholder content for the second slide.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src={image} class="d-block w-100" alt="..." />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Third slide label</h5>
-                                        <p>Some representative placeholder content for the third slide.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div> */}
                         <div id="carouselExampleAutoplaying" class=" carousel slide" data-bs-ride="carousel">
 
                             {/* <div class="carousel-indicators">
+                                <div className="indicatorSection">
+
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active btncaro" aria-current="true" aria-label="Slide 1">
                                 </button>
-                                <button type="button" className='btncaro' data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" className='btncaro' data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
+                                    
+                                </button>
+
+                                </div>
+                               
                                
                             </div> */}
 
@@ -118,10 +90,10 @@ const Testimonials = () => {
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            <img src={image1} alt="..." />
+                                                            <img src={img2} alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
-                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <p className='clientName'> Mohin khan</p>
                                                             <span className='ClientDo'>Web developer</span>
                                                         </div>
                                                     </div>
@@ -154,10 +126,10 @@ const Testimonials = () => {
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            <img src={image1} alt="..." />
+                                                            <img src={image3} alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
-                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <p className='clientName'> Ani Kris</p>
                                                             <span className='ClientDo'>Web developer</span>
                                                         </div>
                                                     </div>
@@ -184,10 +156,10 @@ const Testimonials = () => {
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            <img src={image1} alt="..." />
+                                                            <img src={image4} alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
-                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <p className='clientName'> Junior Sijan</p>
                                                             <span className='ClientDo'>Web developer</span>
                                                         </div>
                                                     </div>
@@ -219,10 +191,10 @@ const Testimonials = () => {
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            <img src={image1} alt="..." />
+                                                            <img src={image5} alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
-                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <p className='clientName'> Rahul Bikas</p>
                                                             <span className='ClientDo'>Web developer</span>
                                                         </div>
                                                     </div>
@@ -249,10 +221,10 @@ const Testimonials = () => {
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            <img src={image1} alt="..." />
+                                                            <img src={image6} alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
-                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <p className='clientName'> Anna Marko</p>
                                                             <span className='ClientDo'>Web developer</span>
                                                         </div>
                                                     </div>
@@ -268,26 +240,8 @@ const Testimonials = () => {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon iconName" aria-hidden="false"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button> */}
-                                {/* <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button> */}
+                               
                             </div>
-
-                            {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button> */}
-
-
                         </div>
                     </div>
 
