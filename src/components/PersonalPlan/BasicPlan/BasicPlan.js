@@ -8,8 +8,8 @@ const BasicPlan = () => {
         <div className='basicPlanHed'>
             <div className="basicContent">
                 <h3 className='basicTitle'>Basic Plan</h3>
-                <h1>$99.00</h1>
-                <p>Per month</p>
+                <h1 className='dollarBasic'>$99.00</h1>
+                <p className='perMonth'>Per month</p>
                 <hr />
                 <p> <span> <BsArrowRightCircle size={20} color='red'/> </span> 1 Page with Elementor</p>
                 <p> <span> <BsArrowRightCircle size={20} color='red'/> </span> Content Upload</p>
