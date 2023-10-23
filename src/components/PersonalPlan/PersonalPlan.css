@@ -15,3 +15,12 @@
     text-transform: uppercase;
 
 }
+.planningContentHead .planningTitle{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #111111e5;
+    font-family: poppins;
+
+}
