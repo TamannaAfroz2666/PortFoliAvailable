@@ -29,6 +29,13 @@
     font-size: 28px;
     color: #111111e3;
     font-weight: 600;
-    padding: 0px 30px 10px 30px;
+    padding: 0px 0px 10px 30px;
+    font-family: poppins;
+}
+.customerCard .cardDes{
+    font-size: 18px;
+    color: #111111e3;
+    font-weight: 400;
+    padding: 0px 0px 30px 30px;
     font-family: poppins;
 }
