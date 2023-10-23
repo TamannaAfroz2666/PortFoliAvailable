@@ -4,6 +4,7 @@ import image from '../../assets/Images/Portfolio/fig1.jpg'
 import image2 from '../../assets/Images/Portfolio/figma2.jpg'
 // import Carousel from 'react-bootstrap/Carousel';
 import { FaBeer } from 'react-icons/fa';
+import { AiFillStar } from "react-icons/ai";
 
 const Testimonials = () => {
     return (
@@ -74,11 +75,13 @@ const Testimonials = () => {
                                 <div className="carousel-item active">
                                     <div className="card-wrapper ">
                                         <div className="card " >
+                                            <span className='StartIconTest'>
+                                       <AiFillStar color='yellow' size={25} className='starIcon' /> 
+                                       <AiFillStar color='yellow' size={25} className='starIcon'/> 
+                                       <AiFillStar color='yellow' size={25} className='starIcon'/> 
+                                       <AiFillStar color='yellow' size={25} className='starIcon'/> 
 
-
-                                            {/* <span className='iconTom'><AiFillStar  size={6}/></span> */}
-
-                                            {/* <img src={image} className="card-img-top" alt="..." /> */}
+                                            </span>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
                                             <div className="card-body">
                                                 {/* <h5 className="card-title">Card title</h5> */}

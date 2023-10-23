@@ -83,12 +83,20 @@
     width: 100px;
     height: 90px;
 }
-.starIcon .start{
+/* .starIcon .start{
     width: 30px;
     height: 40px;
     font-size: 40px;
+} */
+.StartIconTest{
+    width: 120px;
+    padding: 8px 10px;
+    background-color: rgba(245, 218, 218, 0.5);
+    margin: 20px 0 20px 30px;
+    border-radius: 20px;
+
 }
-.iconTom{
-    width: 100px;
-    height: 50px;
+.StartIconTest .starIcon{
+    padding: 0 2px;
+
 }
