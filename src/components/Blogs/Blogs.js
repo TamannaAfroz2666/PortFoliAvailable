@@ -7,6 +7,7 @@ const Blogs = () => {
             <div className="blogHead">
                 <div className="blogBody">
                     <p className='blogSort'>From my blog</p>
+                    <p className='blogTitle'>Visit my blog and <br />Keep your feedback</p>
                 </div>
 
             </div>
