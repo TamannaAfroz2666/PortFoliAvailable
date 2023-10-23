@@ -3,10 +3,10 @@ import './ContactMe.css';
 import image from '../../../../assets/Images/Background/ContactMe/Contact.jpg'
 import image1 from '../../../../assets/Images/Background/ContactMe/ContactMe.jpg'
 const ContactMe = () => {
-    const nameChange =() =>{
+    const nameChange = () => {
         console.log('name in input field');
     }
-    const emailChange =() =>{
+    const emailChange = () => {
         console.log('name in email field');
     }
     return (
@@ -14,7 +14,7 @@ const ContactMe = () => {
             <div className="contactMeHead">
                 <div className="contactMeTitle">
                     <p className='contactOfTitle'>Contact me</p>
-                    
+
                 </div>
                 <div className="contactMeBody">
                     <div className="imagePart">
@@ -22,23 +22,23 @@ const ContactMe = () => {
 
                     </div>
                     <div className="ContactInfoHead">
-                       <h1 className='infoTitle'> Let's Talk About Ideas </h1>
-                       <div className="contentsOfInfo">
-                        <div className="name">
-                        <input type="text" onChange={nameChange}  placeholder='Enter Full Name' name='name' autoComplete='off' />
+                        <h1 className='infoTitle'> Let's Talk About Ideas </h1>
+                        <div className="contentsOfInfo">
+                            <div className="nameOfInput">
+                                <input type="text" className='nameField' onChange={nameChange} placeholder='Enter Full Name' name='name' autoComplete='off' />
 
-                        </div>
-                        <div className="email">
-                        <input type="email" className='emailField' onChange={emailChange}  placeholder='Email Address' name='email' />
+                            </div>
+                            <div className="email">
+                                <input type="email" className='emailField' onChange={emailChange} placeholder='Email Address' name='email' />
 
+                            </div>
                         </div>
-                       </div>
                     </div>
 
                 </div>
 
             </div>
-            
+
         </div>
     );
 };

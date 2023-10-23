@@ -50,14 +50,20 @@
     gap: 50px;
     margin-top: 50px;
 }
-.contentsOfInfo .name input{
+ .nameField {
     width: 250px;
-    max-height: 50px;
+    height: 50px;
     background-color: #111;
-    border: 1px solid white;
+    border: 1px solid rgba(236, 224, 224, 0.267);
+ 
+    color: #fff;
+    
 
 }
 ::placeholder{
     font-size: 16px;
     color: #fff;
+    padding-left:  20px ;
+    
+
 }
