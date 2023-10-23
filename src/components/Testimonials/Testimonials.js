@@ -85,7 +85,6 @@ const Testimonials = () => {
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
                                             <div className="card-body">
-                                                {/* <h5 className="card-title">Card title</h5> */}
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
@@ -106,11 +105,34 @@ const Testimonials = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="card" >
-                                            <img src={image} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Card title</h5>
+                                        <div className="card " >
+                                            <span className='StartIconTest'>
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
 
+                                            </span>
+                                            <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
+                                            <div className="card-body">
+                                                <div className="imageCardSec">
+                                                    <div className="imageCardTest">
+                                                        <div className="img">
+                                                            <img src={image1} alt="..." />
+                                                        </div>
+                                                        <div className="infoImgTest">
+                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <span className='ClientDo'>Web developer</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="iconRight">
+                                                        <span className='iconRiQuo'>
+                                                            <PiQuotesBold size={35} className='piQuote'/>
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -118,50 +140,130 @@ const Testimonials = () => {
                                 </div>
                                 <div className="carousel-item">
                                     <div className="card-wrapper ">
-                                        {/* <div class="card  " >
-                                            <img src={image2} class="card-img-top" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
+                                       
+                                    <div className="card " >
+                                            <span className='StartIconTest'>
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
 
-                                            </div>
-                                        </div> */}
-                                        <div className="card" >
-                                            <img src={image} className="card-img-top" alt="..." />
+                                            </span>
+                                            <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
                                             <div className="card-body">
-                                                <h5 className="card-title">Card title</h5>
+                                                <div className="imageCardSec">
+                                                    <div className="imageCardTest">
+                                                        <div className="img">
+                                                            <img src={image1} alt="..." />
+                                                        </div>
+                                                        <div className="infoImgTest">
+                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <span className='ClientDo'>Web developer</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="iconRight">
+                                                        <span className='iconRiQuo'>
+                                                            <PiQuotesBold size={35} className='piQuote'/>
 
+                                                        </span>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="card" >
-                                            <img src={image2} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Card title</h5>
+                                        <div className="card " >
+                                            <span className='StartIconTest'>
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
 
+                                            </span>
+                                            <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
+                                            <div className="card-body">
+                                                <div className="imageCardSec">
+                                                    <div className="imageCardTest">
+                                                        <div className="img">
+                                                            <img src={image1} alt="..." />
+                                                        </div>
+                                                        <div className="infoImgTest">
+                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <span className='ClientDo'>Web developer</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="iconRight">
+                                                        <span className='iconRiQuo'>
+                                                            <PiQuotesBold size={35} className='piQuote'/>
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <div className="card-wrapper">
-                                        {/* <div class="card " >
-                                            <img src={image2} class="card-img-top" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
+                                       
+                                    <div className="card " >
+                                            <span className='StartIconTest'>
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
 
-                                            </div>
-                                        </div> */}
-                                        <div className="card" >
-                                            <img src={image} className="card-img-top" alt="..." />
+                                            </span>
+                                            <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
                                             <div className="card-body">
-                                                <h5 className="card-title">Card title</h5>
+                                                <div className="imageCardSec">
+                                                    <div className="imageCardTest">
+                                                        <div className="img">
+                                                            <img src={image1} alt="..." />
+                                                        </div>
+                                                        <div className="infoImgTest">
+                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <span className='ClientDo'>Web developer</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="iconRight">
+                                                        <span className='iconRiQuo'>
+                                                            <PiQuotesBold size={35} className='piQuote'/>
 
+                                                        </span>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="card" >
-                                            <img src={image2} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Card title</h5>
+                                        <div className="card " >
+                                            <span className='StartIconTest'>
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={25} className='starIcon' />
 
+                                            </span>
+                                            <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
+                                            <div className="card-body">
+                                                <div className="imageCardSec">
+                                                    <div className="imageCardTest">
+                                                        <div className="img">
+                                                            <img src={image1} alt="..." />
+                                                        </div>
+                                                        <div className="infoImgTest">
+                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <span className='ClientDo'>Web developer</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="iconRight">
+                                                        <span className='iconRiQuo'>
+                                                            <PiQuotesBold size={35} className='piQuote'/>
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
