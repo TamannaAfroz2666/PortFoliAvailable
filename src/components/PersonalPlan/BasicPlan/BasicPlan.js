@@ -4,6 +4,9 @@ import { FiArrowRightCircle } from "react-icons/fi";
 
 
 const BasicPlan = () => {
+    const btnStart =() =>{
+        console.log('new project');
+    }
     return (
         <div className='basicPlanHed'>
             <div className="basicContent">
@@ -20,7 +23,9 @@ const BasicPlan = () => {
                 <p className='basicPlanTitles'> <span className='bsArrowBasic'> <FiArrowRightCircle color='purple'  size={20} /> </span> Design with XD</p>
 
                 <p className='basicPlanTitles'> <span className='bsArrowBasic'> <FiArrowRightCircle color='purple' size={20} /> </span>Project Management</p>
-                <button>Start My Project Now</button>
+                <a href="/projectShow">
+                <button type='button' onClick={btnStart}>Start My Project Now</button>
+                </a>
                
             </div>
             

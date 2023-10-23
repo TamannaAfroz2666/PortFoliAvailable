@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.basicPlanHed{
+    height: 84vh;
+}
 .basicContent{
     padding: 40px 40px;
 
@@ -30,4 +33,26 @@
 
 .bsArrowBasic{
     padding: 0 10px 0 0;
+}
+.basicContent a{
+    text-decoration: none;
+}
+.basicContent button{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0 ;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 0;
+    background-color: #347ce9d5;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: #ffc107;
+    color: #111;
+
 }
