@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 .personalPlan{
+    height: 150vh;
+    background-color: rgba(235, 203, 160, 0.226);
+}
+.planningHead{
     width: 90%;
     margin: auto;
 }
@@ -13,6 +17,7 @@
     color: rgba(54, 54, 235, 0.801);
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 5rem;
 
 }
 .planningContentHead .planningTitle{
@@ -31,7 +36,7 @@
 }
 .basicPlan{
     width: 360px;
-    background-color: wheat;
+    background-color: white;
     border-radius: 10px;
 }
 .bestPlan{
@@ -42,6 +47,6 @@
 }
 .goldPlan{
     width: 360px;
-    background-color: wheat;
+    background-color: white;
     border-radius: 10px;
 }

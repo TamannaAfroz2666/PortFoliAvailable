@@ -6,10 +6,20 @@
 .goldPlanHead{
     height: 84vh;
 }
+.sortPlanB{
+    float: right;
+    color: #fff;
+    padding: 6px 12px;
+    background-color: #ffc107ee;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius:  5px 45px / 140px;
+}
 .bestPlanContent{
     padding: 40px 40px;
 
 }
+
 .bestPlanContent .bestPlanTitle{
     font-size: 22px;
     color: #fff;
@@ -54,6 +64,6 @@
 }
 button:hover{
     background-color: #ffc107;
-    color: #fff;
+    color: #111;
 
 }

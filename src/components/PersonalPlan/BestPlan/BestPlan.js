@@ -9,9 +9,12 @@ const BestPlan = () => {
     return (
 
         <div className='bestPlanHead'>
+            <p className='sortPlanB'>Best Plan</p>
 
             <div className="bestPlanContent">
-                <h3 className='bestPlanTitle'>Best Plan</h3>
+                
+
+                <h3 className='bestPlanTitle'>Basic Plan</h3>
                 <h1 className='bestPlanDollar'>$279.00</h1>
                 <p className='bestPlanMonth'>Per month</p>
                 <hr />
