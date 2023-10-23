@@ -128,3 +128,22 @@
     bottom: 15px;
     position: relative;
 }
+.iconRight{
+    margin-top: 20px;
+}
+.iconRiQuo{
+    padding: 26px 20px;
+    background-color: SlateBlue;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.iconRiQuo .piQuote{
+    bottom: 4px;
+    position: relative;
+
+}
+.imageCardSec{
+    display: flex;
+    justify-content: space-between;
+}

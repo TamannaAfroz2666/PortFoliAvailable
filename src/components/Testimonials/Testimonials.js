@@ -4,6 +4,7 @@ import image from '../../assets/Images/Portfolio/fig1.jpg'
 import image2 from '../../assets/Images/Portfolio/figma2.jpg'
 // import Carousel from 'react-bootstrap/Carousel';
 import { AiFillStar } from "react-icons/ai";
+import { PiQuotesBold } from "react-icons/pi";
 import image1 from '../../assets/Images/Background/Pic1.jpg';
 
 const Testimonials = () => {
@@ -88,12 +89,19 @@ const Testimonials = () => {
                                                 <div className="imageCardSec">
                                                     <div className="imageCardTest">
                                                         <div className="img">
-                                                            <img src={image1}  alt="..." />
+                                                            <img src={image1} alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
                                                             <p className='clientName'> Nicolas Marko</p>
                                                             <span className='ClientDo'>Web developer</span>
                                                         </div>
+                                                    </div>
+                                                    <div className="iconRight">
+                                                        <span className='iconRiQuo'>
+                                                            <PiQuotesBold size={35} className='piQuote'/>
+
+                                                        </span>
+
                                                     </div>
                                                 </div>
                                             </div>
