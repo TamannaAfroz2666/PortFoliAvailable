@@ -91,8 +91,8 @@ const Testimonials = () => {
                                                             <img src={image1}  alt="..." />
                                                         </div>
                                                         <div className="infoImgTest">
-                                                            <p> Nicolas Marko</p>
-                                                            <span>Web developer</span>
+                                                            <p className='clientName'> Nicolas Marko</p>
+                                                            <span className='ClientDo'>Web developer</span>
                                                         </div>
                                                     </div>
                                                 </div>
