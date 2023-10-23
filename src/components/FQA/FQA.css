@@ -7,9 +7,29 @@
     height: 120vh;
 
 }
-.fqaContent{
+.fqaBody{
     width: 90%;
     margin: auto;
     margin-top: 7rem;
 }
-
+.fqaContent{
+    display: flex;
+    gap: 60px;
+}
+.fqaContent .fqaSection{
+    width: 400px;
+}
+.fqaSection .FqaTitle{
+    font-size: 50px;
+    font-weight: 700;
+    color: #111;
+    padding:  0 0 20px 0;
+}
+.fqaSection img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.fqaContent .accordionSection{
+    width: 800px;
+}
