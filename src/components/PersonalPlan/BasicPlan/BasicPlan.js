@@ -1,6 +1,6 @@
 import React from 'react';
 import './BasicPlan.css';
-import { BsArrowRightCircle } from "react-icons/bs";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 
 const BasicPlan = () => {
@@ -11,11 +11,15 @@ const BasicPlan = () => {
                 <h1 className='dollarBasic'>$99.00</h1>
                 <p className='perMonth'>Per month</p>
                 <hr />
-                <p> <span> <BsArrowRightCircle size={20} color='red'/> </span> 1 Page with Elementor</p>
-                <p> <span> <BsArrowRightCircle size={20} color='red'/> </span> Content Upload</p>
-                <p> <span> <BsArrowRightCircle size={20} color='red'/> </span> Design customization</p>
-                <p> <span> <BsArrowRightCircle size={20} color='red'/> </span> Design with XD</p>
-                <p> <span> <BsArrowRightCircle size={20} color='red'/> </span>Project Management</p>
+                <p className='basicPlanTitles'> <span className='bsArrowBasic'> <FiArrowRightCircle size={20} color='purple' /> </span> 1 Page with Elementor</p>
+
+                <p className='basicPlanTitles'> <span className='bsArrowBasic' > <FiArrowRightCircle color='purple' size={20} /> </span> Content Upload</p>
+
+                <p  className='basicPlanTitles'> <span className='bsArrowBasic'> <FiArrowRightCircle color='purple' size={20} /> </span> Design customization</p>
+
+                <p className='basicPlanTitles'> <span className='bsArrowBasic'> <FiArrowRightCircle color='purple'  size={20} /> </span> Design with XD</p>
+
+                <p className='basicPlanTitles'> <span className='bsArrowBasic'> <FiArrowRightCircle color='purple' size={20} /> </span>Project Management</p>
                 <button>Start My Project Now</button>
                
             </div>

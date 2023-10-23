@@ -22,3 +22,12 @@
     color: #111111be;
     font-weight: 600;
 }
+.basicPlanTitles{
+    font-size: 18px;
+    color: #111111d2;
+    font-weight: 400; 
+}
+
+.bsArrowBasic{
+    padding: 0 10px 0 0;
+}
