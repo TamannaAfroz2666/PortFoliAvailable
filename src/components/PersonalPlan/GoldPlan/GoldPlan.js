@@ -7,7 +7,7 @@ const GoldPlan = () => {
         console.log('new project of gold');
     }
     return (
-        <div className='goldPlan'>
+        <div className='goldPlanHead'>
             <div className="goldContent">
                 <h3 className='goldTitle'>Gold Plan</h3>
                 <h1 className='goldDollarBasic'>$799.00</h1>

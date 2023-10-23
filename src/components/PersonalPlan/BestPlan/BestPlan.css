@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+.goldPlanHead{
+    height: 84vh;
+}
+.bestPlanContent{
+    padding: 40px 40px;
+
+}
+.bestPlanContent .bestPlanTitle{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+.bestPlanContent .bestPlanDollar{
+    font-size: 50px;
+    padding: 10px 0;
+    color: #fff;
+}
+.bestPlanContent .bestPlanMonth{
+    font-size: 19px;
+    padding: 0px 0 15px 0;
+    color: #fff;
+    font-weight: 600;
+}
+.bestPlanTitles{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400; 
+}
+
+.bsArrowBestPlan{
+    padding: 0 10px 0 0;
+}
+.bestPlanContent a{
+    text-decoration: none;
+}
+.bestPlanContent button{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0 ;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 0;
+    background-color: #347ce9d5;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: #ffc107;
+    color: #fff;
+
+}

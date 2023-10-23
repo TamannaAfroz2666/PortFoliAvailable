@@ -32,9 +32,16 @@
 .basicPlan{
     width: 360px;
     background-color: wheat;
+    border-radius: 10px;
+}
+.bestPlan{
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.897);
+    border-radius: 10px;
+
 }
 .goldPlan{
     width: 360px;
     background-color: wheat;
-
+    border-radius: 10px;
 }
