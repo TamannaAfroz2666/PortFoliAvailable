@@ -97,3 +97,7 @@
 .btnOfContact:hover button{
     background-color: rgba(250, 235, 215, 0.514);
 }
+.numberLocationHead{
+    height: 60vh;
+    background-color: #fff;
+}

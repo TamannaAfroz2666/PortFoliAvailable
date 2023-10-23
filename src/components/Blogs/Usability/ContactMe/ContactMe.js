@@ -37,11 +37,20 @@ const ContactMe = () => {
                             <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder='Your Message' className='textArea'></textarea>
                         </div>
                         <div className="btnOfContact">
-                            <button  type='button' >Send Message</button>
+                            <button type='button' >Send Message</button>
                         </div>
+
+
                     </div>
+                    
 
                 </div>
+                <div className="numberLocationHead">
+                        <h1>gg</h1>
+
+
+
+                    </div>
 
             </div>
 
