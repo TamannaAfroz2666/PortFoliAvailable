@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .contactMe{
-    background-color: #111;
     height: 120vh;
     background-image: url(../../../../assets/Images/Background/ContactMe/photo-1.avif);
     background-position: center;
@@ -26,17 +25,39 @@
 }
 .contactMeBody{
     display: flex;
-
+    gap: 50px;
+}
+.imagePart{
+    width: 500px;
 }
 .imagePart img{
-    width: 400px;
+    width: 500px;
     height: 350px;
     border-radius: 10px;
     opacity: .5;
     background-color: #111;
 }
+.ContactInfoHead{
+    width: 500px;
+}
 .ContactInfoHead .infoTitle{
     color: #fff;
+    font-size: 55px;
+}
 
+.contentsOfInfo{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.contentsOfInfo .name input{
+    width: 250px;
+    max-height: 50px;
+    background-color: #111;
+    border: 1px solid white;
 
+}
+::placeholder{
+    font-size: 16px;
+    color: #fff;
 }

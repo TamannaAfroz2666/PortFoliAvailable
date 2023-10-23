@@ -3,6 +3,12 @@ import './ContactMe.css';
 import image from '../../../../assets/Images/Background/ContactMe/Contact.jpg'
 import image1 from '../../../../assets/Images/Background/ContactMe/ContactMe.jpg'
 const ContactMe = () => {
+    const nameChange =() =>{
+        console.log('name in input field');
+    }
+    const emailChange =() =>{
+        console.log('name in email field');
+    }
     return (
         <div className='contactMe'>
             <div className="contactMeHead">
@@ -17,6 +23,16 @@ const ContactMe = () => {
                     </div>
                     <div className="ContactInfoHead">
                        <h1 className='infoTitle'> Let's Talk About Ideas </h1>
+                       <div className="contentsOfInfo">
+                        <div className="name">
+                        <input type="text" onChange={nameChange}  placeholder='Enter Full Name' name='name' autoComplete='off' />
+
+                        </div>
+                        <div className="email">
+                        <input type="email" className='emailField' onChange={emailChange}  placeholder='Email Address' name='email' />
+
+                        </div>
+                       </div>
                     </div>
 
                 </div>
