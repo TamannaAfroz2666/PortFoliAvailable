@@ -12,6 +12,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Testimonials from '../Testimonials/Testimonials';
 import PersonalPlan from '../PersonalPlan/PersonalPlan';
 import FQA from '../FQA/FQA';
+import Blogs from '../Blogs/Blogs';
 // import Products from '../Products/Products';
 
 
@@ -32,6 +33,7 @@ const Home = () => {
             <Testimonials></Testimonials>
             <PersonalPlan></PersonalPlan>
             <FQA></FQA>
+            <Blogs></Blogs>
 
     
            

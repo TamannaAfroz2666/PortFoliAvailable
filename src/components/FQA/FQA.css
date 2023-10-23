@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .fqaHead{
-    height: 120vh;
+    height: 60vh;
 
 }
 .fqaBody{
@@ -29,17 +29,14 @@
     font-size: 18px;
     font-weight: 500;
     color: #111111a8;
-    padding: 0 0 10px 0;
 }
 .fqaSection img{
     width: 400px;
-    height: 250px;
+    height: 130px;
     border-radius: 20px;
 }
 .fqaContent .accordionSection{
     width: 800px;
 }
-.bodyAcc{
-    
-}
+
 
