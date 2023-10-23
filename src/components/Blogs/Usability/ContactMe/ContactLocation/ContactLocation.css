@@ -7,3 +7,16 @@
     display: flex;
     gap: 40px;
 }
+.phone{
+    display: flex;
+    gap: 10px;
+}
+.phoneIcon{
+    width: 60px;
+    height: 60px;
+    background-color: SlateBlue;
+    border-radius: 10px;
+}
+.locationPhoneIcon{
+    margin: 15px ;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './ContactMe.css';
 import image from '../../../../assets/Images/Background/ContactMe/Contact.jpg'
 import image1 from '../../../../assets/Images/Background/ContactMe/ContactMe.jpg'
+import ContactLocation from './ContactLocation/ContactLocation';
 const ContactMe = () => {
     const nameChange = () => {
         console.log('name in input field');
@@ -47,6 +48,7 @@ const ContactMe = () => {
                 </div>
                 <div className="numberLocationHead">
                         <h1>gg</h1>
+                        <ContactLocation></ContactLocation>
 
 
 
