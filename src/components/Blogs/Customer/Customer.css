@@ -29,6 +29,9 @@
     font-weight: 500;
     padding: 30px 0 0px 30px;
 }
+.customerCard:hover .customerDate{
+    color: rgba(75, 75, 201, 0.973);
+}
 .customerCard .titleCard{
     font-size: 28px;
     color: #111111e3;

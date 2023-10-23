@@ -32,7 +32,7 @@ const Blogs = () => {
                 </div>
 
             </div>
-        <h1 className='g'>blo</h1>
+        
             
         </div>
     );

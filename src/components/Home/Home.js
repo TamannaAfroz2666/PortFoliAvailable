@@ -13,6 +13,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import PersonalPlan from '../PersonalPlan/PersonalPlan';
 import FQA from '../FQA/FQA';
 import Blogs from '../Blogs/Blogs';
+import ContactMe from '../Blogs/Usability/ContactMe/ContactMe';
 // import Products from '../Products/Products';
 
 
@@ -34,6 +35,7 @@ const Home = () => {
             <PersonalPlan></PersonalPlan>
             <FQA></FQA>
             <Blogs></Blogs>
+            <ContactMe></ContactMe>
 
     
            
