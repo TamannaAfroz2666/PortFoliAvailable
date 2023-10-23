@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.blogHead{
+    width: 90%;
+    margin: auto;
+}
 .blogs{
     background-color: rgba(128, 128, 128, 0.199);
 }
