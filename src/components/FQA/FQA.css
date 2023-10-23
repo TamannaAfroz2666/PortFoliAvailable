@@ -25,6 +25,12 @@
     color: #111;
     padding:  0 0 20px 0;
 }
+.fqaDes{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111a8;
+    padding: 0 0 10px 0;
+}
 .fqaSection img{
     width: 400px;
     height: 250px;
@@ -33,3 +39,7 @@
 .fqaContent .accordionSection{
     width: 800px;
 }
+.bodyAcc{
+    
+}
+
