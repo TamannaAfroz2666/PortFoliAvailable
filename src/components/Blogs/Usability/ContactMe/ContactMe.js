@@ -33,6 +33,9 @@ const ContactMe = () => {
 
                             </div>
                         </div>
+                        <div className="messageSection">
+                            <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder='Your Message' className='textArea'></textarea>
+                        </div>
                     </div>
 
                 </div>

@@ -38,7 +38,7 @@
     background-color: #111;
 }
 .ContactInfoHead{
-    width: 500px;
+    width: 600px;
 }
 .ContactInfoHead .infoTitle{
     color: #fff;
@@ -47,23 +47,38 @@
 
 .contentsOfInfo{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-top: 50px;
 }
  .nameField {
-    width: 250px;
+    width: 300px;
     height: 50px;
-    background-color: #111;
+    background-color: #11111142;
     border: 1px solid rgba(236, 224, 224, 0.267);
- 
     color: #fff;
-    
-
+    border-radius: 10px;
+}
+ .emailField {
+    width: 300px;
+    height: 50px;
+    background-color: #11111142;
+    border: 1px solid rgba(236, 224, 224, 0.267);
+    color: #fff;
+    border-radius: 10px;
 }
 ::placeholder{
     font-size: 16px;
     color: #fff;
     padding-left:  20px ;
-    
-
+}
+.messageSection{
+    margin-top: 30px;
+}
+#textarea{
+    width: 100%;
+    background-color: #11111142;
+    border: 1px solid rgba(236, 224, 224, 0.267);
+    padding: 10px 0 0 0px;
+    height: 150px;
+    border-radius: 10px;
 }
