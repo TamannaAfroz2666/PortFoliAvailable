@@ -12,11 +12,11 @@ const ContactMe = () => {
                 </div>
                 <div className="contactMeBody">
                     <div className="imagePart">
-                        <img src={image1} alt="" />
+                        <img src={image} alt="" />
 
                     </div>
                     <div className="ContactInfoHead">
-                       <p className='infoTitle'> Let's Talk About Ideas </p>
+                       <h1 className='infoTitle'> Let's Talk About Ideas </h1>
                     </div>
 
                 </div>

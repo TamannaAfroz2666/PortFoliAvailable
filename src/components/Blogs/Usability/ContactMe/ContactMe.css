@@ -6,10 +6,15 @@
 .contactMe{
     background-color: #111;
     height: 120vh;
+    background-image: url(../../../../assets/Images/Background/ContactMe/photo-1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contactMeHead{
     width: 90%;
     margin: auto;
+
 }
 .contactMeTitle .contactOfTitle{
     font-size: 16px;
@@ -27,4 +32,11 @@
     width: 400px;
     height: 350px;
     border-radius: 10px;
+    opacity: .5;
+    background-color: #111;
+}
+.ContactInfoHead .infoTitle{
+    color: #fff;
+
+
 }
