@@ -51,7 +51,7 @@
     border-radius: 10px;
 
 }
-button:hover{
+.basicPlanBtn:hover{
     background-color: #ffc107;
     color: #111;
 

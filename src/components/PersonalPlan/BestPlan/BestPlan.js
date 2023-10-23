@@ -28,7 +28,7 @@ const BestPlan = () => {
 
                 <p className='bestPlanTitles'> <span className='bsArrowBestPlan'> <FiArrowRightCircle color='purple' size={20} /> </span>Project Management</p>
                 <a href="/projectShow">
-                    <button type='button' onClick={btnStart}>Start My Project Now</button>
+                    <button className='bestPlanBtn' type='button' onClick={btnStart}>Start My Project Now</button>
                 </a>
 
             </div>

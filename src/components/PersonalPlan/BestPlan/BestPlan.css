@@ -62,7 +62,7 @@
     border-radius: 10px;
 
 }
-button:hover{
+.bestPlanBtn:hover{
     background-color: #ffc107;
     color: #111;
 

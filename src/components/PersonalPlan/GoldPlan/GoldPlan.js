@@ -23,7 +23,7 @@ const GoldPlan = () => {
 
                 <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple' size={20} /> </span>Project Management</p>
                 <a href="/projectShow">
-                <button type='button' onClick={btnStart}>Start My Project Now</button>
+                <button className='goldPlanBtn' type='button' onClick={btnStart}>Start My Project Now</button>
                 </a>
                
             </div>

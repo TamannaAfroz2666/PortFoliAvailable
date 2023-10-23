@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fqaHead{
+    height: 120vh;
+
+}
+.fqaContent{
+    width: 90%;
+    margin: auto;
+    margin-top: 7rem;
+}
+
