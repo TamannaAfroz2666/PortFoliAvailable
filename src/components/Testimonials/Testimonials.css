@@ -11,6 +11,7 @@
     width: 90%;
     margin: auto;
     margin-top: 10px;
+    height: 143vh;
 }
 .ratings{
     background-color: #df9030fb;
@@ -48,11 +49,8 @@
     font-family: poppins;
 }
 .caroselManu{
-    /* width: 90%; */
-    /* margin: auto; */
     margin-top: 4rem;
     height: 20px;
-    /* top: 8rem; */
 }
 .carousel-item img{
     width: 90%;
@@ -148,3 +146,35 @@
     justify-content: space-between;
 }
 
+.reviewContent{
+    /* margin-top: 25rem; */
+    height: 180px;
+    margin-top: 45px;
+   
+
+}
+
+.reviewRatings{
+    background-color: SlateBlue;
+    width: 200px;
+
+    border-radius: 1px 80px / 140px;
+    margin-top: 25rem;
+    float: right;
+}
+.reviewRatings .reviewNumber{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px 0px 0rem;
+    font-weight: 600;
+
+}
+.reviewRatings .reviewTitle{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: poppins;
+    padding: 0px 0px 10px  0;
+    text-align: center;
+}

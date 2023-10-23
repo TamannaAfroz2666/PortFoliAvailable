@@ -25,8 +25,6 @@ const Testimonials = () => {
                         <h1 className='testimonialSort'>Testimonials</h1>
                         <p className='testimonialDes'>What My Client Say</p>
                     </div>
-
-
                     <div className="caroselManu">
                         <div id="carouselExampleAutoplaying" class=" carousel slide" data-bs-ride="carousel">
 
@@ -245,9 +243,12 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-
-                    <h1 className='h11'>hhh  </h1>
-
+                    <div className="reviewContent">
+                        <div className="reviewRatings">
+                            <h1 className='reviewNumber'>520+</h1>
+                            <p className='reviewTitle'>Reviews</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
