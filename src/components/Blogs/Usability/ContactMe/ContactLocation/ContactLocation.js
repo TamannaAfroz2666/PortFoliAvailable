@@ -3,33 +3,34 @@ import './ContactLocation.css';
 import { BsPhoneFlip } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { TfiLocationPin } from "react-icons/tfi";
-import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
-import { useMemo } from "react";
-// import GoogleMapReact from 'google-map-react';
+// import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
+import {  Marker } from "@react-google-maps/api";
+// import { useMemo } from "react";
+import GoogleMapReact from 'google-map-react';
 
-// const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 
 const ContactLocation = () => {
 
-    const { isLoaded } = useLoadScript({
-        googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
-    });
-    const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
+    // const { isLoaded } = useLoadScript({
+    //     googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
+    // });
+    // const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
 
-    // const handleApiLoaded = (map, maps) => {
-    //     // use map and maps objects
-    //     console.log('map');
-    //   };
+    const handleApiLoaded = (map, maps) => {
+        // use map and maps objects
+        console.log('map');
+    };
 
-    // const defaultProps = {
-    //     center: {
-    //       lat: 10.99835602,
-    //       lng: 77.01502627,
-    //       address: '1600 Amphitheatre Parkway, Mountain View, california.'
-    //     },
-    //     zoom: 11
-    // };
+    const defaultProps = {
+        center: {
+            lat: 10.99835602,
+            lng: 77.01502627,
+            address: '1600 Amphitheatre Parkway, Mountain View, california.'
+        },
+        zoom: 11
+    };
     return (
         <div className='contactLocation'>
             <div className="contactLocationBody">
@@ -71,23 +72,29 @@ const ContactLocation = () => {
 
             </div>
 
-            {/* <div style={{ height: '100vh', width: '100%' }}>
-                <GoogleMapReact
-                    bootstrapURLKeys={{ key: "" }}
-                    defaultCenter={defaultProps.center}
-                    defaultZoom={defaultProps.zoom}
-                    yesIWantToUseGoogleMapApiInternals
-                    onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
-                >
-                    <AnyReactComponent
-                        lat={59.955413}
-                        lng={30.337844}
-                        text={defaultProps.center.address}
-                    />
-                </GoogleMapReact>
-            </div> */}
+
 
             <div className="mapUsingHead">
+                <div style={{ height: '100vh', width: '100%' }}>
+                    <GoogleMapReact
+                        bootstrapURLKeys={{ key: "" }}
+                        defaultCenter={defaultProps.center}
+                        defaultZoom={defaultProps.zoom}
+                        yesIWantToUseGoogleMapApiInternals
+                        onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
+                    >
+                        {/* <Marker position={{ lat: 18.52043, lng: 73.856743 }} /> */}
+                        <AnyReactComponent
+                            lat={59.955413}
+                            lng={30.337844}
+                            text={defaultProps.center.address}
+                        />
+
+                    </GoogleMapReact>
+                </div>
+
+
+                {/* <div className="map">
                 {!isLoaded ? (
                     <h1>Loading...</h1>
                 ) : (
@@ -101,6 +108,9 @@ const ContactLocation = () => {
                     </GoogleMap>
 
                 )}
+
+                </div> */}
+
 
             </div>
 
