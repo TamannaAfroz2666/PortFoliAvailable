@@ -23,24 +23,24 @@ const ContactLocation = () => {
                 <div className="emailContact">
                 <div className="phoneContents">
                         <div className="phoneIcon">
-                            <BsPhoneFlip size={30} color='white' className='locationPhoneIcon'/>
+                            <AiOutlineMail size={30} color='white' className='locationPhoneIcon'/>
                         </div>
                     </div>
                     <div className="phoneInfo">
-                        <p className='phoneTitle'>Phone</p>
-                        <span className='phoneNumber'>+13135 663 5532</span>
+                        <p className='phoneTitle'>Email</p>
+                        <span className='phoneNumber'>hereMe@gmail.com</span>
                     </div>
 
                 </div>
                 <div className="locationMap">
                 <div className="phoneContents">
                         <div className="phoneIcon">
-                            <BsPhoneFlip size={30} color='white' className='locationPhoneIcon'/>
+                            <TfiLocationPin size={30} color='white' className='locationPhoneIcon'/>
                         </div>
                     </div>
                     <div className="phoneInfo">
-                        <p className='phoneTitle'>Phone</p>
-                        <span className='phoneNumber'>+13135 663 5532</span>
+                        <p className='phoneTitle'>Location</p>
+                        <span className='phoneNumber'>Mohammadpur, Dhaka, Bangladesh</span>
                     </div>
 
                 </div>

@@ -47,8 +47,12 @@ const ContactMe = () => {
 
                 </div>
                 <div className="numberLocationHead">
-                        <h1>gg</h1>
-                        <ContactLocation></ContactLocation>
+                    <div className="contactLocationContents">
+                    <ContactLocation></ContactLocation>
+
+                    </div>
+                      
+                        
 
 
 
