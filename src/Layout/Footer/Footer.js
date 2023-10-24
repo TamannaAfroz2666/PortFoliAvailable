@@ -1,7 +1,11 @@
 import React from 'react';
 import './Footer.css';
 import image1 from '../../assets/Images/Logo/Footer/Footer1.jpg'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import { BiLogoBehance , BiLogoDribbble } from "react-icons/bi";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { AiOutlineLinkedin } from "react-icons/ai";
+
 
 const Footer = () => {
     return (
@@ -38,6 +42,43 @@ const Footer = () => {
                                 >Contact</Link>
                             </li>
                         </ul>
+                    </div>
+                    <div className="socialIconContents">
+                    <ul className='socialOfItem'>
+                           
+                            <li className='listOfIcon'>
+                                <Link className='linkIcon' to="./facebook">
+                                    <FaFacebookF size={20}/>
+
+                                </Link>
+                            </li>
+                            <li className='listOfIcon'>
+                                <Link className='linkIcon' to="./dribbles">
+                                <BiLogoDribbble size={20}/>
+                            
+                                </Link>
+                            </li>
+                            <li className='listOfIcon'>
+                                <Link className='linkIcon' to="./behance">
+                                <BiLogoBehance size={20}/>
+
+                                </Link>
+                            </li>
+                            <li className='listOfIcon'>
+                                <Link className='linkIcon' to="./linkin">
+                                <AiOutlineLinkedin size={20}/>
+
+                                </Link>
+                            </li>
+                            <li className='listOfIcon'>
+                                <Link className='linkIcon' to="./instagram">
+                                <FaInstagram size={20}/>
+
+
+                                </Link>
+                            </li>
+                        </ul>
+                       
                     </div>
 
                 </div>

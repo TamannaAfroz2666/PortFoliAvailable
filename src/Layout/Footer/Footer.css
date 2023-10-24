@@ -13,7 +13,7 @@
 .footerImage img{
     width: 100px;
     height: 80px;
-    margin: 5rem 40% 4rem 40%; 
+    margin: 5rem 45% 4rem 45%; 
 }
 .contentList .listOfItem{
     display: flex;
@@ -33,4 +33,29 @@
 }
 .link:hover{
     color: rgba(105, 90, 205, 0.863);
+}
+
+/* social media style start  */
+
+.socialIconContents .socialOfItem{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+   
+
+}
+.socialOfItem li{
+    list-style: none;
+    margin: 0 0 40px 0;
+   
+   
+}
+.listOfIcon{
+    padding: 10px  12px 12px 12px ;
+    background-color: #e6dada17;
+    border-radius: 25px;
+}
+.listOfIcon .linkIcon{
+    text-decoration: none;
+    color: #fff;   
 }
