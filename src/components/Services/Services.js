@@ -39,16 +39,7 @@ const Services = () => {
                             <p className='titleDesign'>Designer</p>
                             <p className='nameOfWork' >Illustration Designer </p>
                         </div>
-                        {/* <div className="designer designer animated2 animatedFadeInUp fadeInUp">
-                            <hr color='black' size={1} className='designerLine' />
-                            <p className='titleDesign'>Branding</p>
-                            <p className='nameOfWork'>Business Branding </p>
-                        </div> */}
-                        {/* <div className="designer animated animatedFadeInUp fadeInUp">
-                            <hr color='black' size={1} className='designerLine' />
-                            <p className='titleDesign'>Design System</p>
-                            <p className='nameOfWork'>Illustration Designer </p>
-                        </div> */}
+                       
                         <div className="designer animated3 animatedFadeInUp fadeInUp">
                             <hr color='black' size={1} className='designerLine' />
                             <p className='titleDesign'>UI/UX Design </p>

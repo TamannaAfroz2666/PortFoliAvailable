@@ -48,8 +48,6 @@
 }
 .serviceContentItems .designer{
     width: 500px;
- 
-   
 
 }
 
@@ -59,7 +57,7 @@
     font-weight: 500;
     font-family: sans-serif;
     text-transform: capitalize;
-    padding-top: 30px;
+    padding-top: 10px;
    
 }
 .designer .nameOfWork{
@@ -67,7 +65,7 @@
     font-family: sans-serif;
     font-weight: 600;
     color: #000000d2;
-    padding: 25px 0;
+    padding: 10px 0;
     text-transform: capitalize;
   
 
