@@ -12,5 +12,6 @@
 }
 .footerImage img{
     width: 100px;
-    height: 50px;
+    height: 80px;
+    margin: 5rem 40% 4rem 40%; 
 }  
