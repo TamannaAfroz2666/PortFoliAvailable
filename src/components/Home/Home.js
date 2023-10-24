@@ -14,6 +14,7 @@ import PersonalPlan from '../PersonalPlan/PersonalPlan';
 import FQA from '../FQA/FQA';
 import Blogs from '../Blogs/Blogs';
 import ContactMe from '../Blogs/Usability/ContactMe/ContactMe';
+import Footer from '../../Layout/Footer/Footer';
 // import Products from '../Products/Products';
 
 
@@ -36,6 +37,7 @@ const Home = () => {
             <FQA></FQA>
             <Blogs></Blogs>
             <ContactMe></ContactMe>
+            <Footer></Footer>
 
     
            

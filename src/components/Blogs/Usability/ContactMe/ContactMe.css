@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.contactContainer{
+    height: 260vh;
+}
 .contactMe{
     height: 120vh;
     background-image: url(../../../../assets/Images/Background/ContactMe/photo-1.avif);
@@ -34,7 +37,7 @@
     width: 500px;
     height: 500px;
     border-radius: 10px;
-    opacity: .5;
+    /* opacity: .5; */
     background-color: #111;
 }
 .ContactInfoHead{
