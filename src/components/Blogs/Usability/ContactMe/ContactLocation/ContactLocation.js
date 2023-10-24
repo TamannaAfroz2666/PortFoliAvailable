@@ -1,6 +1,9 @@
 import React from 'react';
 import './ContactLocation.css';
 import { BsPhoneFlip } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { TfiLocationPin } from "react-icons/tfi";
+
 
 const ContactLocation = () => {
     return (
@@ -18,9 +21,27 @@ const ContactLocation = () => {
                     </div>
                 </div>
                 <div className="emailContact">
+                <div className="phoneContents">
+                        <div className="phoneIcon">
+                            <BsPhoneFlip size={30} color='white' className='locationPhoneIcon'/>
+                        </div>
+                    </div>
+                    <div className="phoneInfo">
+                        <p className='phoneTitle'>Phone</p>
+                        <span className='phoneNumber'>+13135 663 5532</span>
+                    </div>
 
                 </div>
                 <div className="locationMap">
+                <div className="phoneContents">
+                        <div className="phoneIcon">
+                            <BsPhoneFlip size={30} color='white' className='locationPhoneIcon'/>
+                        </div>
+                    </div>
+                    <div className="phoneInfo">
+                        <p className='phoneTitle'>Phone</p>
+                        <span className='phoneNumber'>+13135 663 5532</span>
+                    </div>
 
                 </div>
 

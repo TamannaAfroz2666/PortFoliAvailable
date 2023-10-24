@@ -35,3 +35,19 @@
     
 
 }
+
+/* for email section  */
+
+.emailContact{
+    display: flex;
+    gap: 40px;
+
+}
+
+/* for location section  */
+
+.locationMap{
+    display: flex;
+    gap: 40px;
+
+}
