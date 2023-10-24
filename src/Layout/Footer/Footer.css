@@ -46,9 +46,7 @@
 }
 .socialOfItem li{
     list-style: none;
-    margin: 0 0 40px 0;
-   
-   
+    margin: 0 0 40px 0;  
 }
 .listOfIcon{
     padding: 10px  12px 12px 12px ;
@@ -65,12 +63,39 @@
     margin: 0 0 20px 0;
 
 }
+/* termContents */
 .termContents{
     margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .copyrightHead .copyright{
     font-size: 16px;
     color: #fff;
     font-weight: 600;
-    padding: 20px 20px 50px 20px;
+    padding: 20px 20px 30px 20px;
 }
+.termHead .termsBody{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.termsBody li{
+    list-style: none;
+    margin: 0 0 40px 0;  
+}
+.termsList{
+    padding: 20px  20px 30px 20px ;
+
+    
+}
+.termsList .termsTitle{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600; 
+    /* padding: 20px 20px 50px 20px;  */
+}
+
+/* #0d6efd */
