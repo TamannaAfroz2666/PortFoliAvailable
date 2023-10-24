@@ -90,9 +90,21 @@ const Footer = () => {
                                 <span><AiOutlineCopyrightCircle size={15} color='white'/> </span>
                                 2023 Tom. All rights reserved.
                                 </p>
-
                         </div>
                         <div className="termHead">
+                            <ul className='termsBody'>
+                                <li className='termsList'>
+                                    <Link to='/termsCondition' className='termsTitle'> Terms & Condition</Link>
+                                </li>
+
+                                <li className='termsList'>
+                                <Link to='/privacyPolicy' className='termsTitle'>
+                                    Privacy Policy
+                                </Link>
+                                    
+                                </li>
+
+                            </ul>
 
                         </div>
 
