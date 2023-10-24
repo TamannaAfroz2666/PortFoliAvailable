@@ -14,4 +14,23 @@
     width: 100px;
     height: 80px;
     margin: 5rem 40% 4rem 40%; 
-}  
+}
+.contentList .listOfItem{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+} 
+.listOfItem li{
+    list-style: none;
+    padding: 0 0 40px 0;
+   
+} 
+.listOfTitle .link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.link:hover{
+    color: rgba(105, 90, 205, 0.863);
+}

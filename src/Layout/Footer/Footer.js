@@ -12,29 +12,29 @@ const Footer = () => {
                         <img src={image1} alt="" />
                     </div>
                     <div className="contentList">
-                        <ul>
-                            <li>
-                                <Link to="./home"
+                        <ul className='listOfItem'>
+                            <li className='listOfTitle'>
+                                <Link className='link' to="./home"
                                 >Home</Link>
                             </li>
-                            <li>
-                                <Link to="./aboutme"
+                            <li className='listOfTitle'>
+                                <Link className='link' to="./about"
                                 >About me</Link>
                             </li>
-                            <li>
-                                <Link to="./service"
+                            <li className='listOfTitle'>
+                                <Link className='link' to="./service"
                                 >Services</Link>
                             </li>
-                            <li>
-                                <Link to="./portfolio"
+                            <li className='listOfTitle'>
+                                <Link className='link' to="./portfolio"
                                 >Portfolio</Link>
                             </li>
-                            <li>
-                                <Link to="./blog"
+                            <li className='listOfTitle'>
+                                <Link className='link' to="./blog"
                                 >Blog</Link>
                             </li>
-                            <li>
-                                <Link to="./Contact"
+                            <li className='listOfTitle'>
+                                <Link className='link' to="./Contact"
                                 >Contact</Link>
                             </li>
                         </ul>
