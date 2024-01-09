@@ -1,95 +1,155 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.skills{
-    /* height: 125vh; */
+
+.skills {
+    width: 100%;
     height: 100%;
+    padding: 0 0 6rem 0;
     overflow: hidden;
-    background: linear-gradient(-117deg, rgba(15, 15, 15, 0.945), #f093f0	 80.71%),
-    linear-gradient(227deg, rgba(196, 132, 15, 0.932), rgba(19, 19, 18, 0.007) 80.71%),
-    linear-gradient(316deg, rgb(19, 18, 18), rgba(109, 7, 224, 0) 100%);
+    background: linear-gradient(-117deg, rgba(15, 15, 15, 0.945), #f093f0 80.71%),
+        linear-gradient(227deg, rgba(196, 132, 15, 0.932), rgba(19, 19, 18, 0.007) 80.71%),
+        linear-gradient(316deg, rgb(19, 18, 18), rgba(109, 7, 224, 0) 100%);
 }
-.skillBody{
+
+.skillBody {
     width: 90%;
     margin: auto;
 }
-.skillsHead .SkillSort{
-    font-size: 16px;
+
+.skillsHead .SkillSort {
     text-align: center;
-    color: #fff;
+    color: orange;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 5px;
     padding-top: 6rem;
+    font-family: 'Poppins';
 
 }
-.skillsHead .SkillTitle{
-    color: #ffffffe3;
-    font-size: 60px;
-    padding-top: 30px;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    line-height: 80px;
+
+.SkillSort:hover {
+    color: #fff;
 }
-.skillContent{
+
+.skillsHead .SkillTitle {
+    font-size: 62px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffffd2;
+    /* color: #ffc107a9; */
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    line-height: 90px;
+
+}
+
+.SkillTitle:hover {
+    color: #f093f0;
+}
+
+.skillContent {
     height: 60vh;
     display: inline-flex;
     gap: 80px;
     margin-top: 40px;
-    
-}
-.imageInfoSkills{
-    width: 170px;
-   height: 270px;
-    border: 1px solid #ffffffde;
-    border-radius: 80px;
-    background-color: #0000002d;
+
 }
 
-.imageInfoSkills img{ 
-    width: 100px;
-    height: 100px;
+.imageInfoSkills {
+    width: 280px;
+    height: 470px;
+    border: 1px solid #ffffffde;
+    border-radius: 100px;
+    background-color: #0000002d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform .2s;
+}
+.imageInfoSkills:hover{
+    transform: scale(1.1);
+}
+
+.imageInfoSkills img {
+    width: 150px;
+    height: 150px;
     border-radius: 50px;
     padding: 15px;
     background-color: white;
-    margin: 35px 0px 0px 32px;
-    
+    margin: 6rem 0px 0px 4rem;
+
 }
-.SkillContentAll .percentSkill{
+
+.SkillContentAll .percentSkill {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 600;
-    padding: 30px 0;
+    padding: 60px 0;
     color: #fff;
     text-align: center;
-    
+
 }
-.SkillContentAll{
+.percentSkill:hover{
+    color: #f093f0;
+}
+
+
+.SkillContentAll {
     margin-top: 30px;
 }
-.SkillContentAll .nameTopic p{
+
+.SkillContentAll .nameTopic .htmlTi {
     font-size: 25px;
     font-weight: 700;
     color: #111;
-    padding: 30px 0px 0px 50px;
+    padding: 3rem 0px 3rem 6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
-.SkillContentAll .nameTopicLong p{
-    font-size: 25px;
-    font-weight: 700;
-    color: #111;
-    padding: 30px 0px 0px 30px;
+.nameTopic:hover .htmlTi {
+    color: rgb(199, 87, 87);
 }
-.SkillContentAll .nameTopicTail p{
+
+.SkillContentAll .nameTopicLong .bootstrap {
     font-size: 25px;
     font-weight: 700;
     color: #111;
-    padding: 30px 0px 0px 38px;
+    padding: 3rem 0px 3rem 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
-.SkillContentAll .nameTopicJS p{
+.nameTopicLong .bootstrap:hover{
+    color: rgb(199, 87, 87);
+}
+
+.SkillContentAll .nameTopicTail .tailwind {
     font-size: 25px;
     font-weight: 700;
     color: #111;
-    padding: 30px 0px 0px 30px;
+    padding: 3rem 0px 3rem 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ .nameTopicTail .tailwind:hover{
+    color: rgb(199, 87, 87);
+
+ }
+
+.SkillContentAll .nameTopicJS .js {
+    font-size: 25px;
+    font-weight: 700;
+    color: #111;
+    padding: 3rem 0px 3rem 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.nameTopicJS .js:hover{
+    color: rgb(199, 87, 87);
+
 }

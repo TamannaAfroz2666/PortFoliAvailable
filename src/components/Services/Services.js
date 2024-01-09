@@ -37,8 +37,8 @@ const Services = () => {
                         <div className="serviceContentItems">
                             <div className="designer designer animated1 animatedFadeInUp fadeInUp" >
                                 <hr color='black' size={1} className='designerLine' />
-                                <p className='titleDesign'>Designer</p>
-                                <p className='nameOfWork' >Illustration Designer </p>
+                                <p className='titleDesign'>SQA & Content Writer</p>
+                                <p className='nameOfWork' >Unit Testing & Documentation Writing </p>
                             </div>
 
                             <div className="designer animated3 animatedFadeInUp fadeInUp">

@@ -26,7 +26,7 @@ const Skills = () => {
                             <p className='percentSkill'>100%</p>
                         </div>
                         <div className="nameTopic">
-                            <p>HTML</p>
+                            <p className='htmlTi'>HTML</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
@@ -35,7 +35,7 @@ const Skills = () => {
                             <p className='percentSkill'>100%</p>
                         </div>
                         <div className="nameTopicLong">
-                            <p>Bootstrap</p>
+                            <p className='bootstrap'>Bootstrap</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
@@ -44,7 +44,7 @@ const Skills = () => {
                             <p className='percentSkill'>100%</p>
                         </div>
                         <div className="nameTopicTail">
-                            <p>Tailwind</p>
+                            <p className='tailwind'>Tailwind</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
@@ -53,7 +53,7 @@ const Skills = () => {
                             <p className='percentSkill'>80%</p>
                         </div>
                         <div className="nameTopicJS">
-                            <p>JavaScript</p>
+                            <p className='js'>JavaScript</p>
                         </div>
                     </div>
                     <div className="SkillContentAll">
@@ -62,7 +62,7 @@ const Skills = () => {
                             <p className='percentSkill'>90%</p>
                         </div>
                         <div className="nameTopic">
-                            <p>React</p>
+                            <p className='htmlTi'>React</p>
                         </div>
                     </div>
                    
