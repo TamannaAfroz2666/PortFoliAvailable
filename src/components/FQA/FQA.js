@@ -19,37 +19,44 @@ const FQA = () => {
 
                     </div>
                     <div className="accordionSection">
-                        <Accordion  defaultActiveKey={['0']} alwaysOpen>
+                        <Accordion  defaultActiveKey={['0']} alwaysOpen >
                             <Accordion.Item eventKey="0" className='bodyAcc'>
                                 <Accordion.Header  >
                                     <h1 className='titleAccor'>What are project based Rates ? </h1>
                                     
                                     </Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    <p className='descriptionAccordion'> As a Front-End Developer, I take great pride in my work and am devoted to it. I've gained the abilities and know-how required to see your project through to completion. </p>
+                                    
                                     
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header  className='titleAccor'>How many service we provide ?</Accordion.Header>
+                                <Accordion.Header  className='titleAccor'>
+                                <h1 className='titleAccor1'>How many service we provide ? </h1>
+                                    
+                                    
+                                    </Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+                                 <p className='descriptionAccordion'> As a user or client requirements, I'm always ready to provide their project. not specific to any project that I always made. </p>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
-                                <Accordion.Header  className='titleAccor'>What are your terms and conditions ?</Accordion.Header>
+                                <Accordion.Header  className='titleAccor'>
+                                <h1 className='titleAccor1'> What are your terms and conditions ?</h1>
+                                   
+                                    </Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                <p className='descriptionAccordion'> * standard business hours in an office environment.. </p>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header  className='titleAccor'>What kind of payment do you accept ?</Accordion.Header>
+                                <Accordion.Header  className='titleAccor'>
+                                <h1 className='titleAccor1'> What kind of payment do you accept ?</h1>
+                                    </Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                <p className='descriptionAccordion'> In bank account.  </p> 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

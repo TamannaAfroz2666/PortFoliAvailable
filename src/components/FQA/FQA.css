@@ -44,7 +44,7 @@
     height: 500px;
     border-radius: 20px;
 }
-.fqaContent .accordionSection{
+.accordionSection{
     width: 800px;
 }
 
@@ -52,7 +52,24 @@
 .titleAccor{
     padding: 10px 0;
     font-size: 40px;
-    font-family: 'Poppins'; 
+    font-family: 'Poppins';
+    
+}
+.titleAccor1{
+    padding: 8px 0;
+    font-size: 26px;
+    font-family: 'Poppins';
+    color: #111111a8;
+    
+}
 
+.descriptionAccordion{
+    
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins'; 
+    line-height: 36px;
+    padding: 10px;
+    color: #181616a9;
 
 }
