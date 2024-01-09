@@ -21,12 +21,12 @@ const WelcomePage = () => {
                 <div className="infoSection">
                     <div className="personalInfo">
                         <p className='sort_title'>Welcome To My World</p>
-                      
+
                         <div className="scrollerHead">
                             <div className="scroller">
                                 <span>
                                     <h3 className='hey'>Hey </h3><br />
-                                    <h2 className='name'>I'm Tamanna</h2>  <br />
+                                    <h2 className='name'>I'm Tamanna Afroz</h2>  <br />
                                     <small className='frontEnd'>Front-End Developer</small>
 
                                 </span>
@@ -34,8 +34,8 @@ const WelcomePage = () => {
 
                         </div>
 
-                        <p className='descriptionInfo'>
-                            I'm a Front-End Develpoer & I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.
+                        <p className='descriptionInfoWel'>
+                            As a Front-End Developer, I take great pride in my work and am devoted to it. I've gained the abilities and know-how required to see your project through to completion.
                         </p>
 
                         <div id="frameDiv">
@@ -52,12 +52,12 @@ const WelcomePage = () => {
                     </div>
                     <div className="contactInfo">
                         <div className="backgroundPart">
-                            <div className="btnInfo">
-                              
-                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon' size={30} />}>
-                                 
-                                    Message 
-                                    <BsArrowRightCircle className='arrowIcon' size={20}/>
+                            <div className="btnInfo1">
+
+                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon' size={45} />}>
+
+                                    Message
+                                    <BsArrowRightCircle color='black'  className='arrowIcon' size={30} />
                                 </Button>
 
                             </div>

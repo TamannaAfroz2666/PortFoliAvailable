@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +8,9 @@
 
 .welcome {
   height: 100%;
+  width: 100%;
   background-color: #111;
-
+  padding: 0 0 10rem 0;
 }
 
 .pageHead {
@@ -17,7 +20,7 @@
 
 .infoSection {
   display: flex;
- 
+
 }
 
 .personalInfo {
@@ -30,7 +33,7 @@
   color: rgb(241, 226, 241);
   font-size: 22px;
   position: absolute;
-  
+
   top: -500px;
   width: 25%;
   text-shadow: 4px 4px 8px rgb(153, 238, 172);
@@ -38,23 +41,30 @@
   animation-iteration-count: 1;
 
 }
-@keyframes drop{
-  0%{opacity: 0}
+
+@keyframes drop {
+  0% {
+    opacity: 0
+  }
+
   /* 70%{transform: translateY(750px)} */
-  100%{transform: translateY(750px)}
+  100% {
+    transform: translateY(750px)
+  }
 }
+
 /* -------------fall animation created end----------  */
 
 
 /* name and titlte scroller animation  */
 .scrollerHead {
-  margin-top: 20px;
+  margin-top: 6rem;
   /* padding: 30px; */
 }
 
 .scroller {
   height: 15em;
-  line-height: 1.8em;
+  /* line-height: 1.8em; */
   position: relative;
   overflow: hidden;
   width: 50em;
@@ -74,18 +84,19 @@
 .hey {
   font-size: 35px;
   font-weight: 500;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .name {
-  font-size: 45px;
+  font-size: 5rem;
   color: #2fe06a;
 }
 
 .frontEnd {
-  font-size: 46px;
+  font-size: 3rem;
   color: orange;
   font-weight: 600;
+  letter-spacing: 1px;
   /* padding-top: 10px; */
 }
 
@@ -95,7 +106,7 @@
   }
 
   25% {
-    top: -1.2em;
+    top: -1em;
   }
 
   50% {
@@ -109,17 +120,23 @@
 
 /* name and title scroller end  */
 
-.personalInfo .descriptionInfo {
+.descriptionInfoWel {
   width: 65%;
   color: #fff;
-  padding: 10px 12px;
-  font-size: 18px;
+  padding: 3rem 12px 12px 12px;
+  font-size: 22px;
+  font-family: 'Poppins';
+  line-height: 35px;
+  text-align: justify;
+  letter-spacing: .9px;
+
 }
 
-.contactInfo{
+.contactInfo {
   width: 50%;
-  
+
 }
+
 .backgroundPart {
   margin-top: 5rem;
   /* width: 100%; */
@@ -130,40 +147,53 @@
   height: 90%;
 
 }
-.btnInfo{
-   top: 25rem;
-   left: 20rem;
-   position: relative;
+
+.btnInfo1 {
+  top: 25rem;
+  left: 20rem;
+  position: relative;
 
 }
-.btnInfo .button{
-  padding: 12px 50px;
-  background-color: #c0242400;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+
+.btnInfo1 .button {
+  padding: 20px 50px;
+  background-color:  rgba(255, 166, 0, 0.884);
+  color: #111;
+  font-size: 22px;
+  font-weight: 700;
   font-family: sans-serif;
-  border: 1px solid black;
+  /* border: 1px solid rgba(0, 0, 0, 0.404); */
   border-radius: 12px;
+  letter-spacing: 1px;
   
-  
+
+
 }
-.btnInfo  .mailIcon{
-  width: 48px;
-  color: #faf9f9cb;
-  left: -10px;
-  position: relative;
-  background-color: #11111109;
-  border-radius: 50px;
+.btnInfo1:hover .button{
+  /* color: #fff; */
+  background-color: #2fe06a;
+  border: 0;
+}
+
+.btnInfo1 .mailIcon {
+  /* width: 48px; */
+  /* color: #faf9f9cb; */
+  /* left: -10px; */
+  /* position: relative; */
+  /* background-color: #11111109; */
+  /* border-radius: 50px; */
+  
   /* padding: 10px 0; */
 }
-.btnInfo  .arrowIcon{
-  width: 18px;
-  color: #c4bbbb;
+
+.btnInfo1 .arrowIcon {
+  /* width: 18px; */
+  /* color: #f3f0f0; */
   left: 1rem;
   position: relative;
-  
+
 }
+
 /* for star animation part  */
 #frameDiv {
   width: 500px;
@@ -206,4 +236,3 @@
 }
 
 /* for star animation part end  */
-
