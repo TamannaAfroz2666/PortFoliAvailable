@@ -1,111 +1,167 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.contactContainer{
-    /* height: 260vh; */
+
+.contactContainer {
+    width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.contactMe{
+
+.contactMe {
     height: 120vh;
     background-image: url(../../../../assets/Images/Background/ContactMe/photo-1.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contactMeHead{
+
+.contactMeHead {
     width: 90%;
     margin: auto;
 
 }
-.contactMeTitle .contactOfTitle{
-    font-size: 16px;
+
+.contactMeTitle .contactOfTitle {
     text-align: center;
-    color: rgba(54, 54, 235, 0.671);
+    color: orange;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 2rem;
     padding-top: 7rem;
-}
-.contactMeBody{
-    display: flex;
-    gap: 50px;
-}
-.imagePart{
-    width: 500px;
-}
-.imagePart img{
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    /* opacity: .5; */
-    background-color: #111;
-}
-.ContactInfoHead{
-    width: 600px;
-}
-.ContactInfoHead .infoTitle{
-    color: #fff;
-    font-size: 55px;
+    font-family: 'Poppins';
 }
 
-.contentsOfInfo{
+.contactOfTitle:hover {
+    color: #fff;
+}
+
+.contactMeBody {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+}
+
+.imagePart {
+    width: 600px;
+}
+
+.imagePart img {
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #b17e7e;
+}
+
+.ContactInfoHead {
+    width: 600px;
+}
+
+.ContactInfoHead .infoTitle {
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffffd2;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+}
+
+.infoTitle:hover {
+    color: tomato;
+}
+
+/*------------------- email  input field ----------------- */
+
+.contentsOfInfo {
     display: flex;
     gap: 30px;
     margin-top: 50px;
 }
- .nameField {
-    width: 300px;
-    height: 50px;
+
+.nameField {
+    width: 350px;
+    height: 70px;
     background-color: #11111142;
     border: 1px solid rgba(236, 224, 224, 0.267);
     color: #fff;
     border-radius: 10px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-left: 10px;
 }
- .emailField {
-    width: 300px;
-    height: 50px;
+
+.emailField {
+    width: 350px;
+    height: 70px;
     background-color: #11111142;
     border: 1px solid rgba(236, 224, 224, 0.267);
     color: #fff;
     border-radius: 10px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-left: 10px;
+
 }
-::placeholder{
-    font-size: 16px;
+
+::placeholder {
+    font-size: 18px;
     color: #fff;
-    padding-left:  20px ;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
 }
-.messageSection{
+
+.messageSection {
     margin-top: 30px;
 }
-#textarea{
+
+#textarea {
     width: 100%;
     background-color: #11111142;
     border: 1px solid rgba(236, 224, 224, 0.267);
     padding: 10px 0 0 0px;
     height: 150px;
     border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    color: #fff;
 }
-.btnOfContact{
+
+.btnOfContact {
     margin-top: 30px;
+    padding: 1rem 0 4rem 0;
 }
-.btnOfContact button{
+
+.btnOfContact button {
     padding: 16px 30px;
     color: #fff;
     background-color: SlateBlue;
     border: 0;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 25px;
     border-radius: 10px;
+    letter-spacing: 1px;
 }
-.btnOfContact:hover button{
-    background-color: rgba(250, 235, 215, 0.514);
+
+.btnOfContact:hover button {
+    background-color: tomato;
 }
-.numberLocationHead{
+
+.numberLocationHead {
     height: 60vh;
     background-color: #fff;
 }
-.contactLocationContents{
-    /* margin: 30px 20px; */
-}
+

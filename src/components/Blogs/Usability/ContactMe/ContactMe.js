@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactMe.css';
 import image from '../../../../assets/Images/Background/ContactMe/Contact.jpg'
-import image1 from '../../../../assets/Images/Background/ContactMe/ContactMe.jpg'
+// import image1 from '../../../../assets/Images/Background/ContactMe/ContactMe.jpg'
 import ContactLocation from './ContactLocation/ContactLocation';
 const ContactMe = () => {
     const nameChange = () => {
@@ -17,12 +17,10 @@ const ContactMe = () => {
                     <div className="contactMeHead">
                         <div className="contactMeTitle">
                             <p className='contactOfTitle'>Contact me</p>
-
                         </div>
                         <div className="contactMeBody">
                             <div className="imagePart">
-                                <img src={image} alt="" />
-
+                                <img src={image} alt="not found" />
                             </div>
                             <div className="ContactInfoHead">
                                 <h1 className='infoTitle'> Let's Talk About Ideas </h1>
