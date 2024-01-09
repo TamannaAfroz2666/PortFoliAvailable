@@ -48,16 +48,16 @@ const EducationAndExperience = () => {
                         </div>
                     </div>
                     <div className="EducationField">
-                        <h1>Education</h1>
+                        <h1 className='educationTitle'>Education</h1>
 
                         <div className="experienceContent">
                             <div className="listOfExperience">
                                 <div className="year">
-                                    <p>2015</p>
+                                    <p>2022</p>
                                 </div>
                                 <div className="experienceOfTitle">
-                                    <p className='JobTitle'>S.Sc Examination</p>
-                                    <p className='position'>Lalmonirhat School</p>
+                                    <p className='JobTitle1'>B.Sc in Software Engineering</p>
+                                    <p className='position'>Daffodil International University</p>
                                 </div>
 
                             </div>
@@ -77,11 +77,11 @@ const EducationAndExperience = () => {
                         <div className="experienceContent">
                             <div className="listOfExperience">
                                 <div className="year">
-                                    <p> 2022</p>
+                                    <p> 2015</p>
                                 </div>
                                 <div className="experienceOfTitle">
-                                    <p className='JobTitle'>B.Sc in Software Engineering</p>
-                                    <p className='position'>Daffodil International University</p>
+                                    <p className='JobTitle'>S.Sc  Examination</p>
+                                    <p className='position'>Lalmonirhat School</p>
                                 </div>
 
                             </div>

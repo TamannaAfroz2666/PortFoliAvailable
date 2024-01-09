@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .educations{
-    /* margin-top: 10rem; */
-    /* height: 120vh; */
+    width: 100%;
     height: 100%;
     overflow: hidden;
     background-image: linear-gradient(to bottom, rgba(164, 173, 221, 0.52), rgba(241, 234, 240, 0.73)), url('../../assets/Images/Background/sky.jpg') 
@@ -13,32 +13,39 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0 0 8rem 0;
+  
 }
 .educationHead{
     width: 90%;
     margin: auto;
+    
 
 }
 .educationAndExperience{
     /* margin-top: 60px; */
     display: flex;
-    gap: 50px;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    /* gap: 50px; */
 }
 .experienceField{
-    width: 550px;
+    width: 700px;
 }
-.experienceContent{
+ .experienceContent{
+    width: 660px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     
     background-color: rgba(255, 255, 255, 0.192);
 }
 .experienceField .experienceTitle{
-    font-size: 40px;
+    font-size: 45px;
     color: #111;
     font-weight: 700;
-    font-family: Poppins;
+    font-family: 'Poppins';
     padding-top: 7rem;
-
+    letter-spacing: 3px;
+    text-transform: uppercase;
 
 }
 .listOfExperience{
@@ -49,36 +56,52 @@
   
 }
 .year p{
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 700;
     color: #111111a4;
     padding-top: 20px;
+    letter-spacing: 1px;
+
 }
 .experienceOfTitle .JobTitle{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 30px;
     color: #111111e3;
-    font-family: Poppins;
+    font-family: 'Poppins';
+    padding: 0 1rem 0 0;
 }
 .experienceOfTitle .position{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 30px;
     color: #111111e3;
-    font-family: Poppins;
+    font-family: 'Poppins';
     padding-top: 10px;
+
 }
 
 
 .EducationField{
-    width: 550px;
+    width: 700px;
 }
-.EducationField h1{
-    font-size: 40px;
+
+.EducationField .educationTitle{
+    font-size: 45px;
     color: #111;
     font-weight: 700;
-    font-family: Poppins;
+    font-family: 'Poppins';
     padding-top: 7rem;
-
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.experienceOfTitle .JobTitle1{
+    width: 300px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #111111e3;
+    font-family: 'Poppins';
+    padding: 0 1rem 0 0;
+    line-height: 55px;
 }
