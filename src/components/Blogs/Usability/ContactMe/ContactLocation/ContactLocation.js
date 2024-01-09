@@ -71,8 +71,8 @@ const ContactLocation = () => {
                 </div>
 
             </div>
-            
-            <div className="mapUsingHead">
+
+            {/* <div className="mapUsingHead">
                 <div style={{ height: '100vh', width: '100%' }}>
                     <GoogleMapReact
                         bootstrapURLKeys={{ key: "" }}
@@ -81,7 +81,7 @@ const ContactLocation = () => {
                         yesIWantToUseGoogleMapApiInternals
                         onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
                     >
-                        {/* <Marker position={{ lat: 18.52043, lng: 73.856743 }} /> */}
+                        
                         <AnyReactComponent
                             lat={59.955413}
                             lng={30.337844}
@@ -89,7 +89,7 @@ const ContactLocation = () => {
                         />
                     </GoogleMapReact>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );
