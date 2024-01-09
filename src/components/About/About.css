@@ -16,23 +16,24 @@
     display: flex;
     gap: 80px;
 }
+/* image section styled start  */
 .imageInfo img{
     border-radius: 25px;
-    height: 600px;
+    height: 760px;
     --s: 15px;  /* size of the frame */
   --b: 2px;   /* border thickness */
   --w: 500px; /* width of the image */
-  --c: #7B3B3B;
+  --c: #f0d90b;
   
   width: var(--w);
   aspect-ratio: 1;
   object-fit: cover;
   padding: calc(2*var(--s));
-  --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
+  --_g: var(--c) var(--b),#c27d7d00 0 calc(100% - var(--b)),var(--c) 0;
   background:
     linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
     linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
-  outline: calc(var(--w)/2) solid #0009;
+  outline: calc(var(--w)/2) solid rgba(235, 226, 226, 0.233);
   outline-offset: calc(var(--w)/-2 - 2*var(--s));
   transition: .4s;
   cursor: pointer;
@@ -44,37 +45,50 @@ img:hover {
     outline-offset: calc(var(--s)/-2);
     --_i: calc(100% - 2*var(--s));
   }
+  /* image section styled end  */
 .informationAll{
-    height: 620px;
+    height: 760px;
     background-color: whitesmoke;
-    box-shadow: inset 5px 5px 8px #fcfa7183, inset 5px 5px 8px #010caa;
+    box-shadow: inset 5px 5px 8px rgb(240, 159, 9), inset 5px 5px 8px #010caa;
 }
+
 .titleAbout{
     margin-left: 40px;
 }
 
-.titleAbout h3{
+.titleAbout .aboutMeTitle{
     color: 	#4329eb;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 2px;
     margin-top: 30px;
-
-   
+}
+.aboutMeTitle:hover{
+    color: orange;
 }
 .titleAbout .title{
+    width: 100%;
     font-size: 50px;
     color: #000000ce;
     padding-top: 20px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 70px;
 }
+.title:hover {
+    color: orange;
+}
+
 .titleAbout .descriptionAbout{
-    font-size: 19px;
+    width: 90%;
+    font-size: 2rem;
     color: #181616a9;
     font-weight: 500;
-    padding: 30px 0;
     text-align: justify;
-    padding-right: 10px;
+    padding: 30px 0px 4rem .5rem;
+    line-height: 45px;
+    
 
     
 }
@@ -83,21 +97,23 @@ img:hover {
     gap: 30px;
 }
 .btnAbout button{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     color: #fff;
     background-color: #2405ec9a;
     padding: 15px 30px;
     border: 0;
     border-radius: 10px;
     transition: transform .5s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 /* ---------hover create in button ======== */
 
 .btnAbout:hover button{
     background-color: rgba(255, 196, 0, 0.63);
     color: #000;
-    font-weight: 600;
+    font-weight: 700;
     transform: scale(1);
 }
 .works a{
@@ -106,18 +122,23 @@ img:hover {
 }
 .works .btnWorks{
     color: #000;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: capitalize;
-    padding: 8px 26px;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-.works .btnWorks .arrowRight1{
-    margin-left: 1px;
-    color: #0000009c;
 
+.btnWorks:hover {
+    
 }
 .works .btnWorks:hover{
-    background-color: rgb(84, 132, 175);
+    background-color: rgba(84, 132, 175, 0.103);
+    color: orange;
+}
+.arrowRight1:hover{
+    color: orange;
 }
 
 /*----------------- birth info ------------- */
@@ -127,11 +148,12 @@ img:hover {
     gap: 40px;
 }
 .birthInfoHeading p{
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     color: #000000b0;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 0px 20px; 
+    letter-spacing: 1px;
 }
 .birthInfoHeading span{
     font-size: 22px;
@@ -139,6 +161,7 @@ img:hover {
     text-transform: capitalize;
     color: #000000b4;
     padding: 0 0 30px 20px;
+    letter-spacing: 1px;
     
     
 }
