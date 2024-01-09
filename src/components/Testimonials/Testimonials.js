@@ -28,29 +28,17 @@ const Testimonials = () => {
                     <div className="caroselManu">
                         <div id="carouselExampleAutoplaying" class=" carousel slide" data-bs-ride="carousel">
 
-                            {/* <div class="carousel-indicators">
-                                <div className="indicatorSection">
-
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active btncaro" aria-current="true" aria-label="Slide 1">
-                                </button>
-                                <button type="button" className='btncaro' data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
-                                    
-                                </button>
-
-                                </div>
-                               
-                               
-                            </div> */}
+                    
 
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <div className="card-wrapper ">
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -77,10 +65,10 @@ const Testimonials = () => {
                                         </div>
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -113,10 +101,10 @@ const Testimonials = () => {
                                        
                                     <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -143,10 +131,10 @@ const Testimonials = () => {
                                         </div>
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -178,10 +166,10 @@ const Testimonials = () => {
                                        
                                     <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -208,10 +196,10 @@ const Testimonials = () => {
                                         </div>
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={40} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>

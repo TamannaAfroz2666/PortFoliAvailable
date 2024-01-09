@@ -15,12 +15,9 @@
     width: 90%;
     margin: auto;
 }
-.btnGroupFolio{
-    top: 20px;
-    position: relative;
-}
+
 .portfolioHead{
-    margin-top: 10rem;
+    padding-top: 8rem;
 }
 
 .portfolioHead .sortTitlePortfolio{
