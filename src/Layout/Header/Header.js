@@ -127,8 +127,8 @@ const Header = () => {
                             <div className="menuLink">
                                 <div className="wrapper">
                                     <div className="menuBar">
-                                        <Button onClick={handleClick}>
-                                            <AiOutlineMenu className='menuIcon' />
+                                        <Button className='btnHeaderProfile' onClick={handleClick}>
+                                            <AiOutlineMenu size={40}  className='menuIcon' />
                                         </Button>
                                         <Snackbar
                                             open={open}
