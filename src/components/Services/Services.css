@@ -44,23 +44,22 @@
     font-style: italic;
 }
 .serviceTitle:hover{
-    /* color: #2405ec52; */
     color: #fff;
 }
 /*----------- service items design --------------  */
 .serviceContent{
-    margin-top: 70px;
+    margin-top: 9rem;
     display: flex;
-    gap: 50px;
-   
+    justify-content: space-evenly; 
 }
 .serviceImage {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     background-image: linear-gradient(to bottom, rgba(57, 84, 240, 0.52), rgba(241, 234, 240, 0.73)), url('../../assets/Images/Background/Leaf.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
    
 }
 .serviceContentItems .designer{
@@ -69,21 +68,24 @@
 }
 
 .designer .titleDesign{
-    font-size: 20px;
-    color: #000000a6;
+    font-size: 25px;
+    color: #fff;
     font-weight: 500;
-    font-family: sans-serif;
-    text-transform: capitalize;
+    font-family: 'Poppins';
+    text-transform: uppercase;
     padding-top: 10px;
+    letter-spacing: 5px;
    
 }
 .designer .nameOfWork{
-    font-size: 35px;
-    font-family: sans-serif;
+    width: 600px;
+    font-size: 45px;
+    font-family: 'Poppins';
     font-weight: 600;
-    color: #000000d2;
+    color: #fff;
     padding: 10px 0;
     text-transform: capitalize;
+    letter-spacing: 3px;
   
 
 }
@@ -163,7 +165,7 @@
 
 /*------------- Simple note design -------------- */
 .noteHead{
-    width: 450px;
+    width: 500px;
     height: 400px; 
     background-color: #000;
     z-index: 999;
@@ -179,7 +181,7 @@
 .iconBallRed{
     margin-top: 1rem;
     margin-left: 11rem;
-    width: 2px;
+    width: 8px;
 }
 /* ------------star designed--------  */
 
@@ -187,20 +189,27 @@
     color: #fff;
     padding: 20px 0px 0px 40px;
     font-size: 55px;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
 }
 .noteHead .noteDescription{
     color: #fff;
-    padding: 40px 0px 60px 40px;
-    font-size: 17px;
+    padding: 40px 20px 20px 20px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Poppins';
+    text-align: justify;
 }
 .noteHead a {
     color: #fff;
     text-decoration: none;
     padding: 0px 0px 0px 40px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
 }
 .linkMoreNote:hover {
-    color: rgba(57, 84, 240, 0.52);
+    color: orange;
     font-weight: 500;
 }

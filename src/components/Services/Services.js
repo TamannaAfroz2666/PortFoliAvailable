@@ -29,7 +29,7 @@ const Services = () => {
                                 <p className='noteDescription'>
                                     There are many variations of passages ipsum available , but the majority  have some form, by injected humour, and randomised words which looks even slightly believable
                                 </p>
-                                <a className='linkMoreNote' href="/readmore"> Read More</a>
+                                <a className='linkMoreNote' href="/readmore"> Read more...</a>
 
                             </div>
                         </div>
