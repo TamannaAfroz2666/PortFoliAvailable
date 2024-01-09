@@ -25,7 +25,7 @@ const LandingPage = () => {
                     <div className="webContents">
                         <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Figma Design</p>
-                        <p className='designDes'>Several factors such as consistency, colours, typography,imagery, simplicity, and functionality contribute to good website design.</p>
+                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design</p>
                     </div>
                     <div className="webImages">
                         <img src={fig2} alt="" />

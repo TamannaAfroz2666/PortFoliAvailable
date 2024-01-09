@@ -1,70 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* position: static; */
+}
+.portfolioContainer{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff3d;
+
 }
 .portfolio{
     width: 90%;
     margin: auto;
-    height: 100%;
-    /* font-size: 54px;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-align: center;
-    padding-top: 20px;
-    color: #000000e7;
-    font-family: poppins; */
-    /* position: fixed; */
-    /* height: 189vh; */
 }
 .btnGroupFolio{
-    /* top: 0; */
-    /* position: fixed; */
-    /* z-index: 1000; */
-
-    /* padding: 60px; */
     top: 20px;
     position: relative;
 }
 .portfolioHead{
     margin-top: 10rem;
-    /* z-index: 999; */
-    /* position: absolute; */
-
 }
-/* .sortTitlePart{
-    max-height: 40px;
-    position: static;
-    position: fixed;
-} */
+
 .portfolioHead .sortTitlePortfolio{
-    font-size: 16px;
     text-align: center;
-    color: rgba(54, 54, 235, 0.801);
+    color: orange;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
-    /* padding-top: 6rem; */
-  
-    
-   
+    letter-spacing: 5px;
+    padding-top: 2rem;
+    font-family: 'Poppins'; 
 }
-.portfolio .portfolioHead .portfolioTitle{
-    font-size: 54px;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-align: center;
-    padding-top: 20px;
-    color: #000000e7;
-    font-family: poppins;
-    /* margin: 20rem 0 0 0; */
+.sortTitlePortfolio:hover {
+    color: #fff;
+}
 
+.portfolio .portfolioHead .portfolioTitle{
+  
+    font-size: 62px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffffd2;
+    /* color: #ffc107a9; */
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    line-height: 90px;
+    
+
+}
+.portfolioHead .portfolioTitle:hover {
+    color: #f093f0;
 }
 .btnGroupFolio{
     width: 55%;
     margin: auto;
     margin-top: 40px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.021) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     height: 10vh;
     border-radius: 10px;
 }
@@ -79,12 +74,18 @@
 }
 .listOfLink .btnShow{
     padding: 8px 40px 20px  40px;
-    font-size: 14px;
+    font-size: 22px;
     border: 0;
     margin-top: 15px;
-    background-color: white;
+    /* background-color: white; */
     font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Poppins';
     
+}
+.btnShow:hover{
+    color: tomato;
 }
 /* tabs .MuiTabs-indicator{
 

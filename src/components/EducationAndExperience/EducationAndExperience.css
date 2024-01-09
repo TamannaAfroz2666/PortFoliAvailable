@@ -23,11 +23,9 @@
 
 }
 .educationAndExperience{
-    /* margin-top: 60px; */
+
     display: flex;
     justify-content: space-evenly;
-    /* justify-content: space-evenly; */
-    /* gap: 50px; */
 }
 .experienceField{
     width: 700px;
@@ -78,10 +76,7 @@
     color: #111111e3;
     font-family: 'Poppins';
     padding-top: 10px;
-
 }
-
-
 .EducationField{
     width: 700px;
 }
