@@ -37,16 +37,19 @@ const WelcomePage = () => {
                         <p className='descriptionInfoWel'>
                             As a Front-End Developer, I take great pride in my work and am devoted to it. I've gained the abilities and know-how required to see your project through to completion.
                         </p>
+                        <div className="animationFrame">
+                            <div id="frameDiv">
 
-                        <div id="frameDiv">
+                                <span className='span' id="fish1"> * </span>
 
-                            <span className='span' id="fish1"> * </span>
+                                <svg className='svg' fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
+                                    <path d="M 50 80 C 150 -20 250 180 350 80" />
 
-                            <svg className='svg' fill="none" stroke="orange" stroke-width="5" stroke-dasharray="5,8">
-                                <path d="M 50 80 C 150 -20 250 180 350 80" />
+                                </svg>
+                            </div>
 
-                            </svg>
                         </div>
+
 
 
                     </div>
@@ -57,7 +60,7 @@ const WelcomePage = () => {
                                 <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon' size={45} />}>
 
                                     Message
-                                    <BsArrowRightCircle color='black'  className='arrowIcon' size={30} />
+                                    <BsArrowRightCircle color='black' className='arrowIcon' size={30} />
                                 </Button>
 
                             </div>

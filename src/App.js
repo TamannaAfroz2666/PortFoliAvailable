@@ -10,7 +10,7 @@ import About from './components/About/About';
 
 function App() {
   return (
-    <div >
+    <div className='AppName'>
       <Routes>
         
         <Route path='/' element={<Home />} />

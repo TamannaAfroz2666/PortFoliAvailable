@@ -166,6 +166,10 @@
 /* responsive part start  */
 
 @media (max-width: 576px) {
+    .header-con{
+        height: 100%;
+        width: 100%;
+    }
     .header-main {
         display: flex;
         align-items: center;  
