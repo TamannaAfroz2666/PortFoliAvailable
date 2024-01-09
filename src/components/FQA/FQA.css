@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +6,10 @@
 }
 .fqaHead{
     /* height: 60vh; */
+    width: 100%;
     height: 100%;
     overflow: hidden;
+    padding: 0 0 2rem 0;
 
 }
 .fqaBody{
@@ -19,13 +22,17 @@
     gap: 60px;
 }
 .fqaContent .fqaSection{
-    width: 400px;
+    width: 600px;
 }
 .fqaSection .FqaTitle{
+    text-align: center;
+    color: orange;
     font-size: 50px;
     font-weight: 700;
-    color: #111;
-    padding:  0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* padding-top: 2rem; */
+    font-family: 'Poppins'; 
 }
 .fqaDes{
     font-size: 18px;
@@ -33,17 +40,19 @@
     color: #111111a8;
 }
 .fqaSection img{
-    width: 400px;
-    height: 130px;
+    width: 560px;
+    height: 500px;
     border-radius: 20px;
 }
 .fqaContent .accordionSection{
     width: 800px;
 }
 
-
+/*--------- Accordion section deign start----  */
 .titleAccor{
     padding: 10px 0;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'Poppins'; 
+
 
 }
