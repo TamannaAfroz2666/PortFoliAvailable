@@ -10,6 +10,7 @@
     height: 100%;
     overflow: hidden;
     padding: 0 0 2rem 0;
+    background-color: #ffffff3f;
 
 }
 .fqaBody{
@@ -19,7 +20,7 @@
 }
 .fqaContent{
     display: flex;
-    gap: 60px;
+    justify-content: space-evenly;
 }
 .fqaContent .fqaSection{
     width: 600px;
@@ -31,18 +32,24 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
-    /* padding-top: 2rem; */
     font-family: 'Poppins'; 
 }
 .fqaDes{
-    font-size: 18px;
-    font-weight: 500;
-    color: #111111a8;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Poppins'; 
+    letter-spacing: 2px;
+    padding: 2rem 0;
 }
 .fqaSection img{
     width: 560px;
     height: 500px;
     border-radius: 20px;
+     transition: transform 1s ease;
+}
+.fqaSection:hover img{
+    transform: scale(1.03);
 }
 .accordionSection{
     width: 800px;
@@ -72,4 +79,8 @@
     padding: 10px;
     color: #181616a9;
 
+}
+/* -----------hover field ------------- */
+.titleAccor:hover{
+    color: tomato;
 }
