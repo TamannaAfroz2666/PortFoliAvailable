@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 .testimonial{
-    height: 144vh;
+    /* height: 144vh; */
+    height: 100%;
+    overflow: hidden;
 }
 .testimonialMain{
+    height: 100%;
+    overflow: hidden;
     margin-top: 6rem;
     background-color: #111;
 }
@@ -51,6 +55,8 @@
     color: #fff;
     font-family: poppins;
 }
+/* carosel add style  */
+
 .caroselManu{
     margin-top: 4rem;
     height: 20px;
@@ -148,6 +154,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* carsel item end  */
+
 
 .reviewContent{
     /* margin-top: 25rem; */

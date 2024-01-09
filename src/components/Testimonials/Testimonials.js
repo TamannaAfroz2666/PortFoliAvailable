@@ -1,7 +1,7 @@
 import React from 'react';
 import './Testimonials.css';
-import image from '../../assets/Images/Portfolio/fig1.jpg'
-import image2 from '../../assets/Images/Portfolio/figma2.jpg'
+// import image from '../../assets/Images/Portfolio/fig1.jpg'
+// import image2 from '../../assets/Images/Portfolio/figma2.jpg'
 // import Carousel from 'react-bootstrap/Carousel';
 import { AiFillStar } from "react-icons/ai";
 import { PiQuotesBold } from "react-icons/pi";

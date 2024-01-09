@@ -2,21 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* position: static; */
 }
 .portfolio{
     width: 90%;
     margin: auto;
+    height: 100%;
+    /* font-size: 54px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000e7;
+    font-family: poppins; */
+    /* position: fixed; */
     /* height: 189vh; */
 }
+.btnGroupFolio{
+    /* top: 0; */
+    /* position: fixed; */
+    /* z-index: 1000; */
+
+    /* padding: 60px; */
+    top: 20px;
+    position: relative;
+}
+.portfolioHead{
+    margin-top: 10rem;
+    /* z-index: 999; */
+    /* position: absolute; */
+
+}
+/* .sortTitlePart{
+    max-height: 40px;
+    position: static;
+    position: fixed;
+} */
 .portfolioHead .sortTitlePortfolio{
     font-size: 16px;
     text-align: center;
     color: rgba(54, 54, 235, 0.801);
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
+  
+    
+   
 }
-.portfolioHead .portfolioTitle{
+.portfolio .portfolioHead .portfolioTitle{
     font-size: 54px;
     font-weight: 600;
     text-transform: capitalize;
@@ -24,6 +57,7 @@
     padding-top: 20px;
     color: #000000e7;
     font-family: poppins;
+    /* margin: 20rem 0 0 0; */
 
 }
 .btnGroupFolio{
@@ -60,6 +94,9 @@
     
   
   } */
+  .tabContext1{
+    position: fixed;
+  }
 .showActivities{
     margin-top: 60px;
     display: grid;
@@ -88,6 +125,7 @@
     margin-top: 50px;
     
 }
+
 .btnWeb:hover{
     background-color: aqua;
 
@@ -101,6 +139,7 @@
     padding: 20px 0;
 
 }
+
 .designDes{
     width: 250px;
     font-size: 16px;

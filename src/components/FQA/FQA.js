@@ -29,21 +29,21 @@ const FQA = () => {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header className='q'>How many service we provide ?</Accordion.Header>
+                                <Accordion.Header  className='titleAccor'>How many service we provide ?</Accordion.Header>
                                 <Accordion.Body>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                     eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
-                                <Accordion.Header className='q'>What are your terms and conditions ?</Accordion.Header>
+                                <Accordion.Header  className='titleAccor'>What are your terms and conditions ?</Accordion.Header>
                                 <Accordion.Body>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                     eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header className='q'>What kind of payment do you accept ?</Accordion.Header>
+                                <Accordion.Header  className='titleAccor'>What kind of payment do you accept ?</Accordion.Header>
                                 <Accordion.Body>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                     eiusmod tempor incididunt ut labore et dolore magna aliqua. 

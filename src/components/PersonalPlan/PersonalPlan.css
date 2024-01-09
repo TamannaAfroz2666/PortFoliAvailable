@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .personalPlan{
-    height: 150vh;
+    /* height: 150vh; */
     background-color: rgba(235, 203, 160, 0.226);
 }
 .planningHead{

@@ -89,7 +89,7 @@ const ContactLocation = () => {
                             lng={30.337844}
                             text={defaultProps.center.address}
                         />
-
+{/* AIzaSyCEhuvVNd9evbHZDMCW-igLAJy13JqVZVw */}
                     </GoogleMapReact>
                 </div>
 

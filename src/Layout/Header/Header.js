@@ -71,6 +71,7 @@ const Header = () => {
                                         <NavLink to="./page2">Home Page 02 </NavLink>
                                     </li>
                                 </ul>
+                                
 
                             </li>
                             <li><NavLink smooth duration={500} to="about">About Me</NavLink>

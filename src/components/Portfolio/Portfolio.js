@@ -39,11 +39,14 @@ const Portfolio = () => {
     return (
         <div className='portfolio'>
             <div className="portfolioHead">
+                <div className="sortTitlePart">
                 <p className='sortTitlePortfolio'>My Portfolio</p>
+                </div>
+               
                 <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>  
             </div>
 
-            <TabContext value={value}>
+            <TabContext value={value} className='tabContext1'>
                 <div className="btnGroupFolio">
                     <div className="btnContents">
 
