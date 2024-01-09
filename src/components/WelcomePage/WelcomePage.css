@@ -239,6 +239,8 @@
 /* for star animation part end  */
 
 /* Responsive start here  */
+
+/* small device for  */
 @media (max-width: 576px) {
   .welcome {
     height: 100%;
@@ -382,6 +384,7 @@
 
 
 }
+/* for medium device  */
 @media (min-width: 577px) and (max-width: 768px) {
   .welcome {
     height: 100%;
@@ -392,7 +395,7 @@
     position: relative; */
   
    
-    padding: 0 0 10rem 0; 
+    /* padding: 0 0 10rem 0;  */
   }
 
  
@@ -520,4 +523,30 @@
 
 
 
+}
+
+
+/* for large device  */
+@media (min-width: 769px) and (max-width: 992px) {
+  .welcome {
+    height: 100%;
+    width: 100%;
+    padding:  0 0 .1rem 0 ;
+    background-color: #111 ;
+    /* bottom: 2rem ;
+    position: relative; */
+  
+   
+    /* padding: 0 0 10rem 0;  */
+  }
+  .hey {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    /* padding-bottom: 20px; */
+  }
+  /* .name {
+    font-size: 10px;
+    color: #f13f08;
+  } */
 }

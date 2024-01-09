@@ -10,8 +10,8 @@ import { Button } from '@mui/material';
 
 const About = () => {
     return (
-        
-        <div className='aboutAll flex' id="about" name="about">
+        <div className="aboutSection">
+            <div className='aboutAll flex' id="about" name="about">
             <div className="aboutAllInfo">
                 <div className="imageInfo">
                     <img src={image} alt="image" />
@@ -73,6 +73,9 @@ const About = () => {
 
 
         </div>
+
+        </div>
+        
 
     );
 };
