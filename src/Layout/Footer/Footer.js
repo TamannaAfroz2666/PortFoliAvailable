@@ -48,33 +48,31 @@ const Footer = () => {
 
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./facebook">
-                                    <FaFacebookF size={20} />
+                                    <FaFacebookF size={24} />
 
                                 </Link>
                             </li>
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./dribbles">
-                                    <BiLogoDribbble size={20} />
+                                    <BiLogoDribbble size={24} />
 
                                 </Link>
                             </li>
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./behance">
-                                    <BiLogoBehance size={20} />
+                                    <BiLogoBehance size={24} />
 
                                 </Link>
                             </li>
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./linkin">
-                                    <AiOutlineLinkedin size={20} />
+                                    <AiOutlineLinkedin size={24} />
 
                                 </Link>
                             </li>
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./instagram">
-                                    <FaInstagram size={20} />
-
-
+                                    <FaInstagram size={24} />
                                 </Link>
                             </li>
                         </ul>

@@ -15,9 +15,10 @@
     margin: auto;
 }
 .footerImage img{
-    width: 100px;
+    width: 140px;
     height: 90px;
     margin: 5rem 45% 4rem 45%; 
+    border-radius: 25px;
 }
 .contentList .listOfItem{
     display: flex;
@@ -32,11 +33,13 @@
 .listOfTitle .link{
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
+    font-family: 'Poppins';
+    letter-spacing: 1.5px;
 }
 .link:hover{
-    color: rgba(105, 90, 205, 0.863);
+    color: tomato;
 }
 
 /* social media style start  */
@@ -54,7 +57,7 @@
 }
 .listOfIcon{
     padding: 10px  12px 12px 12px ;
-    background-color: #e6dada17;
+    background-color: tomato;
     border-radius: 25px;
 }
 .listOfIcon .linkIcon{
@@ -62,7 +65,7 @@
     color: #fff;   
 }
 .listOfIcon:hover{
-    background-color: #0d6efd;
+    background-color: #2405ec9a;
 }
 /* social media style end  */
 
@@ -78,10 +81,12 @@
     justify-content: space-between;
 }
 .copyrightHead .copyright{
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     font-weight: 600;
     padding: 20px 20px 30px 20px;
+    font-family: 'Poppins';
+    letter-spacing: 1.5px;
 }
 .termHead .termsBody{
     display: flex;
@@ -100,10 +105,14 @@
 }
 .termsList .termsTitle{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 22px;
     color: #fff;
     font-weight: 600; 
+    font-family: 'Poppins';
+    letter-spacing: 1.5px;
     /* padding: 20px 20px 50px 20px;  */
 }
+.termsTitle:hover{
+    color: orange;
+}
 
-/* #0d6efd */
