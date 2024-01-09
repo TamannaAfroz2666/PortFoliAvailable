@@ -3,11 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.contactLocation{
+    height: 100%;
+    width: 100%;
+}
 
 .contactLocationBody{
     display: flex;
-    gap: 60px;
-    padding: 50px 50px;
+    justify-content: space-evenly;
+    /* gap: 60px; */
+    padding: 6em 0px 40px 0px;
 }
 .phone{
     display: flex;
@@ -19,14 +24,19 @@
     background-color: rgba(105, 90, 205, 0.863);
     border-radius: 10px;
 }
+.phoneIcon:hover{
+    background-color: tomato;
+}
 .locationPhoneIcon{
     margin: 15px ;
 }
 .phoneInfo .phoneTitle{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     color: #111111cc;
     text-transform: uppercase;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
 }
 .phoneInfo .phoneNumber{
     font-size: 22px;
@@ -34,6 +44,8 @@
     color: #272626fd;
     bottom: 10px;
     position: relative;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
     
 
 }

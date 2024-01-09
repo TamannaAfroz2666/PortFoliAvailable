@@ -4,7 +4,7 @@ import { BsPhoneFlip } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { TfiLocationPin } from "react-icons/tfi";
 // import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
-import {  Marker } from "@react-google-maps/api";
+import { Marker } from "@react-google-maps/api";
 // import { useMemo } from "react";
 import GoogleMapReact from 'google-map-react';
 
@@ -71,9 +71,7 @@ const ContactLocation = () => {
                 </div>
 
             </div>
-
-
-
+            
             <div className="mapUsingHead">
                 <div style={{ height: '100vh', width: '100%' }}>
                     <GoogleMapReact
@@ -89,29 +87,8 @@ const ContactLocation = () => {
                             lng={30.337844}
                             text={defaultProps.center.address}
                         />
-{/* AIzaSyCEhuvVNd9evbHZDMCW-igLAJy13JqVZVw */}
                     </GoogleMapReact>
                 </div>
-
-
-                {/* <div className="map">
-                {!isLoaded ? (
-                    <h1>Loading...</h1>
-                ) : (
-                    <GoogleMap
-                        mapContainerClassName="map-container"
-                        center={center}
-                        zoom={10}
-                    >
-
-                        <Marker position={{ lat: 18.52043, lng: 73.856743 }} />
-                    </GoogleMap>
-
-                )}
-
-                </div> */}
-
-
             </div>
 
         </div>

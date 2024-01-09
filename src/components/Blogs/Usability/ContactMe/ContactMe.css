@@ -154,6 +154,7 @@
     font-size: 25px;
     border-radius: 10px;
     letter-spacing: 1px;
+    font-family: 'Poppins';
 }
 
 .btnOfContact:hover button {
@@ -163,5 +164,6 @@
 .numberLocationHead {
     height: 60vh;
     background-color: #fff;
+    border-radius: 10px;
 }
 
