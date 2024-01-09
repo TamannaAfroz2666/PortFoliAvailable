@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.serviceContainer{
+    height: 100%;
+    width: 100%;
+}
 .services{
     margin-top: 6rem;
-    background-color: rgba(220, 220, 220, 0.514);
-    /* height: 180vh; */
+    background-color: rgba(237, 238, 243, 0.11);
     height: 100%;
     overflow-y: hidden;
 }
@@ -15,23 +20,33 @@
     margin: auto;
 }
 .servicesParentNode .miniTitle{
-    font-size: 16px;
     text-align: center;
-    color: rgba(54, 54, 235, 0.801);
+    color: 	orange;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Poppins';
     padding-top: 10rem;
-
+}
+.miniTitle:hover{
+    color: #fff;
 }
 .servicesParentNode .serviceTitle{
     font-size: 62px;
     font-weight: 600;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
-    color: #000000e7;
+    color: #ffc107a9;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    font-style: italic;
 }
-
+.serviceTitle:hover{
+    /* color: #2405ec52; */
+    color: #fff;
+}
 /*----------- service items design --------------  */
 .serviceContent{
     margin-top: 70px;

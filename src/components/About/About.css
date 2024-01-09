@@ -56,7 +56,7 @@ img:hover {
     margin-left: 40px;
 }
 
-.titleAbout .aboutMeTitle{
+ .aboutMeTitle{
     color: 	#4329eb;
     font-size: 25px;
     font-weight: 700;
@@ -67,7 +67,7 @@ img:hover {
 .aboutMeTitle:hover{
     color: orange;
 }
-.titleAbout .title{
+ .title{
     width: 100%;
     font-size: 50px;
     color: #000000ce;
@@ -209,4 +209,38 @@ img:hover {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+}
+
+/* --------------------------responsive start here  -------------------*/
+
+
+
+/* large device for  */
+@media (max-width: 576px) {
+    .aboutMeTitle{
+        color: yellow;
+    }
+
+    
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .aboutMeTitle{
+        color: purple;
+    }
+
+    
+}
+@media (min-width: 769px)and(max-width: 992px) {
+    .aboutSection{
+        height: 100%;
+        width: 100%;
+    }
+    .aboutMeTitle{
+        color: red;
+    }
+    .title {
+        width: 300px;
+        font-size: 20px;
+        color: green;
+    }
 }
