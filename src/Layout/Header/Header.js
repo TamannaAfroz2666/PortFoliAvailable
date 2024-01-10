@@ -70,7 +70,7 @@ const Header = () => {
 
                                             </li>
                                             <li className='menu1'>
-                                                <NavLink to="./page2">Home Page 02 </NavLink>
+                                                <NavLink to="/page2">Home Page 02 </NavLink>
                                             </li>
                                         </ul>
 
