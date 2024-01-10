@@ -17,6 +17,36 @@ const ContactField = () => {
         }))
     }
 
+    // step 2 : data validation part 
+
+    const [errors, setErrors] = useState({});
+
+    const dataValidation = () => {
+        let dataIsValid = true;
+        let newErrors = {};
+
+        // for name field validated check 
+        if(!formData.name.trim()){
+            dataIsValid = false;
+            newErrors.name = 'Required your name!';
+        }
+        // for email field validation check 
+        const emailReges = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!formData.email.trim() || !emailReges.test(formData.email)){
+            dataIsValid = false;
+            newErrors.email = 'Enter a valid email address'
+        }
+
+        // for textArea field validation check 
+        if(!formData.textarea.trim()){
+            dataIsValid= false;
+            newErrors.textarea = ' Required your messages ';
+        }
+        setErrors(newErrors);
+        return dataIsValid;
+
+    }
+
     const submitHandle = () => {
         console.log('submit it');
     }
