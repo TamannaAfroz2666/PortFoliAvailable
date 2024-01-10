@@ -6,7 +6,7 @@ import Usability from './Usability/Usability';
 
 const Blogs = () => {
     return (
-        <div className='blogs'>
+        <div className='blogs' id='blogs'>
             <div className="blogHead">
                 <div className="blogBody">
                     <p className='blogSort'>From my blog</p>

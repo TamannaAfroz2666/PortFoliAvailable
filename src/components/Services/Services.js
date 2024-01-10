@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 const Services = () => {
     return (
-        <div className="serviceContainer">
+        <div className="serviceContainer" id='service'>
             <div className='services'>
                 <div className="servicesHead">
                     <div className="servicesParentNode">

@@ -34,62 +34,62 @@ const Portfolio = () => {
         setValue(newValue);
     };
 
-   
+
 
     return (
-        <div className="portfolioContainer">
-             <div className='portfolio'>
-            <div className="portfolioHead">
-                <div className="sortTitlePart">
-                <p className='sortTitlePortfolio'>My Portfolio</p>
+        <div className="portfolioContainer" id='portfolio'>
+            <div className='portfolio'>
+                <div className="portfolioHead">
+                    <div className="sortTitlePart">
+                        <p className='sortTitlePortfolio'>My Portfolio</p>
+                    </div>
+
+                    <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>
                 </div>
-               
-                <p className='portfolioTitle'>Visit my portfolio and keep <br /> your feedback</p>  
-            </div>
 
-            <TabContext value={value} className='tabContext1'>
-                <div className="btnGroupFolio">
-                    <div className="btnContents">
+                <TabContext value={value} className='tabContext1'>
+                    <div className="btnGroupFolio">
+                        <div className="btnContents">
 
-                        <Box className='listOfLink' sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                            <TabList className='classes.tabs' onChange={handleChange} aria-label="lab API  example">
-                                <Tab className='btnShow' label="All" value="1" />
-                                <Tab className='btnShow' label="Branding App" value="2" />
+                            <Box className='listOfLink' sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                                <TabList className='classes.tabs' onChange={handleChange} aria-label="lab API  example">
+                                    <Tab className='btnShow' label="All" value="1" />
+                                    <Tab className='btnShow' label="Branding App" value="2" />
 
-                                <Tab className='btnShow' label="Landing page " value="3" />
-                                <Tab className='btnShow' label="Website " value="4" />
-                            </TabList>
-                        </Box>
+                                    <Tab className='btnShow' label="Landing page " value="3" />
+                                    <Tab className='btnShow' label="Website " value="4" />
+                                </TabList>
+                            </Box>
+
+                        </div>
 
                     </div>
 
+
+                    <TabPanel value="1">
+                        <All></All>
+                    </TabPanel>
+                    <TabPanel value="2">
+                        <BrandingApp></BrandingApp>
+                    </TabPanel>
+
+                    <TabPanel value="3">
+                        <LandingPage></LandingPage>
+                    </TabPanel>
+                    <TabPanel value="4">
+                        <Website></Website>
+                    </TabPanel>
+                </TabContext>
+                <div>
+
+
+
+
                 </div>
-
-
-                <TabPanel  value="1">
-                   <All></All>
-                </TabPanel>
-                <TabPanel value="2">
-                   <BrandingApp></BrandingApp>
-                </TabPanel>
-
-                <TabPanel value="3">
-                  <LandingPage></LandingPage>
-                </TabPanel>
-                <TabPanel value="4">
-                   <Website></Website>
-                </TabPanel>
-            </TabContext>
-            <div>
-
-           
-                
-          
             </div>
-        </div>
 
         </div>
-       
+
     );
 };
 

@@ -76,7 +76,7 @@ const Header = () => {
 
 
                                     </li>
-                                    <li><NavLink smooth duration={500} to="about">About Me</NavLink>
+                                    <li><a className='about-link' smooth duration={500} href="#about">About Me</a>
                                         <hr className='underline1' color='yellow' size={5} />
 
                                     </li>
@@ -86,7 +86,7 @@ const Header = () => {
                                         <hr className='underline1' color='yellow' size={5} />
                                         <ul class="drop_menu">
                                             <li className='menu'>
-                                                <NavLink to="/services">Services</NavLink>
+                                                <a className='service-link' href="#service">Services</a>
                                             </li>
                                             <li className='menu1'>
                                                 <NavLink to="./servicesDetails">Services Details </NavLink>
@@ -98,7 +98,7 @@ const Header = () => {
                                         <hr className='underline1' color='yellow' size={5} />
                                         <ul class="drop_menu">
                                             <li className='menu'>
-                                                <NavLink to="/portfolio">Portfolio</NavLink>
+                                                <a className='port-link' href="#portfolio">Portfolio</a>
                                             </li>
                                             <li className='menu1'>
                                                 <NavLink to="./portfolioDetails">Portfolio Details </NavLink>
@@ -110,14 +110,14 @@ const Header = () => {
                                         <hr className='underline1' color='yellow' size={5} />
                                         <ul class="drop_menu">
                                             <li className='menu'>
-                                                <NavLink to="/blogs">Blogs</NavLink>
+                                                <a className='blog-link' href="#blogs">Blogs</a>
                                             </li>
                                             <li className='menu1'>
                                                 <NavLink to="./blogsDetails">Blogs Details </NavLink>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><NavLink to="/contact">Contact</NavLink>
+                                    <li><a className='con-link' href="#contact">Contact</a>
                                         <hr className='underline1' color='yellow' size={5} />
                                     </li>
 

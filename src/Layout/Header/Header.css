@@ -162,6 +162,9 @@
     position: relative;
     color: wheat;
 }
+.about-link , .service-link, .port-link, .blog-link, .con-link{
+    cursor: pointer;
+}
 
 /* responsive part start  */
 

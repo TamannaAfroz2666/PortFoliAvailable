@@ -7,7 +7,7 @@ const ContactMe = () => {
    
     return (
         <>
-            <div className="contactContainer">
+            <div className="contactContainer" id='contact'>
                 <div className='contactMe'>
                     <div className="contactMeHead">
                         <div className="contactMeTitle">
