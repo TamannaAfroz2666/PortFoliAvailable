@@ -6,6 +6,7 @@ import Services from './components/Services/Services';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
 import LogoPart from './pages/SideBar/LogoPart/LogoPart';
+import SideBarPageMain from './Layout/MainPageTwo/SideBarPageMain/SideBarPageMain';
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Services />} />
         <Route path='/skills' element={<Skills />} />
-        <Route path='/page2' element = {<LogoPart></LogoPart>}/>
+        <Route path='/page2' element = {<SideBarPageMain/>}/>
       </Routes>
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './LogoPart.css';
-import img1 from '../../../assets/Images/PageTwo/TLogo.jpg'
+import img1 from '../../../assets/Images/PageTwo/1.jpg'
 
 const LogoPart = () => {
     return (
