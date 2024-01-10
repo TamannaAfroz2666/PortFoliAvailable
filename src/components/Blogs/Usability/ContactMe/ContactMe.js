@@ -1,15 +1,10 @@
 import React from 'react';
 import './ContactMe.css';
 import image from '../../../../assets/Images/Background/ContactMe/Contact.jpg'
-// import image1 from '../../../../assets/Images/Background/ContactMe/ContactMe.jpg'
 import ContactLocation from './ContactLocation/ContactLocation';
+import ContactField from './ContactField/ContactField';
 const ContactMe = () => {
-    const nameChange = () => {
-        console.log('name in input field');
-    }
-    const emailChange = () => {
-        console.log('name in email field');
-    }
+   
     return (
         <>
             <div className="contactContainer">
@@ -23,28 +18,8 @@ const ContactMe = () => {
                                 <img src={image} alt="not found" />
                             </div>
                             <div className="ContactInfoHead">
-                                <h1 className='infoTitle'> Let's Talk About Ideas </h1>
-                                <div className="contentsOfInfo">
-                                    <div className="nameOfInput">
-                                        <input type="text" className='nameField' onChange={nameChange} placeholder='Enter Full Name' name='name' autoComplete='off' />
-
-                                    </div>
-                                    <div className="email">
-                                        <input type="email" className='emailField' onChange={emailChange} placeholder='Email Address' name='email' />
-
-                                    </div>
-                                </div>
-                                <div className="messageSection">
-                                    <textarea name="textarea" id="textarea" cols="20" rows="10" placeholder='Your Message' className='textArea'></textarea>
-                                </div>
-                                <div className="btnOfContact">
-                                    <button type='button' >Send Message</button>
-                                </div>
-
-
+                                <ContactField/>
                             </div>
-
-
                         </div>
                         <div className="numberLocationHead">
                             <div className="contactLocationContents">
