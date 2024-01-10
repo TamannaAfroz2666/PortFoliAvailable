@@ -11,8 +11,9 @@
 .customerCard{
     width: 500px;
     background-color: white;
-    height: 80vh;
+    height: 800px;
     border-radius: 10px;
+    position: relative;
     
 }
 .customerContent a{
