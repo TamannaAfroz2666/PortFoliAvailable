@@ -18,14 +18,6 @@ import All from './SubContent/All';
 import BrandingApp from './SubContent/BrandingApp/BrandingApp';
 import LandingPage from './SubContent/LandingPage/LandingPage';
 import Website from './SubContent/Website/Website';
-// import All from './SubContent/All';
-// import LandingPage from './SubContent/LandingPage/LandingPage';
-// import Website from './SubContent/Website/Website';
-// import BrandingApp from './SubContent/BrandingApp/BrandingApp';
-
-
-
-
 
 const Portfolio = () => {
     const [value, setValue] = React.useState('1');
@@ -33,8 +25,6 @@ const Portfolio = () => {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
-
-
 
     return (
         <div className="portfolioContainer" id='portfolio'>
@@ -81,10 +71,6 @@ const Portfolio = () => {
                     </TabPanel>
                 </TabContext>
                 <div>
-
-
-
-
                 </div>
             </div>
 
