@@ -24,21 +24,11 @@ const ContactMe = () => {
                         <div className="numberLocationHead">
                             <div className="contactLocationContents">
                                 <ContactLocation></ContactLocation>
-
                             </div>
-
-
-
-
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </>
     );
 };
