@@ -5,11 +5,11 @@ const ContactField = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
-        textarea: ''
-    })
+        textarea: '',
+    });
     // input event handler 
     const handleChange = (e) => {
-        const {name, value} = e.target;
+        const { name, value } = e.target;
 
         setFormData((prevData) => ({
             ...prevData,       //data exits kore niyese ager gulo
@@ -26,35 +26,41 @@ const ContactField = () => {
         let newErrors = {};
 
         // for name field validated check 
-        if(!formData.name.trim()){
+        if (!formData.name.trim()) {
             dataIsValid = false;
             newErrors.name = 'Required your name!';
         }
         // for email field validation check 
         const emailReges = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if(!formData.email.trim() || !emailReges.test(formData.email)){
+        if (!formData.email.trim() || !emailReges.test(formData.email)) {
             dataIsValid = false;
             newErrors.email = 'Enter a valid email address'
         }
 
         // for textArea field validation check 
-        if(!formData.textarea.trim()){
-            dataIsValid= false;
+        if (!formData.textarea.trim()) {
+            dataIsValid = false;
             newErrors.textarea = ' Required your messages ';
         }
         setErrors(newErrors);
         return dataIsValid;
 
-    }
+    };
 
-    const submitHandle = () => {
-        console.log('submit it');
+    const submitHandle = (e) => {
+        e.preventDefault();
+        if (dataValidation ()) {
+            console.log('your data is submitted', formData);
+        }
+        else {
+            console.log('form validation field');
+        }
     }
 
     return (
         <div className='contactField'>
             <h1 className='infoTitle'> Let's Talk About Ideas </h1>
-            <form action="" onSubmit={submitHandle}>
+            <form onSubmit={submitHandle}>
                 <div className="contentsOfInfo">
                     <div className="nameOfInput">
                         <input
@@ -66,6 +72,8 @@ const ContactField = () => {
                             value={formData.name}
                             onChange={handleChange}
                         />
+                        {errors.name && <span className='nameError'>
+                            {errors.name}</span>}
 
                     </div>
                     <div className="email">
@@ -77,6 +85,8 @@ const ContactField = () => {
                             value={formData.email}
                             onChange={handleChange}
                         />
+                        {errors.email && <span className='nameError'>
+                            {errors.email}</span>}
 
                     </div>
                 </div>
@@ -90,9 +100,13 @@ const ContactField = () => {
                         value={formData.textarea}
                         onChange={handleChange}
                     />
+                   
+                    {errors.textarea && <span className='nameError'>
+                            {errors.textarea}</span>}
+                    
                 </div>
                 <div className="btnOfContact">
-                    <button type='submit'>Send Message</button>
+                    <button type="submit">Send Message</button>
                 </div>
             </form>
 

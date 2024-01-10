@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -66,7 +67,7 @@
 }
 
 .messageSection {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 #textarea {
@@ -102,4 +103,13 @@
 
 .btnOfContact:hover button {
     background-color: tomato;
+}
+
+.nameError{
+    font-size: 20px;
+    color: red;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+
 }

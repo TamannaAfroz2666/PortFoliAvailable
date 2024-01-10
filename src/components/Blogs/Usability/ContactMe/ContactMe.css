@@ -14,7 +14,7 @@
 }
 
 .contactMe {
-    height: 120vh;
+    /* height: 120vh; */
     background-image: url(../../../../assets/Images/Background/ContactMe/photo-1.avif);
     background-position: center;
     background-repeat: no-repeat;
@@ -67,8 +67,9 @@
 
 
 .numberLocationHead {
-    height: 60vh;
+    height: 25vh;
     background-color: #fff;
     border-radius: 10px;
+    padding: 0 0 4rem 0;
 }
 
