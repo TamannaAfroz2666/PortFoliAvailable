@@ -48,6 +48,8 @@ const ServicePage = () => {
                                 <a href="/read-more">Read more</a>
                             </div>
                         </div>
+                        {/* <a href="mailto:{{ contact_info.emails.0 }}">{{ contact_info.emails.0 }}</a>
+                        <a href="mailto:your email">your email</a> */}
                     </div>
 
 
