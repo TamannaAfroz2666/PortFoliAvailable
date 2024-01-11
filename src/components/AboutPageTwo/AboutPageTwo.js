@@ -2,7 +2,8 @@ import React from 'react';
 import './AboutPageTwo.css';
 import img1 from '../../assets/Images/PageTwo/AboutSection/about_1.png';
 import img2 from '../../assets/Images/PageTwo/AboutSection/about_2.png';
-import img3 from '../../assets/Images/Background/AboutPart.jpg'
+import img3 from '../../assets/Images/Background/AboutPart.jpg';
+import { FaAward } from "react-icons/fa";
 
 const AboutPageTwo = () => {
     return (
@@ -23,6 +24,16 @@ const AboutPageTwo = () => {
                     </div>
                     <div className="ImageCon_page">
                         <img src={img3} alt="" />
+                        <div className="yearEx">
+                            <div className="logoYearEx">
+                                <span> <FaAward /></span>
+                            </div>
+                            <div className="infoYearEx">
+                                <h1>2+</h1>
+                                <p>Year experience</p>
+
+                            </div>
+                        </div>
 
                     </div>
                 </div>
