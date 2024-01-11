@@ -77,6 +77,31 @@
     padding: 4rem 0 0 4rem;
     letter-spacing: 1px;
     font-weight: 600;
+  }
+  .infoCollectCon{
+    margin: 6rem 0 0 4rem;
+    display: flex;
+    gap: 2rem;
+  }
 
+  /* button group  */
+  .downloadCv button{
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 26px 40px;
+    background-color: #55e6a5;
+    color: black;
+    border: 0;
+  }
+  .spanDoCv{
+    right: .5rem;
+    bottom: .2rem;
+    position: relative;
+  }
+  .downloadCvBtn:hover{
+    background-color: rgba(33, 37, 41, 0.75);
+    color: #ffffffc0;
 
   }
