@@ -35,6 +35,8 @@
 /* about section image and info start  */
 .infoAbout_pageTwo{
     margin-top: 1rem;
+    display: flex;
+    gap: 6rem;
 }
 .infoCon_Page img{
     width: 200px;
@@ -49,11 +51,19 @@
     padding: 2rem 0;
 }
 .ambitionDes{
-    width: 70%;
+    width: 100%;
     font-size: 22px;
     color: #fff;
     letter-spacing: 1px;
     line-height: 40px;
     padding: 1px 0 3rem 0 ;
 
+}
+.ImageCon_page{
+    width: 30%;
+}
+.ImageCon_page img{
+    width: 600px;
+    height: 600px;
+    margin-top: 2rem;
 }
