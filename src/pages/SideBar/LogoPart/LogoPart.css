@@ -8,6 +8,7 @@
 .logoPart1{
     height: 100%;
     width: 100%;
+    position: sticky;
     /* background-color: #e1e6ec; */
     /* background-color: #ddd0d0; */
 }
