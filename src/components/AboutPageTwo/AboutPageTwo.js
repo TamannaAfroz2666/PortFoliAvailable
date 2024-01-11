@@ -29,9 +29,8 @@ const AboutPageTwo = () => {
                                 <span className='awardSp'> <FaAward className='faAward' size={65}/></span>
                             </div>
                             <div className="infoYearEx">
-                                <h1>2+</h1>
-                                <p>Year experience</p>
-
+                                <h1 className='twoPlusPage2'>2+</h1>
+                                <p className='yearEx_page2'>Year experience</p>
                             </div>
                         </div>
 

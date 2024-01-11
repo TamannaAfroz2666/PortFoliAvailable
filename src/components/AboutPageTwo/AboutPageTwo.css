@@ -70,10 +70,13 @@
 
 /* year experience start */
 .yearEx{
-    width: 340px;
+    width: 440px;
     height: 200px;
     background-color: #55e6a5;
     display: flex;
+    left: 50%;
+    bottom: 7rem;
+    position: relative;
 }
 .logoYearEx{
     width: 100px;
@@ -91,4 +94,22 @@
     padding: 0rem 1rem;
     top: .8rem ;
     position: relative;
+}
+.infoYearEx{
+    margin: 3.5rem 0rem;
+}
+.infoYearEx .twoPlusPage2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #111;
+
+}
+.infoYearEx .yearEx_page2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111;
+    bottom: 1rem;
+    position: relative;
+    text-transform: capitalize;
+
 }

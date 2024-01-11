@@ -8,13 +8,18 @@
 .logoPart1{
     height: 100%;
     width: 100%;
-    position: sticky;
+   
+    
     /* background-color: #e1e6ec; */
     /* background-color: #ddd0d0; */
 }
 .sideLogoContainer{
     width: 80%;
     margin: auto;
+    height: 70rem;
+    top: 0;
+    position: sticky;
+
 
 }
 .logoPartContent1{
