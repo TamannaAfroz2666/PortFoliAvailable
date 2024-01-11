@@ -67,3 +67,28 @@
     height: 600px;
     margin-top: 2rem;
 }
+
+/* year experience start */
+.yearEx{
+    width: 340px;
+    height: 200px;
+    background-color: #55e6a5;
+    display: flex;
+}
+.logoYearEx{
+    width: 100px;
+    height: 90px;
+    background-color: #fff;
+    margin: 3.5rem 2rem;
+    position: relative;
+    border-radius: 5px;
+
+}
+.faAward{
+    color: #55e6a5;
+}
+.awardSp{
+    padding: 0rem 1rem;
+    top: .8rem ;
+    position: relative;
+}

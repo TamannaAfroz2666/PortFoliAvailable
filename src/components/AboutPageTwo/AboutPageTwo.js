@@ -26,7 +26,7 @@ const AboutPageTwo = () => {
                         <img src={img3} alt="" />
                         <div className="yearEx">
                             <div className="logoYearEx">
-                                <span> <FaAward /></span>
+                                <span className='awardSp'> <FaAward className='faAward' size={65}/></span>
                             </div>
                             <div className="infoYearEx">
                                 <h1>2+</h1>
