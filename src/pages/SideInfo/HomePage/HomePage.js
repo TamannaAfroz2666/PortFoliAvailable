@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import { BiDownArrowAlt } from "react-icons/bi";
+import { FaPlayCircle } from "react-icons/fa";
 
 const HomePage = () => {
     return (
@@ -28,7 +29,7 @@ const HomePage = () => {
                                 <button className='downloadCvBtn'>download cv <span className='spanDoCv'><BiDownArrowAlt size={30}/></span></button>
                             </div>
                             <div className="watchVideo">
-
+                             <a  className='watchLink' href="/watch-video">  <span><FaPlayCircle size={65} className='faplayCir'/></span> <p className='watchIt'>watch the video </p></a>
                             </div>
                         </div>
                 </div>

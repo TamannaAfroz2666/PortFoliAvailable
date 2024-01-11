@@ -21,7 +21,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 940px;
     border-radius: 10px;
 
 }
@@ -81,7 +81,7 @@
   .infoCollectCon{
     margin: 6rem 0 0 4rem;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
   }
 
   /* button group  */
@@ -105,3 +105,19 @@
     color: #ffffffc0;
 
   }
+.watchVideo a{
+    text-decoration: none;
+}
+.faplayCir{
+    color: #55e6a5;
+}
+.watchIt{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem 0 0 1rem;
+    text-transform: capitalize;
+}
+.watchLink{
+    display: inline-flex;
+}
