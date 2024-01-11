@@ -5,14 +5,14 @@
     box-sizing: border-box;
     /* font-family: 'Poppins'; */
 }
-.skillsPages11{
+.skillsPages{
     height: 100%;
     width: 100%;
 }
-.skillPageContainer44{
+.skillPageContainer{
     margin: 8rem 0 0 0rem;
 }
-.skillsPages11 .my_skills44{
+.skillsPages .my_skills{
     text-align: center;
     font-size: 28px;
     font-weight: 600;
@@ -21,14 +21,8 @@
     padding: 6px 0;
     letter-spacing: 1px;
 }
-.des_cri{
-    width: 100%;
 
-    margin: auto;
-    display: block;
-    overflow: hidden;
-}
-.des_cri .skills_header44{
+ .skills_header{
     width: 98%;
     margin: auto;
     text-align: center;
@@ -39,7 +33,7 @@
     letter-spacing: 2px;
     padding: 1rem 0 3rem 0;
 }
-.skills_header44:hover{
-    color: #55e6a5;
+.skills_header:hover{
+    color: tomato;
 }
 
