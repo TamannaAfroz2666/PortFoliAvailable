@@ -28,18 +28,32 @@ const LogoPart = () => {
                                 </span>
                              <span className='sideNavTitleLi'> Home</span> 
                             </li>
-                            <li>
-                            <IoHomeOutline size={40}/> Home
+                            <li className='sideNavLi1'>
+                                <span className='sideNavIconTi'>
+                                <IoHomeOutline size={50}/>
+                                </span>
+                             <span className='sideNavTitleLi'> Home</span> 
                             </li>
-                            <li>
-                            <IoHomeOutline size={40}/> Home
+                            <li className='sideNavLi1'>
+                                <span className='sideNavIconTi'>
+                                <IoHomeOutline size={50}/>
+                                </span>
+                             <span className='sideNavTitleLi'> Home</span> 
                             </li>
-                            <li>
-                            <IoHomeOutline size={40}/> Home
+                            <li className='sideNavLi1'>
+                                <span className='sideNavIconTi'>
+                                <IoHomeOutline size={50}/>
+                                </span>
+                             <span className='sideNavTitleLi'> Home</span> 
                             </li>
-                            <li>
-                            <IoHomeOutline size={40}/> Home
+                            <li className='sideNavLi1'>
+                                <span className='sideNavIconTi'>
+                                <IoHomeOutline size={50}/>
+                                </span>
+                             <span className='sideNavTitleLi'> Home</span> 
                             </li>
+                           
+                           
                         </ul>
                     </div>
                 </div>

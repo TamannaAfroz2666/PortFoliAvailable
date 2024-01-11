@@ -81,6 +81,17 @@
     border: 1px solid  #55e6a5;;
     padding: 1rem 0;
     border-radius: 20px;
+    
+}
+.sideNavLi1{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #55e6a5;
+    border: 1px solid  #55e6a5;;
+    padding: 1rem 0;
+    border-radius: 20px;
+    margin: 2.8rem 0 0rem 0;
 }
 .sideNavIconTi{
    padding: 1.5rem 18px;
