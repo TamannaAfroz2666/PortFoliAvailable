@@ -68,7 +68,7 @@
     margin-top: .5rem;
 }
 .sideNavCon .sideNavUi{
-    width: 280px;
+    width: 300px;
     list-style: none;
  
 }
@@ -88,7 +88,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #55e6a5;
-    border: 1px solid  #55e6a5;;
+    border: 1px solid  #91979542;;
     padding: 1rem 0;
     border-radius: 20px;
     margin: 2.8rem 0 0rem 0;
@@ -98,6 +98,18 @@
    background-color: #55e6a5;
    color: black;
    border-radius: 20px;
+    
+}
+.sideNavIconTi1{
+   padding: 1.5rem 18px;
+   background-color: #484b4a42;
+   color: white;
+   border-radius: 20px;
+    
+}
+.sideNavLi1:hover .sideNavIconTi1{
+     background-color: #55e6a5;
+     color: black;
     
 }
 /*------------------------ animation add ---------- */
