@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    /* background-color: #111; */
 }
 .servicePageTwo{
     height: 100%;
@@ -32,4 +33,40 @@
     letter-spacing: 2px;
     padding: 1rem 0 3rem 0;
 
+}
+/* blog design start  */
+.service_cate11{
+    margin-top: 3rem;
+    display: flex;
+   justify-content: space-around;
+    padding: 0 0 2rem 0;
+}
+.website_logo{
+    width: 380px;
+    height: 260px;
+    background-color: #343a40;
+    display: block;
+    
+}
+.web_logo_page2{
+    width: 150px;
+    height: 110px;
+    background-color: #55e6a5;
+    border-radius: 10px;
+    left: 30%;
+    bottom: 2rem;
+    position: relative;
+}
+.websiteSp{
+  
+    padding: 0rem 1.8rem;
+    top: .8rem ;
+    position: relative;
+    /* background-color: #55e6a5; */
+}
+
+
+.tama{
+    padding: 2rem 0;
+    color: #fff;
 }

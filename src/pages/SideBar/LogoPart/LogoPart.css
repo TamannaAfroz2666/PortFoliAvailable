@@ -16,9 +16,10 @@
 .sideLogoContainer{
     width: 80%;
     margin: auto;
-    height: 70rem;
+    height: 200rem;
     top: 0;
-    position: sticky;
+    /* left: 0; */
+    position: fixed;
 
 
 }
@@ -72,6 +73,7 @@
 .sideNavBar{
     width: 100%;
     margin-top: .5rem;
+    height: 100%;
 }
 .sideNavCon .sideNavUi{
     width: 300px;

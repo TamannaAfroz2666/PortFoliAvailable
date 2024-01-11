@@ -58,12 +58,12 @@ const LogoPart = () => {
                                 </span>
                              <span className='sideNavTitleLi'> portfolio</span> 
                             </li>
-                            <li className='sideNavLi1'>
+                            {/* <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
                                 <RxGithubLogo size={50}/>
                                 </span>
                              <span className='sideNavTitleLi'> blog</span> 
-                            </li>
+                            </li> */}
                             <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
                                 <PiUserSquare size={50}/>
