@@ -51,6 +51,7 @@
     height: 340px;
     background-color: #343a40;
     display: block;
+    /* position: absolute; */
     
 }
 .web_logo_page2{
@@ -85,11 +86,11 @@
     letter-spacing: 1px;
 }
 /* btn  */
-.web_btn_group{
-    margin: 4rem 0 0 9.5%;
+.serviceContents .web_btn_group{
+    margin: 4rem 0 0 40%;
     padding: 0 0 6rem 0;
 }
-.web_btn_group a{
+.serviceContents .web_btn_group a{
     text-decoration: none;
     font-size: 22px;
     letter-spacing: 2px;
@@ -100,5 +101,16 @@
     font-weight: 600;
     
 }
+.web_btn_group:hover a{
+    background-color: #55e6a5;
+    color: #111;
+}
+
+ 
+
+
+
+
+
 
 
