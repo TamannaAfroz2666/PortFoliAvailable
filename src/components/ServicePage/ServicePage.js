@@ -8,9 +8,6 @@ const ServicePage = () => {
             <div className="servicePageCon">
                 <h1 className='my_service'>my service</h1>
                 <h3 className='passionTitle'>Bringing your vision to life with precision and passion</h3>
-
-                {/* <h1 className='tama'>hhh</h1> */}
-
                 <div className="serviceContents">
                     <div className="service_web">
                         <div className="web2">
@@ -32,12 +29,8 @@ const ServicePage = () => {
                                     <span className='websiteSp'><CgWebsite size={85} color='black' /></span>
                                 </div>
                                 <h3 className='web_des_title'>Website design</h3>
-                                <p className='web_design_des'>Any kind of UI that I could construct. Thus, it can be an inventory, blog, e-commerce, etc.</p>
-
-
-
+                                <p className='web_design_des'>Any kind of UI that I could construct. Thus, it can be an inventory, blog, e-commerce, etc.</p> 
                             </div>
-
                         </div>
                         <div className="web4">
                             <div className="website_logo">
@@ -46,9 +39,6 @@ const ServicePage = () => {
                                 </div>
                                 <h3 className='web_des_title'>Website design</h3>
                                 <p className='web_design_des'>Any kind of UI that I could construct. Thus, it can be an inventory, blog, e-commerce, etc.</p>
-
-
-
                             </div>
 
                         </div>
