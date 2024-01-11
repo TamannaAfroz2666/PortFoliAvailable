@@ -35,14 +35,22 @@
 
 }
 /* blog design start  */
-.service_cate11{
-    margin-top: 9rem;
-    display: flex;
-   justify-content: space-around;
+.serviceContents{
+    margin-top: 8rem;
+}
+.service_web{
+    right: 4rem;
+    position: relative;
+    width: 100%;
+    /* margin-top: 9rem; */
+    display: inline-flex;
+    /* justify-content: space-between; */
+    gap: 3rem;
+  
     padding: 0 0 2rem 0;
 }
 .website_logo{
-    width: 480px;
+    width: 460px !important;
     height: 340px;
     background-color: #343a40;
     display: block;
@@ -81,7 +89,7 @@
 }
 /* btn  */
 .web_btn_group{
-    margin: 0rem 0 0 9.5%;
+    margin: 4rem 0 0 9.5%;
     padding: 0 0 6rem 0;
 }
 .web_btn_group a{
