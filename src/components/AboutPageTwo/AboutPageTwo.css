@@ -31,3 +31,29 @@
     padding: .5rem 0 3rem 0;
 
 }
+
+/* about section image and info start  */
+.infoAbout_pageTwo{
+    margin-top: 1rem;
+}
+.infoCon_Page img{
+    width: 200px;
+    height: 200px;
+}
+.myAmbition{
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 2rem 0;
+}
+.ambitionDes{
+    width: 70%;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 1px 0 3rem 0 ;
+
+}
