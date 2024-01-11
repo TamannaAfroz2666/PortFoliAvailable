@@ -21,3 +21,13 @@
     letter-spacing: 1px;
    
 }
+.craftingTitle{
+    width: 90%;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 2px;
+    padding: .5rem 0 3rem 0;
+
+}
