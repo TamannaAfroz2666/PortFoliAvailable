@@ -37,3 +37,68 @@
     color: tomato;
 }
 
+/* --------------------Tab style working---------------  */
+.skills_multiPage{
+    margin-top: 3rem;
+}
+
+
+
+.tabContext1{
+    position: fixed;
+  }
+.showActivities{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+
+}
+.webDesign{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 10px -10px, rgba(0, 0, 0, 0.3) 0px 10px 20px -10px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+
+}
+.webContents{
+    width: 300px;
+}
+.webContents button{
+    font-size: 18px;
+    color: #111111c7;
+    padding: 12px 14px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(185, 66, 185, 0.699);
+    margin-top: 50px;
+    
+}
+
+.btnWeb:hover{
+    background-color: aqua;
+
+}
+
+.webContents  .web_title{
+    font-size: 35px;
+    color: #111;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 20px 0;
+
+}
+
+.designDes{
+    width: 250px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.webImages img{
+    width: 250px;
+    height: 280px;
+    border-radius: 20px;
+}
