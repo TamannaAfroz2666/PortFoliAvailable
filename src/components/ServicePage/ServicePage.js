@@ -17,12 +17,14 @@ const ServicePage = () => {
                             <div className="web_logo_page2">
                                 <span className='websiteSp'><CgWebsite size={85} color='black' /></span>
                             </div>
+                            <h3 className='web_des_title'>Website design</h3>
+                            <p className='web_design_des'>Any kind of UI that I could construct. Thus, it can be an inventory, blog, e-commerce, etc.</p>
 
 
-                            {/* <div className="website_info_design11">
-                                <h1 className='web_title11'>website design</h1>
-
-                            </div> */}
+                           
+                        </div>
+                        <div className="web_btn_group">
+                            <a href="/read more">Read more</a>
                         </div>
 
                     </div>

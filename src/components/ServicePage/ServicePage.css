@@ -36,14 +36,14 @@
 }
 /* blog design start  */
 .service_cate11{
-    margin-top: 3rem;
+    margin-top: 9rem;
     display: flex;
    justify-content: space-around;
     padding: 0 0 2rem 0;
 }
 .website_logo{
-    width: 380px;
-    height: 260px;
+    width: 480px;
+    height: 340px;
     background-color: #343a40;
     display: block;
     
@@ -53,20 +53,47 @@
     height: 110px;
     background-color: #55e6a5;
     border-radius: 10px;
-    left: 30%;
-    bottom: 2rem;
+    left: 10%;
+    bottom: 3rem;
     position: relative;
 }
 .websiteSp{
-  
     padding: 0rem 1.8rem;
     top: .8rem ;
     position: relative;
-    /* background-color: #55e6a5; */
 }
-
-
-.tama{
-    padding: 2rem 0;
+.web_des_title{
+    font-size: 28px;
+    padding: 0 0 0 10%;
+    color: #ffffffec;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.web_design_des{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: justify;
+    padding: 18px  32px;
+    color: #ffffffc7;
+    letter-spacing: 1px;
+}
+/* btn  */
+.web_btn_group{
+    margin: 0rem 0 0 9.5%;
+    padding: 0 0 6rem 0;
+}
+.web_btn_group a{
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding: 1.5rem 3rem;
+    border: 1px solid #55e6a5;
     color: #fff;
+    font-weight: 600;
+    
 }
+
+
