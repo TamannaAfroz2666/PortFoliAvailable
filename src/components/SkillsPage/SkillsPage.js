@@ -21,15 +21,15 @@ const SkillsPage = () => {
                     Imagination</h3>
                 <div className="skills_multiPage">
                 <TabContext value={value} className='tabContext1'>
-                    <div className="btnGroupFolio">
+                    <div className="btnGroupFolio_skills">
                         <div className="btnContents">
 
-                            <Box className='listOfLink' sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                            <Box className='listOfLink' >
                                 <TabList className='classes.tabs' onChange={handleChange} aria-label="lab API  example">
-                                    <Tab className='btnShow' label="Download Cv" value="1" />
-                                    <Tab className='btnShow' label=" Education" value="2" />
+                                    <Tab className='btnShowSkill1' label="Download Cv" value="1" />
+                                    <Tab className='btnShowSkill' label=" Education" value="2" />
 
-                                    <Tab className='btnShow' label="Experience" value="3" />
+                                    <Tab className='btnShowSkill' label="Experience" value="3" />
                                     {/* <Tab className='btnShow' label="Website " value="4" /> */}
                                 </TabList>
                             </Box>

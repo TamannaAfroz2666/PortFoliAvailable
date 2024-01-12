@@ -43,7 +43,63 @@
 }
 
 
+/* tab style  */
+.btnGroupFolio_skills{
+    width: 68%;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.021) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 10vh;
+    border-radius: 10px;
+}
 
+.btnGroupFolio_skills .ul {
+    display: flex;
+    gap: 60px;
+    justify-content: center;   
+}
+.listOfLink li{
+    list-style: none;
+}
+.listOfLink .btnShowSkill{
+    padding: 1.5rem 2rem;
+    font-size: 24px;
+    border: 0;
+    margin-top: 15px;
+    /* background-color: white; */
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    /* border: 1px solid rebeccapurple; */
+    background-color: #141c27;
+    margin: 15px 2rem 0 0;
+
+    
+}
+.listOfLink .btnShowSkill1{
+    /* padding: 3rem 40px 20px  40px; */
+    padding: 1.5rem 2rem;
+    font-size: 24px;
+    border: 0;
+    /* margin-top: 15px; */
+    /* background-color: white; */
+    font-weight: 600;
+    color: #111;
+    letter-spacing: 3px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    border: 1px solid rebeccapurple;
+    background-color: #55e6a5;
+    margin: 15px 2rem 0 0;
+
+    
+}
+.btnShowSkill:hover{
+    color: tomato;
+    background-color: #55e6a5;
+}
 .tabContext1{
     position: fixed;
   }

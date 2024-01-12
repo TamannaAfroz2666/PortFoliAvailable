@@ -52,6 +52,8 @@
 .portfolioHead .portfolioTitle:hover {
     color: #f093f0;
 }
+
+/* tab start here  */
 .btnGroupFolio{
     width: 55%;
     margin: auto;
@@ -84,14 +86,7 @@
 .btnShow:hover{
     color: tomato;
 }
-/* tabs .MuiTabs-indicator{
 
-      
-      display: "none"
-    
-    
-  
-  } */
 
   /* tab style  */
   
