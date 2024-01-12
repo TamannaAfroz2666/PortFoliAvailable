@@ -14,7 +14,7 @@
 .nameSubjectContent{
     display: flex;
     gap: 2rem;
-    padding: 0 0 7rem 0;
+    padding: 0 0 2rem 0;
 }
 .name_message .name_fieldMess{
     width: 700px;
@@ -31,7 +31,17 @@
     height: 80px;
     color: #ffffff;
     padding: 2px 10px;
-    border: 1px solid #37393a;
+    border: 1px solid #292727;
+    background-color: #111;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.email_message .email_fieldMess{
+    width: 90rem;
+    height: 80px;
+    color: #ffffff;
+    padding: 2px 10px;
+    border: 1px solid #292727;
     background-color: #111;
     font-size: 22px;
     border-radius: 5px;
@@ -39,8 +49,39 @@
 .name_fieldMess:focus{
     outline: none;
 }
+.email_fieldMess:focus{
+    outline: none;
+}
 .name_fieldMess::placeholder{
     font-size: 24px;
     letter-spacing: 1px;
     color: #ffffff;
+}
+.email_fieldMess::placeholder{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+/* client message  */
+.customer_message .client_fieldMess{
+    width: 90rem;
+    height: 14rem;
+    color: #ffffff;
+    padding: 2px 10px;
+    border: 1px solid #292727;
+    background-color: #111;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 2rem 0 ;
+
+}
+.client_fieldMess:focus{
+    outline: none;
+}
+.client_fieldMess::placeholder{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-top: 30px;
+
 }
