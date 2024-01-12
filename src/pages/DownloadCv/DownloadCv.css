@@ -10,12 +10,9 @@
     width: 100%;
 }
 .downloadCvContent{
-    /* width: 100%; */
     display: flex;
     gap: 3rem;
     position: relative;
-    
-     /* justify-content: space-between; */
 }
 .link_creative{
     display: flex;
