@@ -14,6 +14,9 @@
     gap: 2rem;
 }
 /* Container for the image and overlay */
+.image-container a{
+    text-decoration: none;
+}
 .image-container {
     position: relative;
     width: 100%; /* Adjust the width as needed */
@@ -23,13 +26,16 @@
 
   /* Image styling */
   .img_porfolio img {
-    /* width: 100%; */
-    /* width: 45rem !important; */
     width: 700px;
-    height: 700px;
-    /* height: auto; */
+    height: 800px;
     display: block;
+    transition: transform 1s ease-in;
+    border-radius: 10px;
   }
+  .img_porfolio:hover{
+    transform: scale(1.01);
+  }
+ 
 
   /* Overlay styling */
   .overlay {
@@ -73,3 +79,23 @@
   .image-container:hover .overlay {
     opacity: 1;
   }
+
+  /* for short image content  */
+
+  .imageContentSort{
+    display: flex;
+    gap: 2em;
+    margin-top: 4rem;
+  }
+ 
+
+  .img_porfolioSort img {
+    width: 455px;
+    height: 500px;
+    display: block;
+    transition: transform .8s ease-in;
+  }
+  .img_porfolioSort:hover{
+    transform: scale(1.01);
+  }
+ 

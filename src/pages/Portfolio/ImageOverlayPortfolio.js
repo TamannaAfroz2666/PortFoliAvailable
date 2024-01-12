@@ -12,33 +12,70 @@ const ImageOverlayPortfolio = () => {
         <div className='ImageOverlayPortfolio'>
             <div className="imagesContent_portfolio">
                 <div class="image-container">
-                    <div className="img_porfolio">
-                    <img src={img1} alt="Your Image" />
+                    <a href="/e-commerce-site">
+                        <div className="img_porfolio">
+                            <img src={img1} alt="Your Image" />
+                        </div>
 
-                    </div>
-                    
-                    <div class="overlay">
-                        <h2 className='overlayTitle_portfolio'>E-commerce site</h2>
-                        
-                        {/* <h3>hhhh fffff kkkkk bbbb oooo</h3> */}
-                    </div>
+                        <div class="overlay">
+                            <h2 className='overlayTitle_portfolio'>E-commerce site</h2>
+
+                            {/* <h3>hhhh fffff kkkkk bbbb oooo</h3> */}
+                        </div>
+                    </a>
                 </div>
                 <div class="image-container">
-                <div className="img_porfolio">
-                    <img src={img2} alt="Your Image" />
+                    <a href="/e-commerce-site">
+                        <div className="img_porfolio">
+                            <img src={img2} alt="Your Image" />
+                        </div>
 
-                    </div>
-                    {/* <img src={img2} alt="Your Image" /> */}
-                    <div class="overlay">
-                        <h2>Your Image Title</h2>
-                        <h3>hhhh fffff kkkkk bbbb oooo</h3>
-                    </div>
+                        <div class="overlay">
+                            <h2 className='overlayTitle_portfolio'>Online Education site</h2>
+                        </div>
+                    </a>
                 </div>
+
+            </div>
+            <div className="imageContentSort">
+                <div class="image-container">
+                    <a href="/e-commerce-site">
+                        <div className="img_porfolioSort">
+                            <img src={img3} alt="Your Image" />
+                        </div>
+                        <div class="overlay">
+                            <h2 className='overlayTitle_portfolio'>E-commerce site</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="/e-commerce-site">
+                        <div className="img_porfolioSort">
+                            <img src={img4} alt="Your Image" />
+                        </div>
+
+                        <div class="overlay">
+                            <h2 className='overlayTitle_portfolio'> T_A Shopping site</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container">
+                    <a href="/e-commerce-site">
+                        <div className="img_porfolioSort">
+                            <img src={img5} alt="Your Image" />
+                        </div>
+
+                        <div class="overlay">
+                            <h2 className='overlayTitle_portfolio'> Parlor site</h2>
+                        </div>
+                    </a>
+                </div>
+
 
             </div>
 
 
-        </div>
+        </div >
     );
 };
 
