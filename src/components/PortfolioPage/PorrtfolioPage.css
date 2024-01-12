@@ -10,3 +10,21 @@
     height: 100%;
     width: 100%;
 }
+.recent_portfolio{
+    font-size: 28px;
+    font-weight: 600;
+    color: #55e6a5;
+    text-transform: uppercase;
+    padding: 6px 0;
+    letter-spacing: 1px;
+}
+.portfolio_elevate{
+    width: 98%;
+    margin: auto;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 2px;
+    padding: 1rem 0 3rem 0;
+}
