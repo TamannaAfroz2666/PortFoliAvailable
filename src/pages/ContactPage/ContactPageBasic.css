@@ -6,6 +6,7 @@
 .ContactPageBasic{
     height: 100%;
     width: 100%;
+    margin-top: 4rem;
 }
 .contact_contents{
     display: flex;
@@ -53,6 +54,18 @@
     font-weight: 600;
     color: #fff;
 
+}
+.email_show{
+    text-align: center;
+    padding: .5rem 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.items_info a{
+    text-decoration: none;
 }
 /* .location_multiContent{
     width: 420px !important;
