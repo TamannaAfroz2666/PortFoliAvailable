@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import DownloadCv from '../../pages/DownloadCv/DownloadCv';
 
 const SkillsPage = () => {
     const [value, setValue] = React.useState('1');
@@ -41,6 +42,7 @@ const SkillsPage = () => {
 
                     <TabPanel value="1">
                         {/* <All></All> */}
+                        <DownloadCv></DownloadCv>
                     </TabPanel>
                     <TabPanel value="2">
                         {/* <BrandingApp></BrandingApp> */}
