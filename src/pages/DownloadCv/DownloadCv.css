@@ -83,3 +83,21 @@
     border: 1px solid #141c27;
     padding: 3rem 1rem;
 }
+
+/* .progress-bar {
+    appearance: none; Remove default styles
+    height: 20px; Set the height as needed
+    width: 100%; Make it fill the container
+  } */
+  
+  .progress-bar::-webkit-progress-bar {
+    background-color: #ddd; /* Set the background color of the progress bar track */
+  }
+  
+  .progress-bar::-webkit-progress-value {
+    background-color: #55e6a5; /* Set the progress bar color */
+  }
+  
+  .progress-bar::-moz-progress-bar {
+    background-color: #55e6a5; /* Set the progress bar color for Firefox */
+  }
