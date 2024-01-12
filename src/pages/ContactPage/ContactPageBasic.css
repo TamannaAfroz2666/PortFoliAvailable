@@ -55,6 +55,10 @@
     color: #fff;
 
 }
+.number_show:hover{
+    color: #0dcaf0;
+}
+
 .email_show{
     text-align: center;
     padding: .5rem 0;
@@ -63,6 +67,9 @@
     font-weight: 600;
     color: #fff;
 
+}
+.email_show:hover{
+    color: #0dcaf0;
 }
 .items_info a{
     text-decoration: none;
