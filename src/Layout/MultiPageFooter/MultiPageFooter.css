@@ -6,4 +6,13 @@
 .MultiPageFooter{
     height: 100%;
     width: 100%;
+    padding: 2rem 0;
+}
+.multiPageHr{
+    width: 90rem;
+    color: rgb(246, 250, 250);
+}
+.footer_infoMulti{
+    display: flex;
+    justify-content: space-between;
 }
