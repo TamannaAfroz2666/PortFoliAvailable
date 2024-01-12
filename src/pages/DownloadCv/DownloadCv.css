@@ -1,39 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-       font-family: 'Poppins';
+    font-family: 'Poppins';
 }
-.downloadCv{
+
+.downloadCv {
     height: 100%;
     width: 100%;
 }
-.downloadCvContent{
+
+.downloadCvContent {
     display: flex;
     gap: 3rem;
     position: relative;
 }
-.link_creative{
+
+.link_creative {
     display: flex;
     gap: 1rem;
 }
-.arrow_cv .doubleArrow{
+
+.arrow_cv .doubleArrow {
     color: #55e6a5;
 }
-.informationOfCv .agencyTitle{
+
+.informationOfCv .agencyTitle {
     font-size: 22px;
     color: #fff;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.hrAgency{
+
+.hrAgency {
     width: 240px;
     height: 3px;
     background-color: #55e6a5;
 }
-.framerDownTitle{
+
+.framerDownTitle {
     width: 700px;
     font-size: 32px;
     color: #fff;
@@ -42,10 +50,12 @@
     text-transform: capitalize;
     padding: .5rem 0;
 }
-.framerDownTitle:hover{
+
+.framerDownTitle:hover {
     color: #55e6a5;
 }
-.timeOfFramer{
+
+.timeOfFramer {
     font-size: 22px;
     color: #fff;
     font-weight: 700;
@@ -54,7 +64,8 @@
     padding: 0 0 .5rem 0;
 
 }
-.desWork_down{
+
+.desWork_down {
     font-size: 22px;
     color: #a2a2a2;
     font-weight: 700;
@@ -64,31 +75,36 @@
 
 }
 
-.progress-bar{
+.progress-bar {
     width: 400px;
     height: 8px;
     border-radius: 20px;
     color: #55e6a5;
 }
-.formerDesigner{
-    width: 700px;
-    border: 1px solid #141c27;
-    padding: 3rem 1rem;
-}
-.web_designerCv{
+
+.formerDesigner {
     width: 700px;
     border: 1px solid #141c27;
     padding: 3rem 1rem;
 }
 
-  .progress-bar::-webkit-progress-bar {
-    background-color: #ddd; /* Set the background color of the progress bar track */
-  }
-  
-  .progress-bar::-webkit-progress-value {
-    background-color: #55e6a5; /* Set the progress bar color */
-  }
-  
-  .progress-bar::-moz-progress-bar {
-    background-color: #55e6a5; /* Set the progress bar color for Firefox */
-  }
+.web_designerCv {
+    width: 700px;
+    border: 1px solid #141c27;
+    padding: 3rem 1rem;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #ddd;
+    /* Set the background color of the progress bar track */
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #55e6a5;
+    /* Set the progress bar color */
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #55e6a5;
+    /* Set the progress bar color for Firefox */
+}

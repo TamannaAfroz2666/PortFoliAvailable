@@ -1,10 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box
     ;
+    font-family: 'Poppins';
 }
 .MessagePage{
     height: 100%;
     width: 100%;
+}
+.nameSubjectContent{
+    display: flex;
+    gap: 2rem;
+    padding: 0 0 7rem 0;
+}
+.name_message .name_fieldMess{
+    width: 700px;
+    height: 80px;
+    color: #ffffff;
+    padding: 2px 10px;
+    border: 1px solid #37393a;
+    background-color: #111;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.sub_message .name_fieldMess{
+    width: 700px;
+    height: 80px;
+    color: #ffffff;
+    padding: 2px 10px;
+    border: 1px solid #37393a;
+    background-color: #111;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.name_fieldMess:focus{
+    outline: none;
+}
+.name_fieldMess::placeholder{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
 }
