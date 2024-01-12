@@ -26,7 +26,7 @@ const DownloadCv = () => {
 
                 </div>
                 <div className="web_designerCv">
-                <div className="link_creative">
+                    <div className="link_creative">
                         <div className="arrow_cv">
                             <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
                         </div>
@@ -38,7 +38,7 @@ const DownloadCv = () => {
                             <h3 className='framerDownTitle'>Framer Designer & Developer</h3>
                             <h5 className='timeOfFramer'>2019 - Present</h5>
                             <p className='desWork_down'>This work is mainly performed contractually. here, complete several projects.</p>
-                            <progress className='progress-bar' id="file" max="100" value="20">70%</progress>
+                            <progress className='progress-bar' id="file" max="100" value="60">70%</progress>
 
                         </div>
 
