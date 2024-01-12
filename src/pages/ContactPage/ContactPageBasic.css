@@ -13,7 +13,7 @@
     padding: 2rem 0;
 }
 .phone_multiContent{
-    width: 420px !important;
+    width: 440px ;
     height: 360px;
     background-color: #141c27;
     display: block;
@@ -25,6 +25,7 @@
     color: #0dcaf0;
 }
 .phone_contactPage{
+    width: 440px;
     text-align: center;
     padding: 1rem 0;
     text-transform: capitalize;
