@@ -14,10 +14,44 @@
 }
 .phone_multiContent{
     width: 420px !important;
-    height: 400px;
-    background-color: #a2a2a2;
+    height: 360px;
+    background-color: #141c27;
     display: block;
     position: relative;
+}
+.mobileDevice{
+    /* color: #55e6a5; */
+    margin: 3rem 0 0 40%;
+    color: #0dcaf0;
+}
+.phone_contactPage{
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: capitalize;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+}
+.call_meTitle{
+    text-align: center;
+    /* padding: .5rem 0; */
+    text-transform: capitalize;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #6c757d;
+
+}
+.number_show{
+    text-align: center;
+    padding: .5rem 0;
+    text-transform: capitalize;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+
 }
 /* .location_multiContent{
     width: 420px !important;
