@@ -19,6 +19,11 @@ const MessagePage = () => {
                 <div className="customer_message">
                     <textarea type="text" name='name' className='client_fieldMess' id='name_fieldMess' placeholder='Your Message Here' />
                 </div>
+                <div className="submitBtn_message">
+                    <button type='submit' className='submitBtn_group'>Submit</button>
+                </div>
+
+
 
             </form>
 

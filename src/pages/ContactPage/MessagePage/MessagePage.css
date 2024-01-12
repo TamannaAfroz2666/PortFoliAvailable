@@ -3,13 +3,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
-    ;
+    box-sizing: border-box ;
     font-family: 'Poppins';
 }
 .MessagePage{
     height: 100%;
     width: 100%;
+    padding: 0 0 4rem 0;
 }
 .nameSubjectContent{
     display: flex;
@@ -83,5 +83,27 @@
     letter-spacing: 1px;
     color: #ffffff;
     padding-top: 30px;
+
+}
+
+/* btn design  */
+.submitBtn_message{
+    margin: 3rem 0 0 50%;
+}
+
+.submitBtn_message button{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: #55e6a5;
+    color: #222020;
+    padding: 1rem 4rem;
+    font-family: 'Poppins';
+    border: 0;
+    
+}
+.submitBtn_group:hover{
+    background-color:#ffffff;
 
 }

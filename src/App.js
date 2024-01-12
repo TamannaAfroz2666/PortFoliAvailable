@@ -7,6 +7,8 @@ import Skills from './components/Skills/Skills';
 import About from './components/About/About';
 import LogoPart from './pages/SideBar/LogoPart/LogoPart';
 import SideBarPageMain from './Layout/MainPageTwo/SideBarPageMain/SideBarPageMain';
+import MainPageTwo from './Layout/MainPageTwo/MainPageTwo';
+
 
 
 
@@ -18,8 +20,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Services />} />
         <Route path='/skills' element={<Skills />} />
-        <Route path='/page2' element = {<SideBarPageMain/>}/>
+        <Route path='/page2' element = {<MainPageTwo></MainPageTwo>}/>
       </Routes>
+      
 
 
    
