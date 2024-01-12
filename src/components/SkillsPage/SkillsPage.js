@@ -40,15 +40,15 @@ const SkillsPage = () => {
                     </div>
 
 
-                    <TabPanel value="1">
+                    <TabPanel value="1" className='tabPanel'>
                         {/* <All></All> */}
                         <DownloadCv></DownloadCv>
                     </TabPanel>
-                    <TabPanel value="2">
+                    <TabPanel value="2"  className='tabPanel'>
                         {/* <BrandingApp></BrandingApp> */}
                     </TabPanel>
 
-                    <TabPanel value="3">
+                    <TabPanel value="3"  className='tabPanel'>
                         {/* <LandingPage></LandingPage> */}
                     </TabPanel>
                     {/* <TabPanel value="4">

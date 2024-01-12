@@ -16,7 +16,7 @@ const DownloadCv = () => {
                             </h4>
                             <hr className='hrAgency' />
                             <h3 className='framerDownTitle'>Framer Designer & Developer</h3>
-                            <h5 className='timeOfFramer'>2019 - Present</h5>
+                            <h5 className='timeOfFramer'>2021 - Present</h5>
                             <p className='desWork_down'>This work is mainly performed contractually. here, complete several projects.</p>
                             <progress className='progress-bar' id="file" max="100" value="20">70%</progress>
 
@@ -31,13 +31,13 @@ const DownloadCv = () => {
                             <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
                         </div>
                         <div className="informationOfCv">
-                            <h4 className='agencyTitle'>Creative agency
+                            <h4 className='agencyTitle'>Sawari Overseas
 
                             </h4>
                             <hr className='hrAgency' />
-                            <h3 className='framerDownTitle'>Framer Designer & Developer</h3>
-                            <h5 className='timeOfFramer'>2019 - Present</h5>
-                            <p className='desWork_down'>This work is mainly performed contractually. here, complete several projects.</p>
+                            <h3 className='framerDownTitle'>Front-end Developer</h3>
+                            <h5 className='timeOfFramer'>2022 - 2023</h5>
+                            <p className='desWork_down'>This work is mainly performed on remote. here, complete several projects.</p>
                             <progress className='progress-bar' id="file" max="100" value="60">70%</progress>
 
                         </div>
