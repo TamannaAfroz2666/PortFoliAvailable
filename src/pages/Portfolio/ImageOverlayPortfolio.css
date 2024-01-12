@@ -8,17 +8,26 @@
     width: 100%;
     padding: 5rem 0;
 }
+
+.imagesContent_portfolio{
+    display: flex;
+    gap: 2rem;
+}
 /* Container for the image and overlay */
 .image-container {
     position: relative;
-    width: 600px; /* Adjust the width as needed */
-    overflow: hidden;
+    width: 100%; /* Adjust the width as needed */
+   
+    /* overflow: hidden; */
   }
 
   /* Image styling */
-  .image-container img {
-    width: 100%;
-    height: auto;
+  .img_porfolio img {
+    /* width: 100%; */
+    /* width: 45rem !important; */
+    width: 700px;
+    height: 700px;
+    /* height: auto; */
     display: block;
   }
 
@@ -29,7 +38,7 @@
     left: 0;
     /* bottom: 0; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background: rgba(0, 0, 0, 0.7); /* Adjust the overlay color and transparency */
     color: #fff; /* Text color on the overlay */
     /* display: flex; */
