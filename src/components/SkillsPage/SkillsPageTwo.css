@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
 }
 .skillsPages{
     height: 100%;
@@ -97,7 +97,7 @@
     
 }
 .btnShowSkill:hover{
-    color: tomato;
+    color: #141c27;
     background-color: #55e6a5;
 }
 .tabContext1{
