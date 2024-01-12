@@ -7,6 +7,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import DownloadCv from '../../pages/DownloadCv/DownloadCv';
 import Education from '../../pages/Education/Education';
+import ExperiencePage from '../../pages/ExperiencePage/ExperiencePage';
 
 const SkillsPage = () => {
     const [value, setValue] = React.useState('1');
@@ -32,30 +33,20 @@ const SkillsPage = () => {
                                     <Tab className='btnShowSkill' label=" Education" value="2" />
 
                                     <Tab className='btnShowSkill' label="Experience" value="3" />
-                                    {/* <Tab className='btnShow' label="Website " value="4" /> */}
                                 </TabList>
                             </Box>
-
                         </div>
-
                     </div>
-
-
                     <TabPanel value="1" className='tabPanel'>
-                        {/* <All></All> */}
                         <DownloadCv></DownloadCv>
                     </TabPanel>
                     <TabPanel value="2"  className='tabPanel'>
-                        {/* <BrandingApp></BrandingApp> */}
                         <Education></Education>
                     </TabPanel>
 
                     <TabPanel value="3"  className='tabPanel'>
-                        {/* <LandingPage></LandingPage> */}
+                        <ExperiencePage></ExperiencePage>
                     </TabPanel>
-                    {/* <TabPanel value="4">
-                        <Website></Website>
-                    </TabPanel> */}
                 </TabContext>
 
                 </div>
