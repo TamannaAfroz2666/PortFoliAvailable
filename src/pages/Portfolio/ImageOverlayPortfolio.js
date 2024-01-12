@@ -18,8 +18,9 @@ const ImageOverlayPortfolio = () => {
                     </div>
                     
                     <div class="overlay">
-                        <h2>Your Image Title</h2>
-                        <h3>hhhh fffff kkkkk bbbb oooo</h3>
+                        <h2 className='overlayTitle_portfolio'>E-commerce site</h2>
+                        
+                        {/* <h3>hhhh fffff kkkkk bbbb oooo</h3> */}
                     </div>
                 </div>
                 <div class="image-container">
