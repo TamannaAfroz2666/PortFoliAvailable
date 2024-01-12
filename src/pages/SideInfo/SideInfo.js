@@ -5,6 +5,7 @@ import AboutPageTwo from '../../components/AboutPageTwo/AboutPageTwo';
 import ServicePage from '../../components/ServicePage/ServicePage';
 import SkillsPage from '../../components/SkillsPage/SkillsPage';
 import PortfolioPage from '../../components/PortfolioPage/PortfolioPage';
+import ContactPage from '../../components/ContactPage/ContactPage';
 
 const SideInfo = () => {
     return (
@@ -14,6 +15,7 @@ const SideInfo = () => {
            <ServicePage></ServicePage>
            <SkillsPage></SkillsPage>
            <PortfolioPage></PortfolioPage>
+           <ContactPage></ContactPage>
 
             
         </div>
