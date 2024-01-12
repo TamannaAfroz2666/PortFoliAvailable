@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,4 +16,13 @@
 .footer_infoMulti{
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
+}
+.footer_tag .footerTag_title{
+    font-size: 22px;
+    color: #6c757d;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+
 }

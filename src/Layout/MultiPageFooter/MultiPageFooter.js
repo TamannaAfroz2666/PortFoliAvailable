@@ -12,6 +12,16 @@ const MultiPageFooter = () => {
 
                 </div>
                 <div className="footerTerms">
+                    <ul>
+                        <li>
+                            <a href="/terms-condition">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href="/terms-condition">Privacy policy</a>
+                        </li>
+                        
+                    </ul>
+
 
                 </div>
             </div>
