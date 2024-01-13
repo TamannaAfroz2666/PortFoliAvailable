@@ -12,12 +12,12 @@ const MultiPageFooter = () => {
 
                 </div>
                 <div className="footerTerms">
-                    <ul>
+                    <ul className='footerTermsUl'>
                         <li>
                             <a href="/terms-condition">Terms & Condition</a>
                         </li>
                         <li>
-                            <a href="/terms-condition">Privacy policy</a>
+                            <a href="/privacy-policy">Privacy policy</a>
                         </li>
                         
                     </ul>
