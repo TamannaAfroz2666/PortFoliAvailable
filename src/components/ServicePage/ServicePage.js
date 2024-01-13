@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const ServicePage = () => {
     return (
-        <div className='servicePageTwo'>
+        <div className='servicePageTwo' id='servicePageMulti'>
             <div className="servicePageCon">
                 <h1 className='my_service'>my service</h1>
                 <h3 className='passionTitle'>Bringing your vision to life with precision and passion</h3>

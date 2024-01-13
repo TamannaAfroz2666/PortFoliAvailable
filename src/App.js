@@ -21,6 +21,7 @@ function App() {
         <Route path='/home' element={<Services />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/page2' element = {<MainPageTwo></MainPageTwo>}/>
+        <Route path='/home-page-multi' element ={<MainPageTwo/>}/>
       </Routes>
       
 

@@ -16,11 +16,14 @@ const LogoPart = () => {
                 {/* logo part  */}
                 <div className="logoPartContent1">
                     <div className="logoSide">
+                        <a href="/home-page-multi">
                         <img src={img1} alt="not found" />
-
+                        </a>
                     </div>
                     <div className="nameSide">
+                    <a href="/home-page-multi">
                         <p className='name-title'>tamanna</p>
+                        </a>
                     </div>
                 </div>
                 {/* sidebar add  */}
@@ -32,31 +35,36 @@ const LogoPart = () => {
                                 <span className='sideNavIconTi'>
                                 <IoHomeOutline size={50}/>
                                 </span>
-                             <span className='sideNavTitleLi'> Home</span> 
+                                <a href="#homePage">
+                             <span className='sideNavTitleLi'> Home</span> </a>
                             </li>
                             <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
                                 <LiaAddressBook size={50}/>
                                 </span>
-                             <span className='sideNavTitleLi'> about me</span> 
+                                <a href="#aboutPage">
+                             <span className='sideNavTitleLi'> about me</span></a> 
                             </li>
                             <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
                                 <PiShoppingBagOpenThin size={50}/>
                                 </span>
-                             <span className='sideNavTitleLi'>service </span> 
+                                <a href="#servicePageMulti">
+                             <span className='sideNavTitleLi'>service </span></a> 
                             </li>
                             <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
                                 <FaPenNib size={40}/>
                                 </span>
-                             <span className='sideNavTitleLi'> skills</span> 
+                                <a href="#skillsPageMulti">
+                             <span className='sideNavTitleLi'> skills</span> </a>
                             </li>
                             <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
                                 <TiMessages size={50}/>
                                 </span>
-                             <span className='sideNavTitleLi'> portfolio</span> 
+                                <a href="#portfolioPageMulti">
+                             <span className='sideNavTitleLi'> portfolio</span> </a>
                             </li>
                             {/* <li className='sideNavLi1'>
                                 <span className='sideNavIconTi1'>
@@ -68,7 +76,8 @@ const LogoPart = () => {
                                 <span className='sideNavIconTi1'>
                                 <PiUserSquare size={50}/>
                                 </span>
-                             <span className='sideNavTitleLi'> contact</span> 
+                                <a href="#contactPageMulti">
+                             <span className='sideNavTitleLi'> contact</span> </a>
                             </li>
                            
                            

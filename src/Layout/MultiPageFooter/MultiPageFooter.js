@@ -11,7 +11,7 @@ const MultiPageFooter = () => {
                     </p>
 
                 </div>
-                <div className="footerTerms">
+                <div className="footerTerms1">
                     <ul className='footerTermsUl'>
                         <li>
                             <a href="/terms-condition">Terms & Condition</a>

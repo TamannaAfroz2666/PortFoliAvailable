@@ -17,7 +17,7 @@ const SkillsPage = () => {
     };
 
     return (
-        <div className='skillsPages'>
+        <div className='skillsPages' id='skillsPageMulti'>
             <div className="skillPageContainer">
                 <h2 className='my_skills'>my skills</h2>
                 <h3 className='skills_header'>Crafting Stories through Design and

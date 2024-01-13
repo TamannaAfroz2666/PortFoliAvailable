@@ -35,6 +35,9 @@
     border-radius: 10px;
     
 }
+.logoSide a{
+    text-decoration: none;
+}
 .nameSide .name-title{
     font-size: 30px;
     color: #fff;
@@ -42,6 +45,9 @@
     overflow: hidden;
     position: relative;
     font-weight: 700;
+}
+.nameSide a {
+    text-decoration: none;
 }
 .name-title::before {
     content: '';
@@ -82,7 +88,7 @@
 }
 
 .sideNavLi{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     color: #55e6a5;
@@ -91,8 +97,11 @@
     border-radius: 20px;
     
 }
+.sideNavLi a{
+    text-decoration: none;
+}
 .sideNavLi1{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     color: #55e6a5;
@@ -100,6 +109,9 @@
     padding: 1rem 0;
     border-radius: 20px;
     margin: 2.8rem 0 0rem 0;
+}
+.sideNavLi1 a {
+    text-decoration: none;
 }
 .sideNavIconTi{
    padding: 1.5rem 18px;

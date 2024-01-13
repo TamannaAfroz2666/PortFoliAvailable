@@ -7,7 +7,7 @@ import { FaAward } from "react-icons/fa";
 
 const AboutPageTwo = () => {
     return (
-        <div className='aboutPageTwo'>
+        <div className='aboutPageTwo'  id='aboutPage'>
             <div className="aboutCon_pageTwo">
                 <h1 className='title_abPageTwo'>about me</h1>
                 <h3 className='craftingTitle'>Crafting stories through design and

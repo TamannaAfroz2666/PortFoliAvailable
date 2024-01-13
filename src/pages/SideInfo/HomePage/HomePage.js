@@ -5,7 +5,7 @@ import { FaPlayCircle } from "react-icons/fa";
 
 const HomePage = () => {
     return (
-        <div className='home_page'>
+        <div className='home_page' id='homePage'>
             <div className="home_page_con">
                 <div className="home_page2">
                     <h1 className='nameTitle_homePage'>
@@ -24,14 +24,14 @@ const HomePage = () => {
                     </h1>
                     <p className='des_homePage2'>
                         I'm a passionate Front-End Developer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
-                        <div className="infoCollectCon">
-                            <div className="downloadCv">
-                                <button className='downloadCvBtn'>download cv <span className='spanDoCv'><BiDownArrowAlt size={30}/></span></button>
-                            </div>
-                            <div className="watchVideo">
-                             <a  className='watchLink' href="/watch-video">  <span><FaPlayCircle size={65} className='faplayCir'/></span> <p className='watchIt'>watch the video </p></a>
-                            </div>
+                    <div className="infoCollectConMulti">
+                        <div className="downloadCv">
+                            <button className='downloadCvBtn'>download cv <span className='spanDoCv'><BiDownArrowAlt size={30} /></span></button>
                         </div>
+                        <div className="watchVideoLink">
+                            <a className='watchLink' href="/watch-video">  <span><FaPlayCircle size={65} className='faplayCir' /></span> <p className='watchItLink'>watch the video </p></a>
+                        </div>
+                    </div>
                 </div>
 
             </div>

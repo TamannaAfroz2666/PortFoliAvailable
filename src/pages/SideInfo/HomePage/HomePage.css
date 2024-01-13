@@ -78,10 +78,12 @@
     letter-spacing: 1px;
     font-weight: 600;
   }
-  .infoCollectCon{
+  .infoCollectConMulti{
     margin: 6rem 0 0 4rem;
-    display: flex;
-    gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex; */
+    /* gap: 2rem; */
   }
 
   /* button group  */
@@ -105,13 +107,17 @@
     color: #ffffffc0;
 
   }
-.watchVideo a{
+  .watchVideoLink{
+    right: 17rem;
+    position: relative;
+  }
+.watchVideoLink a{
     text-decoration: none;
 }
 .faplayCir{
     color: #55e6a5;
 }
-.watchIt{
+.watchItLink{
     font-size: 26px;
     color: #fff;
     font-weight: 600;

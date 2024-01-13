@@ -73,14 +73,11 @@ const Header = () => {
                                                 <NavLink to="/page2">Home Page 02 </NavLink>
                                             </li>
                                         </ul>
-
-
                                     </li>
                                     <li><a className='about-link' smooth duration={500} href="#about">About Me</a>
                                         <hr className='underline1' color='yellow' size={5} />
 
                                     </li>
-
                                     <li>
                                         <NavLink to="/services">Services</NavLink>
                                         <hr className='underline1' color='yellow' size={5} />
@@ -128,7 +125,7 @@ const Header = () => {
                                 <div className="wrapper">
                                     <div className="menuBar">
                                         <Button className='btnHeaderProfile' onClick={handleClick}>
-                                            <AiOutlineMenu size={40}  className='menuIcon' />
+                                            <AiOutlineMenu size={40} className='menuIcon' />
                                         </Button>
                                         <Snackbar
                                             open={open}
