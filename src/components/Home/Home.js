@@ -34,8 +34,8 @@ const Home = () => {
             <Portfolio></Portfolio>
             <Testimonials></Testimonials>
             <PersonalPlan></PersonalPlan>
-            {/* <FQA></FQA>
-            <Blogs></Blogs>
+            <FQA></FQA>
+            {/* <Blogs></Blogs>
             <ContactMe></ContactMe>
             <Footer></Footer> */}
 

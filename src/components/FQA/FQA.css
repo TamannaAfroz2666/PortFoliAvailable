@@ -28,23 +28,24 @@
 .fqaSection .FqaTitle{
     text-align: center;
     color: orange;
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family: 'Poppins'; 
 }
 .fqaDes{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
     font-family: 'Poppins'; 
     letter-spacing: 2px;
     padding: 2rem 0;
+    line-height: 32px;
 }
 .fqaSection img{
-    width: 560px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
      transition: transform 1s ease;
 }
@@ -57,14 +58,14 @@
 
 /*--------- Accordion section deign start----  */
 .titleAccor{
-    padding: 10px 0;
-    font-size: 40px;
+    padding: 5px 0;
+    font-size: 22px;
     font-family: 'Poppins';
     
 }
 .titleAccor1{
-    padding: 8px 0;
-    font-size: 26px;
+    padding: 0px 0;
+    font-size: 18px;
     font-family: 'Poppins';
     color: #111111a8;
     
@@ -72,11 +73,11 @@
 
 .descriptionAccordion{
     
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins'; 
-    line-height: 36px;
-    padding: 10px;
+    line-height: 28px;
+    padding:  0 10px;
     color: #181616a9;
 
 }
