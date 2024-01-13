@@ -13,15 +13,15 @@ const GoldPlan = () => {
                 <h1 className='goldDollarBasic'>$799.00</h1>
                 <p className='GoldMonth'>Per month</p>
                 <hr />
-                <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle size={20} color='purple' /> </span> 5 Page with Elementor</p>
+                <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle size={14} color='purple' /> </span> 5 Page with Elementor</p>
 
-                <p className='goldPlanTitles'> <span className='bsArrowGold' > <FiArrowRightCircle color='purple' size={20} /> </span> Content Upload</p>
+                <p className='goldPlanTitles'> <span className='bsArrowGold' > <FiArrowRightCircle color='purple' size={14} /> </span> Content Upload</p>
 
-                <p  className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple' size={20} /> </span> Design customization</p>
+                <p  className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple' size={14} /> </span> Design customization</p>
 
-                <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple'  size={20} /> </span> Design with XD</p>
+                <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple'  size={14} /> </span> Design with XD</p>
 
-                <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple' size={20} /> </span>Project Management</p>
+                <p className='goldPlanTitles'> <span className='bsArrowGold'> <FiArrowRightCircle color='purple' size={14} /> </span>Project Management</p>
                 <a href="/projectShow">
                 <button className='goldPlanBtn' type='button' onClick={btnStart}>Start My Project Now</button>
                 </a>

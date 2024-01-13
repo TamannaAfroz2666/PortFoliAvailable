@@ -1,33 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .personalPlan{
-    /* height: 150vh; */
+    height: 100%;
+    width: 100%;
     background-color: rgba(235, 203, 160, 0.226);
+    padding: 0 0 3rem 0;
 }
 .planningHead{
     width: 90%;
     margin: auto;
 }
 .planningContentHead .planningSort{
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
-    color: rgba(54, 54, 235, 0.801);
+    color: rgb(185, 176, 175);
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 5rem;
 
 }
 .planningContentHead .planningTitle{
-    font-size: 60px;
+    font-size: 32px;
     font-weight: 700;
     text-transform: capitalize;
     text-align: center;
     color: #111111e5;
-    font-family: poppins;
+    font-family: 'poppins';
 
+}
+.planningTitle:hover{
+    color: rgb(228, 151, 137);
 }
 .planContent{
     display: flex;

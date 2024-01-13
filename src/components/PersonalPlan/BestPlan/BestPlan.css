@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .goldPlanHead{
-    height: 84vh;
+    /* height: 84vh; */
 }
 .sortPlanB{
     float: right;
     color: #fff;
     padding: 6px 12px;
     background-color: #ffc107ee;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     border-radius:  5px 45px / 140px;
 }
@@ -21,23 +21,23 @@
 }
 
 .bestPlanContent .bestPlanTitle{
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
 }
 .bestPlanContent .bestPlanDollar{
-    font-size: 50px;
-    padding: 10px 0;
+    font-size: 30px;
+    padding: 10px 0 0 0;
     color: #fff;
 }
 .bestPlanContent .bestPlanMonth{
-    font-size: 19px;
-    padding: 0px 0 15px 0;
+    font-size: 18px;
+    padding: 0px 0 0px 0;
     color: #fff;
     font-weight: 600;
 }
 .bestPlanTitles{
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
     font-weight: 400; 
 }
