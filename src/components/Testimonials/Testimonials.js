@@ -35,10 +35,10 @@ const Testimonials = () => {
                                     <div className="card-wrapper ">
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -55,7 +55,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div className="iconRight">
                                                         <span className='iconRiQuo'>
-                                                            <PiQuotesBold size={35} className='piQuote'/>
+                                                            <PiQuotesBold size={25} className='piQuote'/>
 
                                                         </span>
 
@@ -65,10 +65,10 @@ const Testimonials = () => {
                                         </div>
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -85,7 +85,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div className="iconRight">
                                                         <span className='iconRiQuo'>
-                                                            <PiQuotesBold size={35} className='piQuote'/>
+                                                            <PiQuotesBold size={25} className='piQuote'/>
 
                                                         </span>
 
@@ -101,10 +101,10 @@ const Testimonials = () => {
                                        
                                     <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -121,7 +121,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div className="iconRight">
                                                         <span className='iconRiQuo'>
-                                                            <PiQuotesBold size={35} className='piQuote'/>
+                                                            <PiQuotesBold size={25} className='piQuote'/>
 
                                                         </span>
 
@@ -131,10 +131,10 @@ const Testimonials = () => {
                                         </div>
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -151,7 +151,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div className="iconRight">
                                                         <span className='iconRiQuo'>
-                                                            <PiQuotesBold size={35} className='piQuote'/>
+                                                            <PiQuotesBold size={25} className='piQuote'/>
 
                                                         </span>
 
@@ -166,10 +166,10 @@ const Testimonials = () => {
                                        
                                     <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -186,7 +186,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div className="iconRight">
                                                         <span className='iconRiQuo'>
-                                                            <PiQuotesBold size={35} className='piQuote'/>
+                                                            <PiQuotesBold size={25} className='piQuote'/>
 
                                                         </span>
 
@@ -196,10 +196,10 @@ const Testimonials = () => {
                                         </div>
                                         <div className="card " >
                                             <span className='StartIconTest'>
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
-                                                <AiFillStar color='yellow' size={40} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
+                                                <AiFillStar color='yellow' size={20} className='starIcon' />
 
                                             </span>
                                             <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
@@ -216,7 +216,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div className="iconRight">
                                                         <span className='iconRiQuo'>
-                                                            <PiQuotesBold size={35} className='piQuote'/>
+                                                            <PiQuotesBold size={25} className='piQuote'/>
 
                                                         </span>
 
