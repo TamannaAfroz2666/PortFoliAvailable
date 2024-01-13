@@ -9,7 +9,7 @@
 .skills {
     width: 100%;
     height: 100%;
-    padding: 0 0 6rem 0;
+    padding: 0 0 2rem 0;
     overflow: hidden;
     background: linear-gradient(-117deg, rgba(15, 15, 15, 0.945), #f093f0 80.71%),
         linear-gradient(227deg, rgba(196, 132, 15, 0.932), rgba(19, 19, 18, 0.007) 80.71%),
@@ -24,10 +24,10 @@
 .skillsHead .SkillSort {
     text-align: center;
     color: orange;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding-top: 6rem;
     font-family: 'Poppins';
 
@@ -38,16 +38,15 @@
 }
 
 .skillsHead .SkillTitle {
-    font-size: 62px;
+    font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
     color: #ffffffd2;
-    /* color: #ffc107a9; */
     font-family: 'Poppins';
     letter-spacing: 3px;
-    line-height: 90px;
+    line-height: 40px;
 
 }
 
@@ -56,16 +55,17 @@
 }
 
 .skillContent {
-    height: 648px;
-    display: inline-flex;
-    gap: 80px;
+    /* height: 428px; */
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
     margin-top: 40px;
 
 }
 
 .imageInfoSkills {
-    width: 280px;
-    height: 470px;
+    width: 150px;
+    height: 270px;
     border: 1px solid #ffffffde;
     border-radius: 100px;
     background-color: #0000002d;
@@ -77,20 +77,20 @@
 }
 
 .imageInfoSkills img {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     padding: 15px;
     background-color: white;
-    margin: 6rem 0px 0px 4rem;
+    margin: 3rem 0px 0px 2rem;
 
 }
 
 .SkillContentAll .percentSkill {
-    font-size: 40px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'poppins';
     font-weight: 600;
-    padding: 60px 0;
+    padding: 30px 0;
     color: #fff;
     text-align: center;
 
@@ -105,10 +105,10 @@
 }
 
 .SkillContentAll .nameTopic .htmlTi {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #111;
-    padding: 3rem 0px 3rem 6rem;
+    padding: 3rem 0px 3rem 2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -117,10 +117,10 @@
 }
 
 .SkillContentAll .nameTopicLong .bootstrap {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #111;
-    padding: 3rem 0px 3rem 3rem;
+    padding: 3rem 0px 3rem 1rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -129,10 +129,10 @@
 }
 
 .SkillContentAll .nameTopicTail .tailwind {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #111;
-    padding: 3rem 0px 3rem 5rem;
+    padding: 3rem 0px 3rem 1rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -142,10 +142,10 @@
  }
 
 .SkillContentAll .nameTopicJS .js {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #111;
-    padding: 3rem 0px 3rem 3rem;
+    padding: 3rem 0px 3rem .9rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }

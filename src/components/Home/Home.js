@@ -29,8 +29,8 @@ const Home = () => {
             <BreakingNews></BreakingNews>
             <About></About>
             <Services></Services>
-            {/* <Skills></Skills>
-            <EducationAndExperience></EducationAndExperience>
+            <Skills></Skills>
+            {/* <EducationAndExperience></EducationAndExperience>
             <Portfolio></Portfolio>
             <Testimonials></Testimonials> */}
             {/* <PersonalPlan></PersonalPlan> */}
