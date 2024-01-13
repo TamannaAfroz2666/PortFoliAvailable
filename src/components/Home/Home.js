@@ -30,8 +30,8 @@ const Home = () => {
             <About></About>
             <Services></Services>
             <Skills></Skills>
-            {/* <EducationAndExperience></EducationAndExperience>
-            <Portfolio></Portfolio>
+            <EducationAndExperience></EducationAndExperience>
+            {/* <Portfolio></Portfolio>
             <Testimonials></Testimonials> */}
             {/* <PersonalPlan></PersonalPlan> */}
             {/* <FQA></FQA>
