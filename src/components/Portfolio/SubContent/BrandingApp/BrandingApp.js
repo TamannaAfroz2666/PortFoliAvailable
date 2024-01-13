@@ -1,14 +1,12 @@
 import React from 'react';
 import './BrandingApp.css';
 import web2 from '../../../../assets/Images/Portfolio/web2.jpg';
-
 import fig2 from '../../../../assets/Images/Portfolio/fig1.jpg'
 
 const BrandingApp = () => {
     return (
         <div className='brandingApp'>
             <div className="showActivities">
-
                 <div className="webDesign">
                     <div className="webContentsSingle">
                         <button className='btnWeb' >Designing</button>

@@ -31,8 +31,8 @@ const Home = () => {
             <Services></Services>
             <Skills></Skills>
             <EducationAndExperience></EducationAndExperience>
-            {/* <Portfolio></Portfolio>
-            <Testimonials></Testimonials> */}
+            <Portfolio></Portfolio>
+            {/* <Testimonials></Testimonials> */}
             {/* <PersonalPlan></PersonalPlan> */}
             {/* <FQA></FQA>
             <Blogs></Blogs>

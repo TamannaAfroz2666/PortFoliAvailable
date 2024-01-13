@@ -23,7 +23,7 @@
 .portfolioHead .sortTitlePortfolio{
     text-align: center;
     color: orange;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -35,19 +35,15 @@
 }
 
 .portfolio .portfolioHead .portfolioTitle{
-  
-    font-size: 62px;
+    font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
     color: #ffffffd2;
-    /* color: #ffc107a9; */
     font-family: 'Poppins';
     letter-spacing: 3px;
-    line-height: 90px;
-    
-
+    line-height: 50px;
 }
 .portfolioHead .portfolioTitle:hover {
     color: #f093f0;
@@ -72,15 +68,15 @@
     list-style: none;
 }
 .listOfLink .btnShow{
-    padding: 8px 40px 20px  40px;
-    font-size: 22px;
+    padding: 8px 0px 20px  40px;
+    font-size: 16px;
     border: 0;
     margin-top: 15px;
-    /* background-color: white; */
     font-weight: 600;
     color: #fff;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-family: 'Poppins';
+    text-transform: capitalize;
     
 }
 .btnShow:hover{
@@ -110,8 +106,8 @@
 .webContents{
     width: 300px;
 }
-.webContents button{
-    font-size: 18px;
+/* .webContents button{
+    font-size: 14px;
     color: #111111c7;
     padding: 12px 14px;
     font-weight: 600;
@@ -120,12 +116,12 @@
     background-color: rgba(185, 66, 185, 0.699);
     margin-top: 50px;
     
-}
+} */
 
-.btnWeb:hover{
+/* .btnWeb:hover{
     background-color: aqua;
 
-}
+} */
 
 .webContents  .web_title{
     font-size: 35px;
