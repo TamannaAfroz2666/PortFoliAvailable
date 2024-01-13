@@ -14,11 +14,14 @@
     width: 90%;
     margin: auto;
 }
+.footerImage a{
+    text-decoration: none;
+}
 .footerImage img{
-    width: 140px;
-    height: 90px;
+    width: 120px;
+    height: 70px;
     margin: 5rem 45% 4rem 45%; 
-    border-radius: 25px;
+    border-radius: 20px;
 }
 .contentList .listOfItem{
     display: flex;
@@ -33,7 +36,7 @@
 .listOfTitle .link{
     text-decoration: none;
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Poppins';
     letter-spacing: 1.5px;
@@ -56,7 +59,7 @@
     margin: 0 0 40px 0;  
 }
 .listOfIcon{
-    padding: 10px  12px 12px 12px ;
+    padding: 8px  10px 8px 10px ;
     background-color: tomato;
     border-radius: 25px;
 }
@@ -81,7 +84,7 @@
     justify-content: space-between;
 }
 .copyrightHead .copyright{
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
     font-weight: 600;
     padding: 20px 20px 30px 20px;
@@ -105,7 +108,7 @@
 }
 .termsList .termsTitle{
     text-decoration: none;
-    font-size: 22px;
+    font-size: 16px;
     color: #fff;
     font-weight: 600; 
     font-family: 'Poppins';

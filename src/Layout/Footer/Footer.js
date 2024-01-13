@@ -13,7 +13,8 @@ const Footer = () => {
             <div className="footerBody">
                 <div className="footerContent">
                     <div className="footerImage">
-                        <img src={image1} alt="" />
+                        <a href="#">
+                        <img src={image1} alt="" /></a>
                     </div>
                     <div className="contentList">
                         <ul className='listOfItem'>
@@ -48,13 +49,13 @@ const Footer = () => {
 
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./facebook">
-                                    <FaFacebookF size={24} />
+                                    <FaFacebookF size={20} />
 
                                 </Link>
                             </li>
                             <li className='listOfIcon'>
                                 <Link className='linkIcon' to="./dribbles">
-                                    <BiLogoDribbble size={24} />
+                                    <BiLogoDribbble size={20} />
 
                                 </Link>
                             </li>
@@ -86,7 +87,7 @@ const Footer = () => {
                         <div className="copyrightHead">
                             <p className='copyright'>Copyright 
                                 <span><AiOutlineCopyrightCircle size={15} color='white'/> </span>
-                                2023 Tom. All rights reserved.
+                                2023 T_A. All rights reserved.
                                 </p>
                         </div>
                         <div className="termHead">

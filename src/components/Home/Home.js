@@ -37,7 +37,7 @@ const Home = () => {
             <FQA></FQA>
             <Blogs></Blogs>
             <ContactMe></ContactMe>
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
 
     
            
