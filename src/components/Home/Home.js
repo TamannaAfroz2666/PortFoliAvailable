@@ -27,17 +27,17 @@ const Home = () => {
             <Header></Header> 
             <WelcomePage></WelcomePage>
             <BreakingNews></BreakingNews>
-            <About></About>
+            {/* <About></About>
             <Services></Services>
             <Skills></Skills>
             <EducationAndExperience></EducationAndExperience>
             <Portfolio></Portfolio>
-            <Testimonials></Testimonials>
+            <Testimonials></Testimonials> */}
             {/* <PersonalPlan></PersonalPlan> */}
-            <FQA></FQA>
+            {/* <FQA></FQA>
             <Blogs></Blogs>
             <ContactMe></ContactMe>
-            <Footer></Footer>
+            <Footer></Footer> */}
 
     
            

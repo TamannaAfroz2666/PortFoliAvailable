@@ -125,7 +125,7 @@ const Header = () => {
                                 <div className="wrapper">
                                     <div className="menuBar">
                                         <Button className='btnHeaderProfile' onClick={handleClick}>
-                                            <AiOutlineMenu size={40} className='menuIcon' />
+                                            <AiOutlineMenu size={22} className='menuIcon' />
                                         </Button>
                                         <Snackbar
                                             open={open}
@@ -134,14 +134,8 @@ const Header = () => {
                                             message="Note archived"
                                             action={action}
                                         />
-
                                     </div>
-
-
-
-
                                 </div>
-
                             </div>
                         </div>
                     </div>

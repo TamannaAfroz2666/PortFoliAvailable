@@ -10,16 +10,18 @@
   height: 100%;
   width: 100%;
   background-color: #111;
-  padding: 0 0 10rem 0;
+  padding: 3rem 0 10rem 0;
 }
 
 .pageHead {
   width: 90%;
-  margin: auto;
+   margin: auto;
 }
 
 .infoSection {
+ 
   display: flex;
+  gap: 1rem;
 
 }
 
@@ -33,7 +35,6 @@
   color: rgb(241, 226, 241);
   font-size: 22px;
   position: absolute;
-
   top: -500px;
   width: 25%;
   text-shadow: 4px 4px 8px rgb(153, 238, 172);
@@ -59,22 +60,19 @@
 /* name and titlte scroller animation  */
 .scrollerHead {
   margin-top: 6rem;
-  /* padding: 30px; */
 }
 
 .scroller {
   height: 15em;
-  /* line-height: 1.8em; */
   position: relative;
   overflow: hidden;
   width: 50em;
   color: #fff;
-  padding: 20px;
+  padding: 20px 0 20px 20px;
 }
 
 .scroller>span {
   position: absolute;
-  /* top: 0; */
   animation: slide 8s infinite;
   font-weight: bold;
 
@@ -82,22 +80,20 @@
 }
 
 .hey {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 500;
-  /* padding-bottom: 20px; */
 }
 
-.name {
-  font-size: 5rem;
+.nameSingle {
+  font-size: 30px;
   color: #2fe06a;
 }
 
 .frontEnd {
-  font-size: 3rem;
+  font-size: 34px;
   color: orange;
   font-weight: 600;
   letter-spacing: 1px;
-  /* padding-top: 10px; */
 }
 
 @keyframes slide {
@@ -120,26 +116,26 @@
 
 /* name and title scroller end  */
 
-.descriptionInfoWel {
-  width: 65%;
+.descriptionInfoWelSingle {
+  width: 85%;
   color: #fff;
-  padding: 3rem 12px 12px 12px;
-  font-size: 22px;
+  padding: 1rem 12px 12px 12px;
+  font-size: 14px;
   font-family: 'Poppins';
   line-height: 35px;
-  text-align: justify;
-  letter-spacing: .9px;
+  /* text-align: justify; */
+  letter-spacing: 1px;
 
 }
 
 .contactInfo {
-  width: 50%;
+  width: 100%;
 
 }
 
 .backgroundPart {
+  /* width: 200px; */
   margin-top: 5rem;
-  /* width: 100%; */
   background-image: url('../../assets/Images/Background/SubMainBg.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -150,19 +146,18 @@
 
 .btnInfo1 {
   top: 25rem;
-  left: 20rem;
+  margin-left: 20rem;
   position: relative;
 
 }
 
 .btnInfo1 .button {
-  padding: 20px 50px;
+  padding: 10px 20px;
   background-color: rgba(255, 166, 0, 0.884);
   color: #111;
-  font-size: 22px;
+  font-size: 14px;
   font-weight: 700;
   font-family: sans-serif;
-  /* border: 1px solid rgba(0, 0, 0, 0.404); */
   border-radius: 12px;
   letter-spacing: 1px;
 
@@ -171,26 +166,17 @@
 }
 
 .btnInfo1:hover .button {
-  /* color: #fff; */
   background-color: #2fe06a;
   border: 0;
 }
 
-.btnInfo1 .mailIcon {
-  /* width: 48px; */
-  /* color: #faf9f9cb; */
-  /* left: -10px; */
-  /* position: relative; */
-  /* background-color: #11111109; */
-  /* border-radius: 50px; */
 
-  /* padding: 10px 0; */
-}
 
 .btnInfo1 .arrowIcon {
   /* width: 18px; */
   /* color: #f3f0f0; */
-  left: 1rem;
+  margin-left: 5px;
+  left: 0rem;
   position: relative;
 
 }
@@ -238,315 +224,3 @@
 
 /* for star animation part end  */
 
-/* Responsive start here  */
-
-/* small device for  */
-@media (max-width: 576px) {
-  .welcome {
-    height: 100%;
-    width: 100%;
-    padding:  0 0 .1rem 0 !important;
-    background-color: #111 !important;
-    /* bottom: 2rem ;
-    position: relative; */
-  
-   
-    padding: 0 0 10rem 0; 
-  }
-
-  .infoSection {
-    display: grid;
-    grid-row: auto;
-  }
-.personalInfo{
-  width: 100%;
-  background-color: #111;
-
-  
-}
-  .personalInfo .sort_title {
-    color: rgb(241, 226, 241);
-    font-size: 22px;
-    width: 100%;
-    margin-top: 0;
-   padding: 0;
-  
-  }
-  .hey {
-    font-size: 20px;
-    font-weight: 500;
-    /* padding-bottom: 20px; */
-  }
-  .name {
-    font-size: 2rem;
-    /* color: #2fe06a; */
-  }
-  .frontEnd {
-    font-size: 1rem;
-    color: orange;
-    font-weight: 600;
-    letter-spacing: 1px;
-    /* padding-top: 10px; */
-  }
-  .descriptionInfoWel {
-    /* width: 100%; */
-    width: 45%;
-    color: #fff;
-    padding: 10px 10px;
-    /* padding: 0rem 0px 12px 0px; */
-    bottom: 3rem;
-    position: relative;
-    font-size: 10px;
-    font-family: 'Poppins';
-    line-height: 20px;
-    text-align: justify;
-    /* letter-spacing: .9px; */
-  
-  }
-  .animationFrame{
-    width: 100%;
-  }
-  #frameDiv {
-   
-    /* width: 500px; */
-    height: 150px;
-    /* margin: 20px; */
-    right: 2.8rem;
-    bottom: 6rem;
-    position: relative;
-  }
-  
-
-
-
-
-
-  .contactInfo{
-    width: 100%;
-  background-color: #111;
-  bottom: 8rem;
-    position: relative;
-   
-  }
-  .backgroundPart {
-    /* margin-top: 5rem; */
-    background-color: #111 !important;
-    /* width: 100%; */
-    
-    width: 45%;
-    height: 20em;
-    background-image: url('../../assets/Images/Background/SubMainBg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 5px 10px;
-    /* margin: auto; */
-  
-    
-  
-  }
-  .btnInfo1 {
-    top: 6rem;
-    left:14.5rem;
-    position: relative;
-    /* background-color: #111 !important; */
-  
-  }
-  .btnInfo1 .button {
-    padding: 10px 10px;
-    background-color: rgba(255, 166, 0, 0.884);
-    /* color: #111; */
-    font-size: 12px;
-    /* font-weight: 700; */
-    font-family: sans-serif;
-    /* border: 1px solid rgba(0, 0, 0, 0.404); */
-    border-radius: 12px;
-    letter-spacing: 1px;
-    /* background-color: #111 !important; */
-  
-  }
-  .mailIcon{
-    width: 15px;
-    height: 15px;
-    color: black;
-  }
-  .btnInfo1 .arrowIcon{
-    width: 15px;
-    height: 15px;
-    color: black;
-    left: 0rem;
-    /* right: 3rem; */
-    position: relative;
-    padding: .1em;
-
-  }
-
-
-
-}
-/* for medium device  */
-@media (min-width: 577px) and (max-width: 768px) {
-  .welcome {
-    height: 100%;
-    width: 100%;
-    padding:  0 0 .1rem 0 !important;
-    background-color: #111 !important;
-    /* bottom: 2rem ;
-    position: relative; */
-  
-   
-    /* padding: 0 0 10rem 0;  */
-  }
-
- 
-.personalInfo{
-  width: 50%;
-  background-color: #111;
-
-  
-}
-  .personalInfo .sort_title {
-    color: rgb(241, 226, 241);
-    font-size: 22px;
-    width: 100%;
-    margin-top: 0;
-   padding: 0;
-  
-  }
-  .hey {
-    font-size: 20px;
-    font-weight: 500;
-    /* padding-bottom: 20px; */
-  }
-  .name {
-    font-size: 2rem;
-    /* color: #2fe06a; */
-  }
-  .frontEnd {
-    font-size: 1rem;
-    color: orange;
-    font-weight: 600;
-    letter-spacing: 1px;
-    /* padding-top: 10px; */
-  }
-  .descriptionInfoWel {
-    /* width: 100%; */
-    width: 90%;
-    color: #fff;
-    padding: 10px 10px;
-    /* padding: 0rem 0px 12px 0px; */
-    bottom: 3rem;
-    position: relative;
-    font-size: 10px;
-    font-family: 'Poppins';
-    line-height: 20px;
-    text-align: justify;
-    /* letter-spacing: .9px; */
-  
-  }
-  .animationFrame{
-    width: 100%;
-  }
-  #frameDiv {
-   
-    /* width: 500px; */
-    height: 150px;
-    /* margin: 20px; */
-    right: 2.8rem;
-    bottom: 6rem;
-    position: relative;
-  }
-  
-  .contactInfo{
-    width: 100%;
-  background-color: #111;
-  /* bottom: 8rem; */
-  
-    /* position: relative; */
-   
-  }
-  .backgroundPart {
-    margin-top: 5rem;
-    background-color: #111 !important;
-    /* width: 100%; */
-    
-    width: 25em;
-    height: 40em;
-    background-image: url('../../assets/Images/Background/SubMainBg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* right: 3em; */
-    position: relative;
-
-    /* margin: 5px 10px; */
-    /* margin: auto; */
-  
-    
-  
-  }
-  .btnInfo1 {
-    top: 14rem;
-    left:14.5rem;
-    position: relative;
-    /* background-color: #111 !important; */
-  
-  }
-  .btnInfo1 .button {
-    padding: 10px 10px;
-    background-color: rgba(255, 166, 0, 0.884);
-    /* color: #111; */
-    font-size: 12px;
-    /* font-weight: 700; */
-    font-family: sans-serif;
-    /* border: 1px solid rgba(0, 0, 0, 0.404); */
-    border-radius: 12px;
-    letter-spacing: 1px;
-    /* background-color: #111 !important; */
-  
-  }
-  .mailIcon{
-    width: 15px;
-    height: 15px;
-    color: black;
-  }
-  .btnInfo1 .arrowIcon{
-    width: 15px;
-    height: 15px;
-    color: black;
-    left: 0rem;
-    /* right: 3rem; */
-    position: relative;
-    padding: .1em;
-
-  }
-
-
-
-}
-
-
-/* for large device  */
-@media (min-width: 769px) and (max-width: 992px) {
-  .welcome {
-    height: 100%;
-    width: 100%;
-    padding:  0 0 .1rem 0 ;
-    background-color: #111 ;
-    /* bottom: 2rem ;
-    position: relative; */
-  
-   
-    /* padding: 0 0 10rem 0;  */
-  }
-  .hey {
-    font-size: 20px;
-    font-weight: 500;
-    color: red;
-    /* padding-bottom: 20px; */
-  }
-  /* .name {
-    font-size: 10px;
-    color: #f13f08;
-  } */
-}

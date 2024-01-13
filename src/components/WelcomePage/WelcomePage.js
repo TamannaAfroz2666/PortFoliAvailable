@@ -26,7 +26,7 @@ const WelcomePage = () => {
                             <div className="scroller">
                                 <span>
                                     <h3 className='hey'>Hey </h3><br />
-                                    <h2 className='name'>I'm Tamanna Afroz</h2>  <br />
+                                    <h2 className='nameSingle'>I'm Tamanna Afroz</h2>  <br />
                                     <small className='frontEnd'>Front-End Developer</small>
 
                                 </span>
@@ -34,7 +34,7 @@ const WelcomePage = () => {
 
                         </div>
 
-                        <p className='descriptionInfoWel'>
+                        <p className='descriptionInfoWelSingle'>
                             As a Front-End Developer, I take great pride in my work and am devoted to it. I've gained the abilities and know-how required to see your project through to completion.
                         </p>
                         <div className="animationFrame">
@@ -49,18 +49,15 @@ const WelcomePage = () => {
                             </div>
 
                         </div>
-
-
-
                     </div>
                     <div className="contactInfo">
                         <div className="backgroundPart">
                             <div className="btnInfo1">
 
-                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon' size={45} />}>
+                                <Button className='button' variant="outlined" startIcon={<CgMail className='mailIcon' size={18} />}>
 
                                     Message
-                                    <BsArrowRightCircle color='black' className='arrowIcon' size={30} />
+                                    <BsArrowRightCircle color='black' className='arrowIcon' size={16} />
                                 </Button>
 
                             </div>
