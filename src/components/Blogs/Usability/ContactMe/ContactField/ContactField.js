@@ -84,6 +84,7 @@ const ContactField = () => {
                             name='email'
                             value={formData.email}
                             onChange={handleChange}
+                            autoComplete='off'
                         />
                         {errors.email && <span className='nameError'>
                             {errors.email}</span>}
@@ -99,6 +100,7 @@ const ContactField = () => {
                         name="textarea"
                         value={formData.textarea}
                         onChange={handleChange}
+                        autoComplete='off'
                     />
                    
                     {errors.textarea && <span className='nameError'>

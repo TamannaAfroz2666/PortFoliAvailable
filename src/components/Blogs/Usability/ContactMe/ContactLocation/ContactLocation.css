@@ -11,15 +11,15 @@
 .contactLocationBody{
     display: flex;
     justify-content: space-evenly;
-    padding: 6em 0px 4rem 0px;
+    padding: 3em 0px 4rem 0px;
 }
 .phone{
     display: flex;
     gap: 10px;
 }
 .phoneIcon{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: rgba(105, 90, 205, 0.863);
     border-radius: 10px;
 }
@@ -27,10 +27,10 @@
     background-color: tomato;
 }
 .locationPhoneIcon{
-    margin: 15px ;
+    margin: 12px ;
 }
 .phoneInfo .phoneTitle{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     color: #111111cc;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     letter-spacing: 1px;
 }
 .phoneInfo .phoneNumber{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     color: #272626fd;
     bottom: 10px;
@@ -64,11 +64,11 @@
 
 /* for map  */
 
-.mapUsingHead{
+/* .mapUsingHead{
     height: 100vh;
     width: 100%;
     margin-top: 6rem;
-}
+} */
 /* .map-container{
     height: 80vh;
     width: 100%;

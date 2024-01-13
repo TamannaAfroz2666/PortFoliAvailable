@@ -37,7 +37,7 @@ const ContactLocation = () => {
                 <div className="phone">
                     <div className="phoneContents">
                         <div className="phoneIcon">
-                            <BsPhoneFlip size={30} color='white' className='locationPhoneIcon' />
+                            <BsPhoneFlip size={25} color='white' className='locationPhoneIcon' />
                         </div>
                     </div>
                     <div className="phoneInfo">
@@ -48,19 +48,19 @@ const ContactLocation = () => {
                 <div className="emailContact">
                     <div className="phoneContents">
                         <div className="phoneIcon">
-                            <AiOutlineMail size={30} color='white' className='locationPhoneIcon' />
+                            <AiOutlineMail size={25} color='white' className='locationPhoneIcon' />
                         </div>
                     </div>
                     <div className="phoneInfo">
                         <p className='phoneTitle'>Email</p>
-                        <span className='phoneNumber'>hereMe@gmail.com</span>
+                        <span className='phoneNumber'>afroztamanna66@gmail.com</span>
                     </div>
 
                 </div>
                 <div className="locationMap">
                     <div className="phoneContents">
                         <div className="phoneIcon">
-                            <TfiLocationPin size={30} color='white' className='locationPhoneIcon' />
+                            <TfiLocationPin size={25} color='white' className='locationPhoneIcon' />
                         </div>
                     </div>
                     <div className="phoneInfo">
