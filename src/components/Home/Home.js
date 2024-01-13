@@ -28,8 +28,8 @@ const Home = () => {
             <WelcomePage></WelcomePage>
             <BreakingNews></BreakingNews>
             <About></About>
-            {/* <Services></Services>
-            <Skills></Skills>
+            <Services></Services>
+            {/* <Skills></Skills>
             <EducationAndExperience></EducationAndExperience>
             <Portfolio></Portfolio>
             <Testimonials></Testimonials> */}
