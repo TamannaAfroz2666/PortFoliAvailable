@@ -85,11 +85,6 @@
 }
 
 .underline1 {
-    /* width: 15px;
-    size: 1;
-    margin-left: 10px;
-    margin-top: 5px;
-    visibility: hidden; */
     width: 20px;
     height: 4px;
     background-color: yellow;

@@ -61,12 +61,12 @@ const Header = () => {
 
                                     <li>
                                         {/* <a href="#" className='active'>Home</a> */}
-                                        <NavLink to='/'>Home</NavLink>
+                                        <NavLink to='#homeSingle'>Home</NavLink>
                                         <hr className='underline' size={10} />
 
                                         <ul class="drop_menu">
                                             <li className='menu'>
-                                                <NavLink to="/">Home Page 01</NavLink>
+                                                <a href="#homeSingle">Home Page 01</a>
 
                                             </li>
                                             <li className='menu1'>

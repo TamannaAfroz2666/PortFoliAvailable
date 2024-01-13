@@ -23,7 +23,7 @@ import Footer from '../../Layout/Footer/Footer';
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Header></Header> 
             <WelcomePage></WelcomePage>
             <BreakingNews></BreakingNews>

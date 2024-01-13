@@ -11,23 +11,23 @@ const LandingPage = () => {
             <div className="showActivities">
 
                 <div className="webDesign">
-                    <div className="webContents">
+                    <div className="webContentsSingle">
                         <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Web Design</p>
-                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
+                        <p className='designDesSingle'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.</p>
                     </div>
-                    <div className="webImages">
+                    <div className="webImagesSingle">
                         <img src={web1} alt="" />
                     </div>
                 </div>
              
                 <div className="webDesign">
-                    <div className="webContents">
+                    <div className="webContentsSingle">
                         <button className='btnWeb' >Designing</button>
                         <p className='web_title'>Figma Design</p>
-                        <p className='designDes'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design</p>
+                        <p className='designDesSingle'>Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design</p>
                     </div>
-                    <div className="webImages">
+                    <div className="webImagesSingle">
                         <img src={fig2} alt="" />
                     </div>
                 </div>

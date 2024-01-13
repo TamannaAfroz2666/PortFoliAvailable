@@ -16,7 +16,7 @@ const WelcomePage = () => {
     //     console.log('hello world');
     // }
     return (
-        <div className='welcome'>
+        <div className='welcome' id='homeSingle'>
             <div className="pageHead">
                 <div className="infoSection">
                     <div className="personalInfo">
