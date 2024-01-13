@@ -6,11 +6,12 @@
 .aboutSection{
     height: 100%;
     width: 100%;
+    /* margin-top: 15rem; */
 }
 .aboutAll{
     width: 90%;
     margin: auto;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 .aboutAllInfo{
     display: flex;
@@ -19,10 +20,10 @@
 /* image section styled start  */
 .imageInfo img{
     border-radius: 25px;
-    height: 760px;
+    height: 560px;
     --s: 15px;  /* size of the frame */
   --b: 2px;   /* border thickness */
-  --w: 500px; /* width of the image */
+  --w: 400px; /* width of the image */
   --c: #f0d90b;
   
   width: var(--w);
@@ -47,7 +48,7 @@ img:hover {
   }
   /* image section styled end  */
 .informationAll{
-    height: 760px;
+    height: 520px;
     background-color: whitesmoke;
     box-shadow: inset 5px 5px 8px rgb(240, 159, 9), inset 5px 5px 8px #010caa;
 }
@@ -58,23 +59,22 @@ img:hover {
 
  .aboutMeTitle{
     color: 	#4329eb;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 30px;
+    margin-top: 5rem;
 }
 .aboutMeTitle:hover{
     color: orange;
 }
  .title{
     width: 100%;
-    font-size: 50px;
+    font-size: 32px;
     color: #000000ce;
-    padding-top: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 70px;
+    letter-spacing: 1px;
 }
 .title:hover {
     color: orange;
@@ -82,26 +82,24 @@ img:hover {
 
 .titleAbout .descriptionAbout{
     width: 90%;
-    font-size: 2rem;
+    font-size: 14px;
     color: #181616a9;
     font-weight: 500;
     text-align: justify;
-    padding: 30px 0px 4rem .5rem;
-    line-height: 45px;
-    
-
-    
+    padding: 0px 0px 2rem .5rem;
+    line-height: 25px;
+    letter-spacing: 1px;   
 }
 .contactAbout{
     display: flex;
     gap: 30px;
 }
 .btnAbout button{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     background-color: #2405ec9a;
-    padding: 15px 30px;
+    padding: 12px 20px;
     border: 0;
     border-radius: 10px;
     transition: transform .5s;
@@ -113,7 +111,7 @@ img:hover {
 .btnAbout:hover button{
     background-color: rgba(255, 196, 0, 0.63);
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     transform: scale(1);
 }
 .works a{
@@ -121,21 +119,22 @@ img:hover {
     
 }
 .works .btnWorks{
-    color: #000;
-    font-size: 18px;
-    font-weight: 600;
+    color: #353232;
+    font-size: 14px;
+    font-weight: 500;
     text-transform: capitalize;
-    padding: 14px 30px;
-    text-transform: uppercase;
+    padding: 0px 30px;
     letter-spacing: 1px;
 }
 
-.btnWorks:hover {
-    
-}
 .works .btnWorks:hover{
-    background-color: rgba(84, 132, 175, 0.103);
+    /* background-color: rgba(84, 132, 175, 0.103); */
     color: orange;
+}
+.arrowRight1{
+   right: .2rem;
+   bottom: 1px;
+    position: relative;
 }
 .arrowRight1:hover{
     color: orange;
@@ -148,7 +147,7 @@ img:hover {
     gap: 40px;
 }
 .birthInfoHeading p{
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700;
     color: #000000b0;
     text-transform: uppercase;
@@ -156,7 +155,7 @@ img:hover {
     letter-spacing: 1px;
 }
 .birthInfoHeading span{
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
     color: #000000b4;
@@ -216,7 +215,7 @@ img:hover {
 
 
 /* large device for  */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .aboutMeTitle{
         color: yellow;
     }
@@ -229,8 +228,8 @@ img:hover {
     }
 
     
-}
-@media (min-width: 769px)and(max-width: 992px) {
+} */
+/* @media (min-width: 769px)and(max-width: 992px) {
     .aboutSection{
         height: 100%;
         width: 100%;
@@ -243,4 +242,4 @@ img:hover {
         font-size: 20px;
         color: green;
     }
-}
+} */

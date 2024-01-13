@@ -27,8 +27,8 @@ const Home = () => {
             <Header></Header> 
             <WelcomePage></WelcomePage>
             <BreakingNews></BreakingNews>
-            {/* <About></About>
-            <Services></Services>
+            <About></About>
+            {/* <Services></Services>
             <Skills></Skills>
             <EducationAndExperience></EducationAndExperience>
             <Portfolio></Portfolio>

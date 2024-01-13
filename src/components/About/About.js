@@ -20,7 +20,7 @@ const About = () => {
                 <div className="informationAll">
                     <div className="titleAbout">
                         <h3 className='aboutMeTitle'>About Me</h3>
-                        <h1 className='title  animated animatedFadeInUp fadeInUp'> Front End Developer <br />From Bangladesh</h1>
+                        <p className='title  animated animatedFadeInUp fadeInUp'> Front End Developer </p>
                         <p className='descriptionAbout'> I'm a designer & developer with a passion for web design. I developing simple , clean and slick websites that provide real value to the end user. It is a long established fact that a reader will be destructed readable content of a page when looking layout. </p>
 
                         <div className="contactAbout">
@@ -35,7 +35,7 @@ const About = () => {
                                         <Button className='btnWorks'>
                                             My Works
                                             <span >
-                                                <MdKeyboardArrowRight size={35} className='arrowRight1' />
+                                                <MdKeyboardArrowRight size={20} className='arrowRight1' />
                                             </span>
                                         </Button>
                                     </a>
