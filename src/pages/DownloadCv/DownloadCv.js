@@ -8,7 +8,7 @@ const DownloadCv = () => {
                 <div className="formerDesigner">
                     <div className="link_creative">
                         <div className="arrow_cv">
-                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
+                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={20} />
                         </div>
                         <div className="informationOfCv">
                             <h4 className='agencyTitle'>Creative agency
@@ -17,7 +17,7 @@ const DownloadCv = () => {
                             <hr className='hrAgency' />
                             <h3 className='framerDownTitle'>Framer Designer & Developer</h3>
                             <h5 className='timeOfFramer'>2021 - Present</h5>
-                            <p className='desWork_down'>This work is mainly performed contractually. here, complete several projects.</p>
+                            <p className='desWork_down1'>This work is mainly performed contractually. here, complete several projects.</p>
                             <progress className='progress-bar' id="file" max="100" value="20">70%</progress>
 
                         </div>
@@ -28,7 +28,7 @@ const DownloadCv = () => {
                 <div className="web_designerCv">
                     <div className="link_creative">
                         <div className="arrow_cv">
-                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
+                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={20} />
                         </div>
                         <div className="informationOfCv">
                             <h4 className='agencyTitle'>Sawari Overseas
@@ -37,7 +37,7 @@ const DownloadCv = () => {
                             <hr className='hrAgency' />
                             <h3 className='framerDownTitle'>Front-end Developer</h3>
                             <h5 className='timeOfFramer'>2022 - 2023</h5>
-                            <p className='desWork_down'>This work is mainly performed on remote. here, complete several projects.</p>
+                            <p className='desWork_down1'>This work is mainly performed on remote. here, complete several projects.</p>
                             <progress className='progress-bar' id="file" max="100" value="60">70%</progress>
 
                         </div>

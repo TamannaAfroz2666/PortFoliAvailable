@@ -15,10 +15,10 @@ const SideInfo = () => {
            <HomePage></HomePage>
            <AboutPageTwo></AboutPageTwo>
            <ServicePage></ServicePage>
-           {/* <SkillsPage></SkillsPage>
-           <PortfolioPage></PortfolioPage>
-           <ContactPage></ContactPage>
-           <MultiPageFooter></MultiPageFooter> */}
+           <SkillsPage></SkillsPage>
+           {/* <PortfolioPage></PortfolioPage> */}
+           {/* <ContactPage></ContactPage> */}
+           {/* <MultiPageFooter></MultiPageFooter> */}
            {/* <Footer></Footer> */}
 
             
