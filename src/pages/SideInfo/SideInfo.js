@@ -13,12 +13,12 @@ const SideInfo = () => {
     return (
         <div className='sideInfoC1'>
            <HomePage></HomePage>
-           <AboutPageTwo></AboutPageTwo>
+           {/* <AboutPageTwo></AboutPageTwo>
            <ServicePage></ServicePage>
            <SkillsPage></SkillsPage>
            <PortfolioPage></PortfolioPage>
            <ContactPage></ContactPage>
-           <MultiPageFooter></MultiPageFooter>
+           <MultiPageFooter></MultiPageFooter> */}
            {/* <Footer></Footer> */}
 
             

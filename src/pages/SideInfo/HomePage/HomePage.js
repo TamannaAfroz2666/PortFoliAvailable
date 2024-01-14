@@ -26,10 +26,10 @@ const HomePage = () => {
                         I'm a passionate Front-End Developer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
                     <div className="infoCollectConMulti">
                         <div className="downloadCv">
-                            <button className='downloadCvBtn'>download cv <span className='spanDoCv'><BiDownArrowAlt size={30} /></span></button>
+                            <button className='downloadCvBtn'>download cv <span className='spanDoCv'><BiDownArrowAlt size={25} /></span></button>
                         </div>
                         <div className="watchVideoLink">
-                            <a className='watchLink' href="/watch-video">  <span><FaPlayCircle size={65} className='faplayCir' /></span> <p className='watchItLink'>watch the video </p></a>
+                            <a className='watchLink' href="/watch-video">  <span><FaPlayCircle size={50} className='faplayCir' /></span> <p className='watchItLink'>watch the video </p></a>
                         </div>
                     </div>
                 </div>

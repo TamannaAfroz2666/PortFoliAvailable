@@ -6,17 +6,14 @@
 .sideBarMain{
     width: 100%;
     height: 100%;
-    /* background-color: aliceblue; */
 }
 .sideBarContent{
-    display: flex;
-    gap: 1rem;
-   
+    display: flex; 
 }
 .sideBarSection{
-    width: 22%;
+    width: 20%;
     
 }
 .sideBarInfo{
-    width: 60%;
+    width: 80%;
 }
