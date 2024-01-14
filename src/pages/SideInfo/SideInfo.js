@@ -13,8 +13,8 @@ const SideInfo = () => {
     return (
         <div className='sideInfoC1'>
            <HomePage></HomePage>
-           {/* <AboutPageTwo></AboutPageTwo>
-           <ServicePage></ServicePage>
+           <AboutPageTwo></AboutPageTwo>
+           {/* <ServicePage></ServicePage>
            <SkillsPage></SkillsPage>
            <PortfolioPage></PortfolioPage>
            <ContactPage></ContactPage>

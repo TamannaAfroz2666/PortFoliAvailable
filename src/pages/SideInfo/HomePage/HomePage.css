@@ -27,7 +27,6 @@
   background-size: cover;
   height: 700px;
   border-radius: 10px;
-
 }
 
 .nameTitle_homePage {
@@ -43,7 +42,6 @@
   font-style: italic;
   font-weight: 700;
   padding-top: 2rem;
-
 }
 
 /* ------------------name animated ------------ */
@@ -54,7 +52,6 @@
   font-size: 3rem;
   padding-left: 1rem;
   font-family: 'Poppins';
-
 }
 
 .waviy span {
@@ -66,8 +63,6 @@
   animation: waviy 1s infinite;
   animation-delay: calc(.1s * var(--i));
   letter-spacing: 1rem;
-  /* font-size: 50px; */
-
 }
 
 @keyframes waviy {

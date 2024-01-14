@@ -3,32 +3,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins'; 
+ 
 }
 .aboutPageTwo{
     height: 100%;
     width: 100%;
 }
 .aboutCon_pageTwo{
-    margin: 8rem 0 0 4rem;
+    margin: 8rem 0 3rem 4rem;
 }
 .title_abPageTwo{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     color: #55e6a5;
     text-transform: uppercase;
     padding: 3rem 0 6px 0;
     letter-spacing: 1px;
+    font-family: 'Poppins'; 
    
 }
 .craftingTitle{
-    width: 90%;
-    font-size: 50px;
+    width: 60%;
+    font-size: 32px;
     color: #fff;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 50px;
     letter-spacing: 2px;
     padding: .5rem 0 3rem 0;
+    font-family: 'Poppins'; 
 
 }
 
@@ -36,53 +38,60 @@
 .infoAbout_pageTwo{
     margin-top: 1rem;
     display: flex;
-    gap: 6rem;
+    /* width: 100%; */
+    /* gap: 6rem; */
+}
+.infoCon_Page{
+    /* width: 50%; */
 }
 .infoCon_Page img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 .myAmbition{
-    font-size: 46px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 1px;
     color: #fff;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
+    font-family: 'Poppins'; 
 }
 .ambitionDes{
-    width: 100%;
-    font-size: 22px;
-    color: #fff;
+    width: 80%;
+    font-size: 14px;
+    color: #ffffffbe;
     letter-spacing: 1px;
-    line-height: 40px;
-    padding: 1px 0 3rem 0 ;
+    line-height: 26px;
+    padding: 0px 0 0rem 0 ;
+    font-family: 'Poppins'; 
 
 }
 .ImageCon_page{
-    width: 30%;
+    /* width: 50%; */
 }
 .ImageCon_page img{
-    width: 600px;
-    height: 600px;
-    margin-top: 2rem;
+    width: 400px;
+    height: 500px;
+    margin: 2rem 4rem 0 0 ;
 }
 
 /* year experience start */
 .yearEx{
-    width: 440px;
-    height: 200px;
+    width: 290px;
+    height: 130px;
     background-color: #55e6a5;
     display: flex;
-    left: 50%;
-    bottom: 7rem;
+    margin: 0 0 0rem 20%;
+    /* left: 50%; */
+    bottom: 5rem;
     position: relative;
 }
 .logoYearEx{
-    width: 100px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     background-color: #fff;
-    margin: 3.5rem 2rem;
+    margin: 2rem 14px 2rem 25px;
     position: relative;
     border-radius: 5px;
 
@@ -91,25 +100,28 @@
     color: #55e6a5;
 }
 .awardSp{
-    padding: 0rem 1rem;
+    padding: 0rem .8rem;
     top: .8rem ;
     position: relative;
 }
 .infoYearEx{
-    margin: 3.5rem 0rem;
+    margin: 2rem 0rem;
 }
 .infoYearEx .twoPlusPage2{
-    font-size: 4rem;
+    font-size: 28px;
     font-weight: 700;
     color: #111;
+    font-family: 'Poppins'; 
 
 }
 .infoYearEx .yearEx_page2{
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 700;
     color: #111;
     bottom: 1rem;
     position: relative;
     text-transform: capitalize;
+    font-family: 'Poppins';
+    letter-spacing: 1px; 
 
 }
