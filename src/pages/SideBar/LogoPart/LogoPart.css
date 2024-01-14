@@ -13,7 +13,7 @@
 .sideLogoContainer{
     /* width: 80%;
     margin: auto; */
-    height: 200rem;
+    /* height: 400px; */
     top: 0;
     /* left: 0; */
     position: fixed;
@@ -21,25 +21,24 @@
 
 }
 .logoPartContent1{
-    height: 200px;
-    width: 100px;
+    height: 120px;
+    width: 130px;
     display: flex;
     align-items: center;
- 
-
-    gap: 1rem;
+    gap: 10px;
 }
 .logoSide img{
-    width: 150px;
-    height: 100px;
+    width: 120px;
+    height: 60px;
     border-radius: 10px;
+    margin-left: 2rem;
     
 }
 .logoSide a{
     text-decoration: none;
 }
 .nameSide .name-title{
-    font-size: 30px;
+    font-size: 18px;
     color: #fff;
     text-transform: uppercase;
     overflow: hidden;
@@ -75,25 +74,24 @@
 
 .sideNavBar{
     /* width: 100%; */
-    width: 300px;
+    width: 250px;
     margin-top: .5rem;
     height: 100%;
 }
 .sideNavCon .sideNavUi{
-    width: 300px;
+    width: 220px;
     list-style: none;
-    /* position: relative; */
     display: block;
  
 }
 
 .sideNavLi{
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: #55e6a5;
     border: 1px solid  #55e6a5;;
-    padding: 1rem 0;
+    padding: 14px 0;
     border-radius: 20px;
     
 }
@@ -101,27 +99,27 @@
     text-decoration: none;
 }
 .sideNavLi1{
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: #55e6a5;
     border: 1px solid  #91979542;;
-    padding: 1rem 0;
+    padding: 14px 0;
     border-radius: 20px;
-    margin: 2.8rem 0 0rem 0;
+    margin: 24px 0 0rem 0;
 }
 .sideNavLi1 a {
     text-decoration: none;
 }
 .sideNavIconTi{
-   padding: 1.5rem 18px;
+   padding: 19px 18px;
    background-color: #55e6a5;
    color: black;
    border-radius: 20px;
     
 }
 .sideNavIconTi1{
-   padding: 1.5rem 18px;
+   padding: 19px 18px;
    background-color: #484b4a42;
    color: white;
    border-radius: 20px;
@@ -136,7 +134,7 @@
 .sideNavTitleLi{
     /* padding: 10px; */
     
-    padding: 1rem 18px;
+    padding: 10px 18px;
     margin-left: 1rem;
     background-image: linear-gradient(
         to right,

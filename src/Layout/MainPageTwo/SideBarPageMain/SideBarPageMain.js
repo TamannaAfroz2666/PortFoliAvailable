@@ -3,7 +3,7 @@ import './SideBarPageMain.css';
 import LogoPart from '../../../pages/SideBar/LogoPart/LogoPart';
 import SideInfo from '../../../pages/SideInfo/SideInfo';
 import img1 from '../../../assets/Images/PageTwo/1.jpg'
-import Footer from '../../Footer/Footer';
+
 
 const SideBarPageMain = () => {
     return (
@@ -13,18 +13,14 @@ const SideBarPageMain = () => {
                     <div className="sideBarSection">
                         <LogoPart></LogoPart>
                         
-
-
                     </div>
                     <div className="sideBarInfo">
                         <SideInfo></SideInfo>
-                       
-
+                    
                     </div>
                 </div>
-
             </div>
-            {/* <Footer></Footer> */}
+            
 
         </div>
     );
