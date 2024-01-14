@@ -38,12 +38,9 @@
 .infoAbout_pageTwo{
     margin-top: 1rem;
     display: flex;
-    /* width: 100%; */
-    /* gap: 6rem; */
+    
 }
-.infoCon_Page{
-    /* width: 50%; */
-}
+
 .infoCon_Page img{
     width: 100px;
     height: 100px;
@@ -67,9 +64,7 @@
     font-family: 'Poppins'; 
 
 }
-.ImageCon_page{
-    /* width: 50%; */
-}
+
 .ImageCon_page img{
     width: 400px;
     height: 500px;
@@ -83,7 +78,6 @@
     background-color: #55e6a5;
     display: flex;
     margin: 0 0 0rem 20%;
-    /* left: 50%; */
     bottom: 5rem;
     position: relative;
 }

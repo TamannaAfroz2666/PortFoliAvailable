@@ -14,8 +14,8 @@ const SideInfo = () => {
         <div className='sideInfoC1'>
            <HomePage></HomePage>
            <AboutPageTwo></AboutPageTwo>
-           {/* <ServicePage></ServicePage>
-           <SkillsPage></SkillsPage>
+           <ServicePage></ServicePage>
+           {/* <SkillsPage></SkillsPage>
            <PortfolioPage></PortfolioPage>
            <ContactPage></ContactPage>
            <MultiPageFooter></MultiPageFooter> */}
