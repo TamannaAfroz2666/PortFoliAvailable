@@ -98,6 +98,9 @@ img:hover {
     display: flex;
     gap: 30px;
 }
+.btnAbout a{
+    text-decoration: none;
+}
 .btnAbout button{
     font-size: 14px;
     font-weight: 700;

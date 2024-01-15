@@ -25,7 +25,8 @@ const About = () => {
 
                         <div className="contactAbout">
                             <div className="btnAbout">
-                                <button>Contact Me</button>
+                                <a href="#contact">
+                                <button >Contact Me</button></a>
 
                             </div>
                             <div className="workList">
