@@ -9,7 +9,7 @@ const Education = () => {
                 <div className="formerDesigner">
                     <div className="link_creative">
                         <div className="arrow_cv">
-                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
+                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={20} />
                         </div>
                         <div className="informationOfCv">
                             <h4 className='agencyTitle'> SWA
@@ -28,7 +28,7 @@ const Education = () => {
                 <div className="web_designerCv">
                     <div className="link_creative">
                         <div className="arrow_cv">
-                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
+                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={20} />
                         </div>
                         <div className="informationOfCv">
                             <h4 className='agencyTitle'>HSC
@@ -48,7 +48,7 @@ const Education = () => {
                 <div className="web_designerCv">
                     <div className="link_creative">
                         <div className="arrow_cv">
-                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={26} />
+                            <MdKeyboardDoubleArrowRight className='doubleArrow' size={20} />
                         </div>
                         <div className="informationOfCv">
                             <h4 className='agencyTitle'>SSC
