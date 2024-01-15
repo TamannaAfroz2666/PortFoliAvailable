@@ -17,33 +17,33 @@
     padding: 0 0 2rem 0;
 }
 .name_message .name_fieldMess{
-    width: 700px;
-    height: 80px;
+    width: 450px;
+    height: 60px;
     color: #ffffff;
     padding: 2px 10px;
     border: 1px solid #37393a;
     background-color: #111;
-    font-size: 22px;
+    font-size: 16px;
     border-radius: 5px;
 }
 .sub_message .name_fieldMess{
-    width: 700px;
-    height: 80px;
+    width: 450px;
+    height: 60px;
     color: #ffffff;
     padding: 2px 10px;
     border: 1px solid #292727;
     background-color: #111;
-    font-size: 22px;
+    font-size: 16px;
     border-radius: 5px;
 }
 .email_message .email_fieldMess{
-    width: 90rem;
-    height: 80px;
+    width: 58rem;
+    height: 60px;
     color: #ffffff;
     padding: 2px 10px;
     border: 1px solid #292727;
     background-color: #111;
-    font-size: 22px;
+    font-size: 16px;
     border-radius: 5px;
 }
 .name_fieldMess:focus{
@@ -53,24 +53,24 @@
     outline: none;
 }
 .name_fieldMess::placeholder{
-    font-size: 24px;
+    font-size: 15px;
     letter-spacing: 1px;
     color: #ffffff;
 }
 .email_fieldMess::placeholder{
-    font-size: 24px;
+    font-size: 15px;
     letter-spacing: 1px;
     color: #ffffff;
 }
 /* client message  */
 .customer_message .client_fieldMess{
-    width: 90rem;
+    width: 58rem;
     height: 14rem;
     color: #ffffff;
     padding: 2px 10px;
     border: 1px solid #292727;
     background-color: #111;
-    font-size: 22px;
+    font-size: 16px;
     border-radius: 5px;
     margin: 2rem 0 ;
 
@@ -79,7 +79,7 @@
     outline: none;
 }
 .client_fieldMess::placeholder{
-    font-size: 24px;
+    font-size: 15px;
     letter-spacing: 1px;
     color: #ffffff;
     padding-top: 30px;
@@ -88,19 +88,20 @@
 
 /* btn design  */
 .submitBtn_message{
-    margin: 3rem 0 0 50%;
+    margin: 1rem 0 0 40%;
 }
 
 .submitBtn_message button{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     background-color: #55e6a5;
     color: #222020;
-    padding: 1rem 4rem;
+    padding: .5rem 1.6rem;
     font-family: 'Poppins';
     border: 0;
+    border-radius: 8px;
     
 }
 .submitBtn_group:hover{

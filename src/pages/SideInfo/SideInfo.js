@@ -7,7 +7,7 @@ import SkillsPage from '../../components/SkillsPage/SkillsPage';
 import PortfolioPage from '../../components/PortfolioPage/PortfolioPage';
 import ContactPage from '../../components/ContactPage/ContactPage';
 import MultiPageFooter from '../../Layout/MultiPageFooter/MultiPageFooter';
-// import Footer from '../../Layout/Footer/Footer';
+
 
 const SideInfo = () => {
     return (
@@ -17,9 +17,9 @@ const SideInfo = () => {
            <ServicePage></ServicePage>
            <SkillsPage></SkillsPage>
            <PortfolioPage></PortfolioPage>
-           {/* <ContactPage></ContactPage> */}
+           <ContactPage></ContactPage>
            {/* <MultiPageFooter></MultiPageFooter> */}
-           {/* <Footer></Footer> */}
+           
 
             
         </div>

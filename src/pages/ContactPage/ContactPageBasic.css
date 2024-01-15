@@ -16,11 +16,12 @@
     padding: 2rem 0;
 }
 .phone_multiContent{
-    width: 440px ;
-    height: 360px;
+    width: 320px ;
+    height: 300px;
     background-color: #141c27;
     display: block;
     position: relative;
+    border-radius: 2px;
 }
 .mobileDevice{
     /* color: #55e6a5; */
@@ -28,11 +29,11 @@
     color: #0dcaf0;
 }
 .phone_contactPage{
-    width: 440px;
+    width: 340px;
     text-align: center;
     padding: 1rem 0;
     text-transform: capitalize;
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: 600;
     color: #fff;
@@ -41,7 +42,7 @@
     text-align: center;
     /* padding: .5rem 0; */
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 15px;
     letter-spacing: 2px;
     font-weight: 600;
     color: #6c757d;
@@ -51,7 +52,7 @@
     text-align: center;
     padding: .5rem 0;
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
     color: #fff;
@@ -64,7 +65,7 @@
 .email_show{
     text-align: center;
     padding: .5rem 0;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
     color: #fff;
