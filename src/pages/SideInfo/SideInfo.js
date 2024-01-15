@@ -16,7 +16,7 @@ const SideInfo = () => {
            <AboutPageTwo></AboutPageTwo>
            <ServicePage></ServicePage>
            <SkillsPage></SkillsPage>
-           {/* <PortfolioPage></PortfolioPage> */}
+           <PortfolioPage></PortfolioPage>
            {/* <ContactPage></ContactPage> */}
            {/* <MultiPageFooter></MultiPageFooter> */}
            {/* <Footer></Footer> */}
