@@ -87,7 +87,7 @@ const Footer = () => {
                         <div className="copyrightHead">
                             <p className='copyright'>Copyright 
                                 <span><AiOutlineCopyrightCircle size={15} color='white'/> </span>
-                                2023 T_A. All rights reserved.
+                                © T_A 2023 | All Rights Reserved
                                 </p>
                         </div>
                         <div className="termHead">

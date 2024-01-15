@@ -10,7 +10,7 @@
     padding: 2rem 0;
 }
 .multiPageHr{
-    width: 90rem;
+    width: 62rem;
     color: rgb(246, 250, 250);
 }
 .footer_infoMulti{
@@ -19,7 +19,7 @@
     margin-top: 2rem;
 }
 .footer_tag .footerTag_title{
-    font-size: 22px;
+    font-size: 14px;
     color: #6c757d;
     font-weight: 600;
     letter-spacing: 1px;
@@ -30,14 +30,20 @@
     text-decoration: none;
     color: #6c757d;
 }
+.footerTerms1{
+    width: 40%;
+}
 .footerTerms1 .footerTermsUl{
 list-style: none;
 display: inline-flex;
-gap: 2rem;
-font-size: 22px;
+gap: 3rem;
+font-size: 14.5px;
 font-weight: 700;
 letter-spacing: 1px;
-left: 5rem;
+/* left: 5rem; */
 position: relative;
 
+}
+ .linkNameFooter:hover{
+    color: #0dcaf0;
 }
