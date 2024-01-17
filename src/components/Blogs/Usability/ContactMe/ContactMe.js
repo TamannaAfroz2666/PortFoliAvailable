@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactMe.css';
-import image from '../../../../assets/Images/Background/ContactMe/Contact.jpg'
+import image from '../../../../assets/Images/tamanna/IMG_3394.JPG'
 import ContactLocation from './ContactLocation/ContactLocation';
 import ContactField from './ContactField/ContactField';
 const ContactMe = () => {

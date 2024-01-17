@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import {ContactWrapper} from './AboutElement';
-import image from '../../assets/Images/Background/ABOUT.jpg'
+import image from '../../assets/Images/tamanna/IMG_5175.JPG'
 // import { IoIosArrowForward } from "react-icons/io";
 // import { AiFillApple } from "react-icons/ai";
 import { MdKeyboardArrowRight } from "react-icons/md";

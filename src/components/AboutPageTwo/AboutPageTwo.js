@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutPageTwo.css';
 import img1 from '../../assets/Images/PageTwo/AboutSection/about_1.png';
 import img2 from '../../assets/Images/PageTwo/AboutSection/about_2.png';
-import img3 from '../../assets/Images/Background/AboutPart.jpg';
+import img3 from '../../assets/Images/tamanna/IMG_3394.JPG';
 import { FaAward } from "react-icons/fa";
 
 const AboutPageTwo = () => {
