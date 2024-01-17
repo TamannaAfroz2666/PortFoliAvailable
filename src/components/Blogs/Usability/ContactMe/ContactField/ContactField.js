@@ -20,7 +20,6 @@ const ContactField = () => {
     // step 2 : data validation part 
 
     const [errors, setErrors] = useState({});
-
     const dataValidation = () => {
         let dataIsValid = true;
         let newErrors = {};
@@ -49,7 +48,7 @@ const ContactField = () => {
 
     const submitHandle = (e) => {
         e.preventDefault();
-        if (dataValidation ()) {
+        if (dataValidation()) {
             console.log('your data is submitted', formData);
         }
         else {
@@ -102,16 +101,15 @@ const ContactField = () => {
                         onChange={handleChange}
                         autoComplete='off'
                     />
-                   
+
                     {errors.textarea && <span className='nameError'>
-                            {errors.textarea}</span>}
-                    
+                        {errors.textarea}</span>}
+
                 </div>
                 <div className="btnOfContact">
                     <button type="submit">Send Message</button>
                 </div>
             </form>
-
         </div>
     );
 };
